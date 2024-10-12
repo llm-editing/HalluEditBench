@@ -1,0 +1,831 @@
+subjectLabel,relation,objectLabel
+osteophyte,health specialty,rheumatology
+petechia,health specialty,rheumatology
+decompression sickness,possible treatment,diving chamber
+petechia,subclass of,skin and integumentary tissue symptom
+decompression sickness,has immediate cause,nucleation
+decompression sickness,different from,air embolism
+decompression sickness,has cause,decompression
+decompression sickness,described by source,Encyclopædia Britannica 11th edition
+hibernoma,health specialty,oncology
+sweating sickness,health specialty,infectious diseases
+sweating sickness,location,England
+sweating sickness,described by source,Encyclopædia Britannica 11th edition
+experimental autoimmune encephalomyelitis,has role in modeling,multiple sclerosis
+expressive aphasia,health specialty,neurology
+Binswanger's disease,health specialty,neurology
+Binswanger's disease,named after,Otto Binswanger
+expressive aphasia,subclass of,aphasia
+Binswanger's disease,subclass of,vascular dementia
+extrapyramidal symptoms,has cause,medication
+expressive aphasia,named after,Paul Broca
+fibromatosis,health specialty,rheumatology
+neurasthenia,described by source,Encyclopædia Britannica 11th edition
+decompression sickness,afflicts,diver
+intestinal parasite infection,health specialty,infectious diseases
+neurasthenia,subclass of,somatoform disorder
+arteriosclerotic heart disease,health specialty,cardiology
+septic shock,subclass of,shock
+arteriosclerotic heart disease,said to be the same as,arteriosclerotic cardiovascular disease
+alcoholic liver disease,health specialty,gastroenterology
+alcoholic liver disease,has cause,alcohol consumption
+alcoholic liver disease,afflicts,alcoholic
+aphakia,health specialty,medical genetics
+aphakia,genetic association,FOXE3
+aphakia,different from,aphasia
+knee osteoarthritis,health specialty,rheumatology
+carcinoma,health specialty,oncology
+aphakia,subclass of,lens disease
+carcinoma,risk factor,smoking
+carcinoma,described by source,Brockhaus and Efron Encyclopedic Dictionary
+apparent life-threatening event syndrome,health specialty,pulmonology
+osteoid osteoma,health specialty,oncology
+anoxia,part of,geochemistry
+anoxia,subclass of,hypoxia
+diabetic foot,anatomical location,foot
+osteoid osteoma,subclass of,osteoma
+De Quervain's thyroiditis,health specialty,endocrinology
+puerperal infection,health specialty,obstetrics
+De Quervain's thyroiditis,different from,de Quervain syndrome
+Gradenigo's syndrome,health specialty,otolaryngology
+pearly penile papules,different from,angiokeratoma of Fordyce
+pearly penile papules,health specialty,urology
+hallux rigidus,health specialty,rheumatology
+De Quervain's thyroiditis,subclass of,thyroiditis
+postpartum thyroiditis,health specialty,obstetrics
+Gradenigo's syndrome,named after,Giuseppe Gradenigo
+postpartum thyroiditis,subclass of,puerperal disorders
+hallux rigidus,subclass of,foot deformity
+Gradenigo's syndrome,subclass of,petrositis
+recurrent miscarriage,health specialty,obstetrics
+cretinism,health specialty,endocrinology
+cretinism,described by source,Encyclopædia Britannica 11th edition
+focal nodular hyperplasia,health specialty,gastroenterology
+focal nodular hyperplasia,subclass of,liver neoplasm
+ovarian torsion,health specialty,gynecologic oncology
+ovarian torsion,facet of,women's health
+aggressive fibromatosis,health specialty,oncology
+nymphomania,opposite of,satyriasis
+nymphomania,described by source,Brockhaus and Efron Encyclopedic Dictionary
+ovarian torsion,subclass of,ovarian disease
+olecranon bursitis,health specialty,rheumatology
+olecranon bursitis,anatomical location,olecranon
+colour vision deficiency,afflicts,color vision
+Aortoiliac occlusive disease,health specialty,cardiology
+nymphomania,subclass of,hypersexuality
+Aortoiliac occlusive disease,named after,René Leriche
+Aortoiliac occlusive disease,subclass of,peripheral artery disease
+colour vision deficiency,subclass of,vision disorder
+catatonic schizophrenia,health specialty,psychiatry
+Keratoglobus,health specialty,medical genetics
+sciatica,subclass of,neuralgia
+Keratoglobus,subclass of,anterior segment mesenchymal dysgenesis
+anasarka,subclass of,edema
+hypertriglyceridemia,health specialty,endocrinology
+serum sickness,health specialty,emergency medicine
+anasarka,described by source,Riegrův slovník naučný
+serum sickness,subclass of,type III hypersensitivity
+omphalitis of newborn,anatomical location,navel
+diabetic foot ulcer,has cause,peripheral neuropathy
+thyroid nodule,has cause,thyroid adenoma
+thyroid nodule,health specialty,endocrinology
+diabetic foot ulcer,subclass of,diabetic foot
+myxoma,subclass of,cancer
+chemotherapy-induced acral erythema,health specialty,dermatology
+myxoma,health specialty,oncology
+thyroid nodule,subclass of,thyroid gland disease
+May–Thurner syndrome,anatomical location,common iliac vein
+May–Thurner syndrome,possible treatment,angioplasty
+May–Thurner syndrome,health specialty,cardiology
+May–Thurner syndrome,symptoms and signs,swelling
+hemoperitoneum,health specialty,gastroenterology
+May–Thurner syndrome,subclass of,vascular malformation
+genu varum,health specialty,medical genetics
+hemoperitoneum,subclass of,peritoneal disease
+bone fracture,health specialty,osteology
+growth disorder,health specialty,pediatrics
+genu varum,described by source,Encyclopædia Britannica 11th edition
+bone fracture,has effect,bone pain
+bone fracture,medical examination,medical radiography
+bone fracture,described by source,Brockhaus and Efron Encyclopedic Dictionary
+congenital aplasia of the vas deferens,health specialty,medical genetics
+preterm birth,health specialty,obstetrics and gynaecology
+preterm birth,has effect,preterm infant
+nephroptosis,subclass of,kidney disease
+preterm birth,has characteristic,gestational age
+taijin kyofusho,country,Japan
+preterm birth,facet of,women's health
+hot flash,health specialty,gynaecology
+hot flash,facet of,women's health
+hot flash,has cause,climacteric
+torticollis,health specialty,rheumatology
+ventricular tachycardia,health specialty,cardiology
+hot flash,subclass of,flushing
+torticollis,described by source,Encyclopædia Britannica 11th edition
+pigeon toe,health specialty,medical genetics
+parakeratosis,health specialty,dermatology
+odontoma,subclass of,odontogenic tumor
+torticollis,subclass of,dystonia
+parakeratosis,subclass of,keratosis
+vitreous hemorrhage,anatomical location,vitreous humour
+pigeon toe,subclass of,foot deformity
+obstetrical hemorrhage,health specialty,obstetrics
+vitreous hemorrhage,health specialty,ophthalmology
+sarcopenia,health specialty,geriatrics
+obstetrical hemorrhage,medical condition,pregnancy
+adrenal insufficiency,health specialty,endocrinology
+obstetrical hemorrhage,subclass of,"complication of pregnancy, childbirth and the puerperium"
+venous ulcer,drug or therapy used for treatment,becaplermin
+venous ulcer,health specialty,dermatology
+venous ulcer,anatomical location,lower leg
+adrenal insufficiency,subclass of,endocrine system disease
+hip dysplasia,health specialty,orthopedics
+conductive hearing loss,partially coincident with,hearing loss
+conductive hearing loss,has cause,middle ear anomaly
+conductive hearing loss,health specialty,otolaryngology
+conductive hearing loss,opposite of,sensorineural hearing loss
+Plagiocephaly,health specialty,medical genetics
+occupational disease,facet of,hygiene
+herpesviral encephalitis,health specialty,infectious diseases
+herpesviral encephalitis,genetic association,TLR3
+fibromuscular dysplasia,health specialty,cardiology
+fibromuscular dysplasia,subclass of,peripheral vascular disease
+lymph node metastasis,health specialty,oncology
+dysosmia,health specialty,neurology
+keratosis pilaris,genetic association,LRP1
+lymph node metastasis,subclass of,metastasis
+keratosis pilaris,described by source,Brockhaus and Efron Encyclopedic Dictionary
+dysosmia,subclass of,olfaction disorder
+type-1 diabetes,afflicts,Homo sapiens
+upper respiratory tract infection,health specialty,pulmonology
+upper respiratory tract infection,afflicts,upper respiratory tract
+stimulant psychosis,health specialty,psychiatry
+Reflux nephropathy,health specialty,nephrology
+retrognathism,subclass of,malocclusion
+retrognathism,health specialty,gastroenterology
+Eagle syndrome,subclass of,heterotopic ossification
+Lujan–Fryns syndrome,genetic association,MED12
+Lujan–Fryns syndrome,health specialty,psychiatry
+Morton's neuroma,health specialty,neurology
+Reflux nephropathy,subclass of,kidney disease
+Morton's neuroma,subclass of,foot diseases
+Lujan–Fryns syndrome,subclass of,X-linked intellectual disability
+abnormal uterine bleeding,health specialty,gynaecology
+hypervolemia,health specialty,endocrinology
+atypical pneumonia,health specialty,pulmonology
+hypervolemia,opposite of,hypovolemia
+flat feet problems,health specialty,podiatry
+cerebral degeneration,health specialty,neurology
+hypervolemia,subclass of,hematopoietic system disease
+oligomenorrhea,health specialty,gynaecology
+furunculosis,subclass of,boil
+eye injury,symptoms and signs,ocular changes
+hypoxia,opposite of,hyperoxia
+hypoxia,health specialty,pulmonology
+torsion dystonia,genetic association,TOR1A
+torsion dystonia,health specialty,neurology
+hypoxia,subclass of,clinical sign
+radiation burn,has cause,irradiation
+radiation burn,health specialty,dermatology
+spasticity,health specialty,neurology
+torsion dystonia,subclass of,generalized dystonia
+hirsutism,health specialty,dermatology
+Labial fusion,health specialty,medical genetics
+type-1 diabetes,health specialty,diabetology
+chronic pancreatitis,health specialty,gastroenterology
+hyperkeratosis,health specialty,dermatology
+subarachnoid hemorrhage,possible treatment,endovascular coiling
+subarachnoid hemorrhage,has cause,aneurysm
+hyperkeratosis,subclass of,keratosis
+iron overload,health specialty,medical genetics
+coprolalia,subclass of,speech disorder
+kyphoscoliosis,health specialty,medical genetics
+chronic pancreatitis,subclass of,pancreatitis
+traveler's diarrhea,health specialty,infectious diseases
+livedo reticularis,subclass of,livedo
+kraurosis vulvae,health specialty,urology
+traveler's diarrhea,subclass of,gastroenteritis
+kraurosis vulvae,facet of,women's health
+brain abscess,possible treatment,antibiotic
+brain abscess,has cause,bacteria
+fructose malabsorption,health specialty,endocrinology
+folate deficiency,drug or therapy used for treatment,folic acid
+folate deficiency,facet of,folic acid
+folate deficiency,health specialty,endocrinology
+fructose malabsorption,subclass of,disorder of fructose metabolism
+vibration white finger,subclass of,occupational disease
+neurocytoma,subclass of,brain tumor
+Erythema induratum,health specialty,infectious diseases
+Conradi–Hünermann syndrome,health specialty,medical genetics
+chromhidrosis,health specialty,dermatology
+chromhidrosis,afflicts,sweat
+Freiberg disease,discoverer or inventor,Alfred H. Freiberg
+Conradi–Hünermann syndrome,genetic association,EBP
+Bulbar palsy,genetic association,SLC52A3
+Bulbar palsy,described by source,Brockhaus and Efron Encyclopedic Dictionary
+Bulbar palsy,health specialty,neurology
+asomatognosia,subclass of,agnosia
+chromhidrosis,subclass of,apocrine sweat gland disease
+Conradi–Hünermann syndrome,subclass of,chondrodysplasia punctata
+Bulbar palsy,subclass of,muscle weakness
+Salter–Harris fracture,subclass of,bone fracture
+Freiberg disease,subclass of,osteonecrosis
+Toxic multinodular goitre,health specialty,endocrinology
+cardiomegaly,health specialty,cardiology
+Salter–Harris fracture,health specialty,orthopedic surgery
+cardiomegaly,subclass of,heart disease
+hysteria,measurement scale,Minnesota Multiphasic Personality Inventory
+REM sleep behavior disorder,health specialty,neurology
+hysteria,studied in,psychoanalysis
+hysteria,said to be the same as,histrionic personality disorder
+REM sleep behavior disorder,subclass of,sleep disorder
+hysteria,subclass of,neurosis
+clavicle fracture,health specialty,emergency medicine
+clavicle fracture,risk factor,smoking
+type 2 diabetes,afflicts,Homo sapiens
+type 2 diabetes,risk factor,smoking
+Jarisch-Herxheimer reaction,health specialty,infectious diseases
+clavicle fracture,subclass of,shoulder fracture
+Jarisch-Herxheimer reaction,subclass of,adverse effect
+simple-type schizophrenia,health specialty,psychiatry
+simple-type schizophrenia,different from,schizoid personality disorder
+febrile seizure,genetic association,ADGRV1
+ocular albinism type 1,health specialty,endocrinology
+panic attack,different from,Panic Attack
+complications of pregnancy,health specialty,obstetrics
+floater,health specialty,ophthalmology
+complications of pregnancy,facet of,women's health
+osteochondroma,health specialty,oncology
+ocular albinism type 1,subclass of,ocular albinism
+floater,subclass of,vitreous disease
+spinal disc herniation,health specialty,neurosurgery
+bleeding gums,anatomical location,gums
+spinal disc herniation,subclass of,Intervertebral disc disorder
+bleeding gums,health specialty,oral and maxillofacial surgery
+Capillaritis,health specialty,dermatology
+alien hand syndrome,health specialty,neurology
+Capillaritis,subclass of,capillary disease
+misophonia,different from,mysophobia
+health effects of caffeine,subclass of,stimulant use disorder
+misophonia,subclass of,sensory processing differences
+carcinoid tumor,health specialty,endocrinology
+total anomalous pulmonary venous connection,health specialty,medical genetics
+toothache,risk factor,smoking
+toothache,health specialty,gastroenterology
+receptive aphasia,health specialty,neurology
+pneumoperitoneum,health specialty,gastroenterology
+spontaneous bacterial peritonitis,health specialty,gastroenterology
+pretibial myxedema,health specialty,endocrinology
+dropped head syndrome,subclass of,muscle weakness
+atelectasis,health specialty,pulmonology
+atelectasis,subclass of,lung disease
+azotemia,subclass of,hematopoietic system disease
+intertrigo,health specialty,dermatology
+sacroiliitis,anatomical location,sacroiliac joint
+sacroiliitis,health specialty,rheumatology
+intertrigo,subclass of,irritant dermatitis
+pseudoporphyria,health specialty,endocrinology
+pseudarthrosis,health specialty,rheumatology
+fluoride toxicity,has cause,poisoning
+fluoride toxicity,health specialty,emergency medicine
+microtia,studied in,audiology
+pseudoporphyria,subclass of,bullous skin disease
+sacroiliitis,subclass of,inflammation
+microtia,health specialty,medical genetics
+chilblains,health specialty,family medicine
+bovine virus diarrhea,subclass of,Flaviviridae infectious disease
+chilblains,said to be the same as,trench foot
+trigonocephaly,health specialty,medical genetics
+chilblains,described by source,Encyclopædia Britannica 11th edition
+pseudarthrosis,subclass of,nonunion
+trigonocephaly,subclass of,craniosynostosis
+microtia,subclass of,external ear malformation
+respiratory tract infection,afflicts,respiratory tract
+pathologic fracture,health specialty,rheumatology
+respiratory tract infection,health specialty,infectious diseases
+erythema ab igne,health specialty,dermatology
+pathologic fracture,subclass of,bone fracture
+femoral hernia,health specialty,gastroenterology
+abnormal lordosis,subclass of,abnormal spinal curvature
+catarrh,health specialty,pulmonology
+catarrh,described by source,Encyclopædia Britannica 11th edition
+erythema ab igne,subclass of,skin disease
+congenital insensitivity to pain,health specialty,neurology
+congenital insensitivity to pain,genetic association,SCN9A
+zygomycosis,health specialty,infectious diseases
+rheumatoid nodule,health specialty,rheumatology
+phakomatosis,health specialty,medical genetics
+heterophoria,health specialty,ophthalmology
+variant Creutzfeldt–Jakob disease,health specialty,infectious diseases
+meconium ileus,subclass of,Neonatal bowel obstruction
+intestinal capillariasis,has cause,Capillaria philippinensis
+variant Creutzfeldt–Jakob disease,different from,Creutzfeldt-Jakob disease
+intestinal capillariasis,subclass of,capillariasis
+variant Creutzfeldt–Jakob disease,named after,Hans Gerhard Creutzfeldt
+urinary tract infection during pregnancy,health specialty,obstetrics
+variant Creutzfeldt–Jakob disease,subclass of,transmissible spongiform encephalopathy
+splenosis,facet of,ruptured spleen
+Benedikt syndrome,health specialty,neurology
+scaphocephaly,health specialty,medical genetics
+pancreatic cyst,anatomical location,pancreas
+metastasis,health specialty,oncology
+cerebral hypoxia,has cause,brain ischemia
+cerebral hypoxia,subclass of,hypoxia
+metastasis,subclass of,neoplasm
+excessive daytime sleepiness,health specialty,neurology
+clostridial necrotizing enteritis,health specialty,infectious diseases
+excessive daytime sleepiness,symptoms and signs,somnolence
+excessive daytime sleepiness,subclass of,sleep disorder
+clostridial necrotizing enteritis,has cause,infection
+paroxysmal supraventricular tachycardia,subclass of,supraventricular tachycardia
+passive–aggressive personality disorder,has characteristic,passive–aggressive behavior
+passive–aggressive personality disorder,subclass of,personality disorder not otherwise specified
+paraneoplastic syndrome,health specialty,oncology
+paraneoplastic syndrome,subclass of,complication
+suicidal ideation,has cause,mental disorder
+suicidal ideation,possible treatment,psychotherapy
+suicidal ideation,health specialty,clinical psychology
+suicidal ideation,subclass of,thinking
+bone cyst,health specialty,rheumatology
+premature ventricular contraction,subclass of,premature heart beat
+"Niemann–Pick disease, SMPD1-associated",health specialty,endocrinology
+"Niemann–Pick disease, SMPD1-associated",genetic association,SMPD1
+skin disease,health specialty,dermatology
+Schamberg disease,health specialty,dermatology
+skin disease,studied in,dermatology
+skin disease,afflicts,skin
+opportunistic infection,health specialty,infectious diseases
+opportunistic infection,drug or therapy used for treatment,ganciclovir
+skin disease,risk factor,smoking
+hyperplasia,subclass of,hypertrophy
+Schamberg disease,subclass of,Pigmented purpuric dermatosis
+opportunistic infection,subclass of,superinfection
+skin disease,described by source,Encyclopædia Britannica 11th edition
+Caput medusae,named after,Medusa
+Caput medusae,health specialty,cardiology
+postterm pregnancy,health specialty,obstetrics and gynaecology
+postterm pregnancy,has effect,human ageing
+postterm pregnancy,has characteristic,gestational age
+fibrillation,subclass of,neurological symptom
+cancer of unknown primary origin,health specialty,oncology
+postterm pregnancy,subclass of,complications of pregnancy
+scapular fracture,health specialty,emergency medicine
+cyst,described by source,Brockhaus and Efron Encyclopedic Dictionary
+skin infection,health specialty,dermatology
+cyst,health specialty,oncology
+scapular fracture,subclass of,shoulder fracture
+residual schizophrenia,health specialty,psychiatry
+gait abnormality,health specialty,neurology
+gait abnormality,subclass of,movement disorders
+leukoencephalopathy,subclass of,encephalopathy
+coxa valga,health specialty,medical genetics
+adenovirus infection,has natural reservoir,human
+AIDS related disease,subclass of,opportunistic infection
+coxa valga,subclass of,hip dysplasia
+adenovirus infection,has cause,Adenoviridae
+pervasive developmental disorder not otherwise specified,health specialty,psychiatry
+pervasive developmental disorder not otherwise specified,studied in,psychiatry
+pilonidal cyst,health specialty,dermatology
+aneurysm,health specialty,vascular surgery
+premature heart beat,health specialty,cardiology
+aneurysm,subclass of,vascular disease
+premature heart beat,subclass of,heart arrhythmia
+pervasive developmental disorder not otherwise specified,subclass of,pervasive developmental disorder
+pilonidal cyst,subclass of,genetic disease
+visceral larva migrans,health specialty,infectious diseases
+visceral larva migrans,subclass of,toxocariasis
+fistula,different from,Vistula
+fetal death,health specialty,obstetrics and gynaecology
+familial amyloid neuropathy,health specialty,endocrinology
+fetal death,main subject,death
+dwarfism,symptoms and signs,short stature
+fistula,subclass of,symptom
+fetal death,subclass of,complications of pregnancy
+prurigo,health specialty,dermatology
+dwarfism,health specialty,medical genetics
+dwarfism,model item,Peter Dinklage
+dwarfism,described by source,Brockhaus and Efron Encyclopedic Dictionary
+pulicosis,health specialty,infectious diseases
+dwarfism,subclass of,growth disorder
+pulicosis,has cause,infestation
+jet lag,possible treatment,light therapy
+jet lag,health specialty,neurology
+jet lag,drug or therapy used for treatment,melatonin
+jet lag,studied in,chronobiology
+jet lag,has cause,change
+erythema marginatum,health specialty,dermatology
+jet lag,named after,jet aircraft
+cyst,subclass of,lesion
+jet lag,subclass of,circadian rhythm sleep disorder
+pemphigoid,health specialty,dermatology
+osteoradionecrosis,subclass of,osteonecrosis
+erythema marginatum,subclass of,erythema
+bisphosphonate-associated osteonecrosis of the jaw,subclass of,osteonecrosis of the jaw
+AIDS dementia complex,health specialty,psychiatry
+Flail chest,health specialty,emergency medicine
+delirium tremens,health specialty,psychiatry
+delirium tremens,symptoms and signs,agrypnia excitata
+lipoatrophy,subclass of,lipodystrophy
+delirium tremens,described by source,Brockhaus and Efron Encyclopedic Dictionary
+giant condyloma acuminatum,health specialty,infectious diseases
+Cotard delusion,named after,Jules Cotard
+rhabdomyolysis,health specialty,emergency medicine
+balance disorder,afflicts,balance
+minimally conscious state,subclass of,disorder of consciousness
+atrophy,facet of,anatomical pathology
+cervical intraepithelial neoplasia,health specialty,oncology
+atrophy,described by source,Encyclopædia Britannica 11th edition
+Pyruvate dehydrogenase E1-beta deficiency,subclass of,pyruvate decarboxylase deficiency
+clear-cell sarcoma,health specialty,oncology
+spirochetal diseases,health specialty,infectious diseases
+clear-cell sarcoma,different from,kidney clear cell sarcoma
+binge eating disorder,symptoms and signs,binge eating
+binge eating disorder,different from,food addiction
+clear-cell sarcoma,subclass of,sarcoma
+retroverted uterus,facet of,women's health
+retroverted uterus,health specialty,urology
+rotator cuff tear,health specialty,traumatology
+hypertrophy,described by source,Encyclopædia Britannica 11th edition
+retroverted uterus,subclass of,uterine disease
+binge eating disorder,subclass of,eating disorder
+rotator cuff tear,drug or therapy used for treatment,Diclofenac
+conjoined twins,health specialty,medical genetics
+hypertrophy,subclass of,deformity
+dyslalia,subclass of,articulation disorder
+conjoined twins,has characteristic,parabiosis
+mesenteric ischemia,afflicts,small intestine
+mesenteric ischemia,health specialty,gastroenterology
+epithelioma,risk factor,smoking
+rectovaginal fistula,facet of,women's health
+persistent cloaca,health specialty,medical genetics
+epithelioma,subclass of,glandular and epithelial neoplasm
+persistent cloaca,subclass of,intestinal malformation
+accelerated phase chronic myelogenous leukemia,part of,chronic myeloid leukemia
+diverticulum,health specialty,gastroenterology
+accelerated phase chronic myelogenous leukemia,drug or therapy used for treatment,imatinib mesylate
+Transient acantholytic dermatosis,health specialty,dermatology
+AIDS-related lymphoma,subclass of,lymphoma
+AIDS-related complex,subclass of,human immunodeficiency virus infectious disease
+Transient acantholytic dermatosis,subclass of,acantholysis
+abdominal compartment syndrome,health specialty,emergency medicine
+developmental disability,different from,intellectual disability
+foodborne illness,described by source,Encyclopædia Britannica 11th edition
+foodborne illness,has cause,food contaminant
+dysplasia,health specialty,oncology
+nipple discharge,facet of,women's health
+dysarthria,drug or therapy used for treatment,clonazepam
+persistent pupillary membrane,health specialty,ophthalmology
+nipple discharge,health specialty,gynaecology
+foodborne illness,subclass of,intoxication
+Pigmented purpuric dermatosis,health specialty,dermatology
+dysplasia,subclass of,congenital abnormality
+esophageal squamous cell carcinoma,subclass of,carcinoma
+persistent pupillary membrane,subclass of,pupil disorder
+diabetic nephropathy,genetic association,ACE
+pigmented spindle cell nevus,subclass of,melanocytic nevus
+Platybasia,health specialty,rheumatology
+pigmented spindle cell nevus,health specialty,oncology
+Platybasia,subclass of,craniofacial abnormality
+stable angina,health specialty,cardiology
+acne keloidalis nuchae,health specialty,dermatology
+splenomegaly,subclass of,splenic disease
+splenomegaly,anatomical location,spleen
+poorly differentiated thyroid cancer,genetic association,RBM10
+poorly differentiated thyroid cancer,health specialty,oncology
+splenomegaly,health specialty,general surgery
+granuloma,different from,granulation tissue
+stupor,drug or therapy used for treatment,mesocarb
+poorly differentiated thyroid cancer,subclass of,thyroid cancer
+posterior ischemic optic neuropathy,health specialty,ophthalmology
+granuloma,health specialty,dermatology
+ear canal atresia,genetic association,TSHZ1
+granuloma,subclass of,lymphoproliferative disorders
+posterior reversible encephalopathy syndrome,health specialty,neurology
+ear canal atresia,subclass of,external ear malformation
+posterior reversible encephalopathy syndrome,subclass of,hypertensive encephalopathy
+posterior ischemic optic neuropathy,subclass of,ischemic optic neuropathy
+coxa vara,health specialty,medical genetics
+persecutory delusion,subclass of,delusion
+xanthoma,subclass of,metabolic disease
+thought disorder,subclass of,mental disorder
+fecal incontinence,statement is subject of,encopresis
+fecal incontinence,health specialty,gastroenterology
+periodontal abscess,health specialty,dentistry
+Acne miliaris necrotica,health specialty,dermatology
+fecal incontinence,subclass of,digestive sign
+staphylococcal meningitis,health specialty,neurology
+Lymphangiectasia,health specialty,angiology
+periodontal abscess,subclass of,dental abscess
+Prurigo simplex,health specialty,dermatology
+pseudoneurotic schizophrenia,health specialty,psychiatry
+tonsillolith,subclass of,mouth disease
+Prurigo simplex,subclass of,prurigo
+dermatochalasis,health specialty,medical genetics
+dermatochalasis,genetic association,ATP6V0A2
+Adnexal and skin appendage neoplasms,health specialty,oncology
+colorectal polyp,health specialty,gastroenterology
+Adnexal and skin appendage neoplasms,subclass of,tumor
+alphavirus infections,has cause,infection
+alphavirus infections,health specialty,infectious diseases
+dermatochalasis,subclass of,eyelid disease
+nocturnal enuresis,drug or therapy used for treatment,mesocarb
+aboulia,afflicts,human
+nocturnal enuresis,described by source,Brockhaus and Efron Encyclopedic Dictionary
+aboulia,described by source,Brockhaus and Efron Encyclopedic Dictionary
+alphavirus infections,subclass of,Togaviridae infectious disease
+pulmonary injury,health specialty,pulmonology
+alternariosis,has cause,infection
+diffuse esophageal spasm,health specialty,gastroenterology
+pyogenic liver abscess,health specialty,gastroenterology
+diffuse esophageal spasm,subclass of,esophageal disease
+anopsia,health specialty,ophthalmology
+anopsia,afflicts,visual field
+anopsia,medical examination,visual field test
+alternariosis,subclass of,fungal infectious disease
+inferiority complex,named by,Alfred Adler
+inferiority complex,subclass of,self-hatred
+conduction aphasia,health specialty,neurology
+pyogenic liver abscess,subclass of,liver abscess
+anopsia,subclass of,vision disorder
+conduction aphasia,subclass of,aphasia
+tapeworm infection,health specialty,infectious diseases
+hepatosplenomegaly,health specialty,gastroenterology
+stenosing tenosynovitis,health specialty,rheumatology
+procrastination,subclass of,failure
+achlorhydria,health specialty,gastroenterology
+stenosing tenosynovitis,subclass of,tenosynovitis
+metrorrhagia,health specialty,gynaecology
+bile acid malabsorption,genetic association,SLC10A2
+blastocystosis,has cause,Blastocystis hominis
+konzo,symptoms and signs,ataxia
+blastocystosis,health specialty,infectious diseases
+konzo,has cause,ingestion
+konzo,health specialty,emergency medicine
+aspergilloma,health specialty,infectious diseases
+blastocystosis,subclass of,parasitic protozoa infectious disease
+angiomatosis,health specialty,cardiology
+growth hormone deficiency,genetic association,GH1
+growth hormone deficiency,health specialty,endocrinology
+trichilemmoma,subclass of,skin neoplasm
+growth hormone deficiency,subclass of,dwarfism
+auditory neuropathy,afflicts,cochlear nerve
+auditory neuropathy,genetic association,DIAPH3
+dust mite allergy,health specialty,emergency medicine
+dust mite allergy,afflicts,Homo sapiens
+auditory neuropathy,subclass of,peripheral neuropathy
+squamous intraepithelial lesion of the cervix,subclass of,intraepithelial neoplasia
+dust mite allergy,subclass of,allergy
+sleeprunning,health specialty,sleep medicine
+African horse sickness,has cause,African horse sickness virus
+African horse sickness,subclass of,horse disease
+sleeprunning,subclass of,parasomnia
+hypovolemia,health specialty,emergency medicine
+hypovolemia,opposite of,hypervolemia
+long covid,subclass of,COVID-19
+urogenital neoplasm,health specialty,oncology
+long covid,has cause,COVID-19
+brain herniation,subclass of,brain injury
+laryngospasm,health specialty,pulmonology
+hypovolemia,subclass of,hematopoietic system disease
+bone neoplasm,anatomical location,bone
+bone neoplasm,health specialty,oncology
+laryngospasm,subclass of,laryngeal disease
+talipes,health specialty,rheumatology
+Agalactia,health specialty,obstetrics
+calcifying odontogenic cyst,subclass of,odontogenic cyst
+talipes,subclass of,foot deformity
+alveolitis,health specialty,pulmonology
+pulmonary cryptococcosis,health specialty,infectious diseases
+pulmonary cryptococcosis,drug or therapy used for treatment,5-fluorocytosine
+multiple fracture,subclass of,bone fracture
+alveolitis,subclass of,extrinsic allergic alveolitis
+mesothelial neoplasm,subclass of,glandular and epithelial neoplasm
+mucoepidermoid tumor,subclass of,"cystic, mucinous, and serous neoplasms"
+perinatal disease,health specialty,pediatrics
+cerebrospinal fluid leak,health specialty,neurology
+cerebrospinal fluid leak,has cause,blunt trauma
+acute abdomen,health specialty,gastroenterology
+perinatal disease,subclass of,congenital disorder
+cerebrospinal fluid leak,drug or therapy used for treatment,epidural blood patch
+endemic African Kaposi's sarcoma,health specialty,oncology
+cerebrospinal fluid leak,subclass of,Extravasation
+tension headache,health specialty,neurology
+aluminosis,subclass of,pneumoconiosis
+tension headache,medical examination,physical examination
+glomus jugulare tumor,health specialty,oncology
+glomus jugulare tumor,subclass of,paraganglioma
+chronic traumatic encephalopathy,said to be the same as,Dementia pugilistica
+empyema,subclass of,suppuration
+traumatic brain stem hemorrhage,subclass of,traumatic intracranial hemorrhage
+enterohaemorrhagic Escherichia coli infection,has cause,infection
+enterohaemorrhagic Escherichia coli infection,health specialty,infectious diseases
+border disease,subclass of,Flaviviridae infectious disease
+congenital melanocytic nevus,subclass of,melanocytic nevus
+erythroderma,health specialty,dermatology
+corneal perforation,subclass of,corneal damage
+coronary occlusion,health specialty,cardiology
+convergence insufficiency,subclass of,ocular motility disease
+coronary occlusion,subclass of,chronic arterial occlusive disease
+steatosis,has effect,fatty liver disease
+steatosis,field of work,gastroenterology
+ototoxicity,subclass of,toxicity
+air embolism,different from,decompression sickness
+erythroderma,subclass of,erythema
+air embolism,afflicts,diver
+"hypothyroidism, congenital, nongoitrous",subclass of,congenital hypothyroidism
+tubo-ovarian abscess,facet of,women's health
+alcohol withdrawal seizure,health specialty,neurology
+border disease,has cause,infection
+enzootic bovine leukosis,has cause,infection
+crystal arthropathy,health specialty,rheumatology
+crystal arthropathy,subclass of,arthropathy
+Micromastia,health specialty,medical genetics
+Micromastia,genetic association,PTPRF
+"cystic, mucinous, and serous neoplasms",subclass of,glandular and epithelial neoplasm
+Micromastia,subclass of,breast disease
+"intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked",genetic association,FLNA
+fibroepithelial neoplasms,health specialty,oncology
+radiation sickness,partially coincident with,radiation injury
+fat necrosis,subclass of,necrosis
+radiation sickness,has cause,ionizing radiation
+fibroepithelial neoplasms,subclass of,complex and mixed tumor
+"zinc deficiency, transient neonatal",genetic association,SLC30A2
+hepatic porphyria,health specialty,endocrinology
+Lev's disease,genetic association,SCN5A
+congenital torticollis,medical condition,orthopedics
+Lev's disease,subclass of,third-degree atrioventricular block
+congenital torticollis,health specialty,medical genetics
+pulmonic stenosis,subclass of,cardiovascular disease
+hemangioendothelioma,health specialty,oncology
+streptococcal infection,health specialty,infectious diseases
+streptococcal infection,has cause,infection
+hyperphenylalaninemia,health specialty,endocrinology
+hookworm disease,drug or therapy used for treatment,imidacloprid
+hookworm disease,subclass of,parasitic helminthiasis infectious disease
+hookworm disease,health specialty,infectious diseases
+hyperphenylalaninemia,genetic association,QDPR
+acanthocheilonemiasis,health specialty,infectious diseases
+acanthocheilonemiasis,has cause,infection
+precursor B-cell lymphoblastic leukemia,health specialty,oncology
+hypoestrogenism,health specialty,endocrinology
+acanthocheilonemiasis,subclass of,mansonelliasis
+hypoestrogenism,opposite of,estrogen excess
+hypoestrogenism,subclass of,ovarian dysfunction
+European foulbrood,has cause,Melissococcus plutonius
+platelet-activating factor acetylhydrolase deficiency,genetic association,PLA2G7
+Intervertebral disc disorder,anatomical location,intervertebral disc
+Intervertebral disc disorder,health specialty,rheumatology
+substance-related disorder,partially coincident with,substance dependence
+substance-related disorder,has cause,psychotropic drug
+Intervertebral disc disorder,subclass of,spinal disease
+platelet-activating factor acetylhydrolase deficiency,subclass of,genetic disease
+vitamin D deficiency,drug or therapy used for treatment,calcifediol
+substance-related disorder,facet of,health risk
+vitamin D deficiency,health specialty,endocrinology
+thiamine deficiency,health specialty,nutrition
+vitamin D deficiency,subclass of,vitamin deficiency
+Sphincter of Oddi dysfunction,anatomical location,sphincter of ampulla
+Sphincter of Oddi dysfunction,health specialty,gastroenterology
+complications of diabetes mellitus,health specialty,endocrinology
+Sphincter of Oddi dysfunction,subclass of,biliary dyskinesia
+jaw disease,anatomical location,jaw
+Vulvar vestibulitis,health specialty,obstetrics and gynaecology
+Emery-Dreifuss muscular dystrophy 1,subclass of,Emery-Dreifuss muscular dystrophy
+Rhabditida infectious disease,health specialty,infectious diseases
+Rhabditida infectious disease,has cause,infection
+jaw disease,subclass of,mouth disease
+mycobacterium infectious disease,drug or therapy used for treatment,clarithromycin
+mycobacterium infectious disease,has cause,infection
+mycobacterium infectious disease,health specialty,infectious diseases
+infection of the central nervous system,health specialty,neurology
+airway obstruction,has effect,asphyxia
+airway obstruction,risk factor,smoking
+airway obstruction,possible treatment,airway management
+airway obstruction,health specialty,pulmonology
+airway obstruction,"handled, mitigated, or managed by",airway management
+Barium enema,said to be the same as,Double-contrast barium enema
+stomach neoplasm,subclass of,stomach disease
+Barium enema,has use,lower gastrointestinal series
+airway obstruction,subclass of,acute respiratory insufficiency
+vulvar neoplasm,anatomical location,vulva
+ventilator-associated pneumonia,health specialty,pulmonology
+Hereditary persistence of fetal hemoglobin,health specialty,hematology
+Hereditary persistence of fetal hemoglobin,genetic association,HBB
+ventilator-associated pneumonia,has cause,mechanical ventilation
+ventilator-associated pneumonia,subclass of,hospital-acquired pneumonia
+Taeniasis saginata,drug or therapy used for treatment,praziquantel
+Taeniasis saginata,has cause,Taenia saginata
+Hereditary persistence of fetal hemoglobin,subclass of,hemoglobinopathy
+Taeniasis saginata,health specialty,infectious diseases
+X-linked recessive chondrodysplasia punctata,health specialty,medical genetics
+X-linked congenital stationary night blindness,health specialty,ophthalmology
+X-linked recessive chondrodysplasia punctata,genetic association,ARSL
+Helicobacter pylori infectious disease,has cause,infection
+Helicobacter pylori infectious disease,drug or therapy used for treatment,clarithromycin
+Helicobacter pylori infectious disease,medical examination,urea breath test
+X-linked recessive chondrodysplasia punctata,subclass of,X-linked chondrodysplasia punctata
+venous thromboembolism,health specialty,cardiology
+psychosomatic disease,studied in,psychosomatic medicine
+psychosomatic disease,different from,somatoform disorder
+psoriatic erythroderma,health specialty,dermatology
+psoriatic erythroderma,symptoms and signs,erythroderma
+ovarian neoplasm,health specialty,oncology
+New daily persistent headache,health specialty,neurology
+chromosomal disease,health specialty,medical genetics
+psoriatic erythroderma,subclass of,psoriasis
+cementoma,anatomical location,cementum
+cementoma,health specialty,oncology
+threatened abortion,health specialty,obstetrics and gynaecology
+piedra,health specialty,infectious diseases
+cementoma,subclass of,odontogenic tumor
+chromosomal disease,subclass of,genetic disease
+ischemic hepatitis,subclass of,hepatic vascular disease
+seizure,has cause,epilepsy
+seizure,health specialty,neurology
+myoclonic epilepsy,health specialty,neurology
+myoclonic epilepsy,symptoms and signs,myoclonus
+thrombocytopenic purpura,subclass of,purpura
+myoclonic epilepsy,drug or therapy used for treatment,clonazepam
+lichen striatus,health specialty,dermatology
+seizure,subclass of,convulsion
+myoclonic epilepsy,subclass of,epilepsy
+malignant pleural effusion,health specialty,oncology
+lacunar stroke,discoverer or inventor,Miller Fisher
+lacunar stroke,health specialty,neurology
+lichen striatus,subclass of,lichenoid eruption
+Lentigo maligna melanoma,has cause,lentigo maligna
+medullary carcinoma,drug or therapy used for treatment,dacarbazine
+medullary carcinoma,health specialty,oncology
+metabolic bone disease,drug or therapy used for treatment,calcifediol
+Mollaret's meningitis,health specialty,infectious diseases
+metabolic bone disease,subclass of,bone disease
+mucinous cystadenoma,health specialty,oncology
+medullary carcinoma,subclass of,neuroendocrine carcinoma
+Lentigo maligna melanoma,subclass of,skin cancer
+Mollaret's meningitis,named after,Pierre Mollaret
+Mollaret's meningitis,subclass of,aseptic meningitis
+mixed anxiety-depressive disorder,subclass of,anxiety disorder
+myoclonic astatic epilepsy,named after,Hermann Doose
+mucinous cystadenoma,subclass of,cystadenoma
+myoclonic astatic epilepsy,subclass of,Idiopathic generalized epilepsy
+colic,different from,colitis
+pelvic floor dysfunction,health specialty,obstetrics and gynaecology
+osteochondritis,health specialty,rheumatology
+pelvic floor dysfunction,facet of,women's health
+thyroid neoplasm,health specialty,oncology
+pelvic floor dysfunction,subclass of,genitourinary system disease
+neonatal abstinence syndrome,health specialty,pediatrics
+neonatal abstinence syndrome,has cause,drug-induced abnormality
+lymphosarcoma,health specialty,oncology
+Neurothekeoma,health specialty,oncology
+Nevus comedonicus,subclass of,nevus
+nonunion,afflicts,bone healing
+pancreatic neoplasm,afflicts,pancreas
+pancreatic neoplasm,health specialty,oncology
+odontogenic cyst,subclass of,cyst of the jaws
+Nevus depigmentosus,subclass of,hypopigmentation
+nonunion,subclass of,bone fracture
+kidney neoplasm,anatomical location,kidney
+lentigo maligna,subclass of,melanoma
+lung neoplasm,risk factor,smoking
+vagus nerve injury,health specialty,neurology
+olfactory nerve injury,health specialty,neurology
+tarsal coalition,health specialty,rheumatology
+hereditary optic atrophy,subclass of,optic atrophy
+tarsal coalition,anatomical location,tarsal bones
+pneumocystis pneumonia,has cause,Pneumocystis jirovecii
+pneumocystis pneumonia,different from,pneumococcal pneumonia
+amoebic dysentery,drug or therapy used for treatment,iodoquinol
+knee dislocation,health specialty,orthopedic surgery
+amoebic dysentery,health specialty,infectious diseases
+accessory nerve injury,health specialty,neurology
+borreliosis,has cause,infection
+borreliosis,health specialty,infectious diseases
+internal carotid artery dissection,anatomical location,internal carotid artery
+neoplasm of oropharynx,anatomical location,oropharynx
+hypoglossal nerve injury,health specialty,neurology
+internal carotid artery dissection,subclass of,carotid artery dissection
+parotid gland neoplasm,subclass of,parotid disease
+intestinal fistula,health specialty,gastroenterology
+recurrent pneumonia,health specialty,infectious diseases
+mouth abnormality,health specialty,oral and maxillofacial surgery
+intestinal fistula,subclass of,digestive system fistula
+ectopic atrial tachycardia,health specialty,cardiology
+ectopic atrial tachycardia,subclass of,atrial tachycardia
+prostate neoplasm,health specialty,oncology
+sleep-wake disorder,health specialty,neurology
+pharynx neoplasm,subclass of,pharyngeal diseases
+sleep-wake disorder,subclass of,sleep disorder
+tinea,different from,Tinea
+femoral neck fracture,subclass of,hip fracture
+erythema annulare centrifugum,health specialty,dermatology
+central nervous system venous angioma,subclass of,central nervous system vascular malformation
+cerebral toxoplasmosis,health specialty,infectious diseases
+tinea,subclass of,dermatomycosis
+hypergammaglobulinemia,subclass of,immunoproliferative disorder
+pestis minor,health specialty,infectious diseases
+erythema annulare centrifugum,subclass of,erythema
+skin neoplasm,health specialty,oncology
+anemia in pregnancy,facet of,women's health
+cognitive dysfunction,subclass of,cognitive disorder
+chronic hepatitis,subclass of,hepatitis

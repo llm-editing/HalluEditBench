@@ -1,0 +1,142 @@
+subjectLabel,relation,objectLabel
+anxiety,measurement scale,Hamilton Anxiety Rating Scale
+anxiety,has contributing factor,uncertainty
+anxiety,subclass of,mental disorder
+tunnel vision,afflicts,peripheral vision
+tunnel vision,health specialty,ophthalmology
+fatigue,partially coincident with,somnolence
+tunnel vision,subclass of,anopsia
+fatigue,health specialty,primary care
+fatigue,described by source,Encyclopædia Britannica 11th edition
+bleeding gums,anatomical location,gums
+bleeding gums,health specialty,oral and maxillofacial surgery
+gummatous syphilis,health specialty,infectious diseases
+fatigue,subclass of,clinical sign
+red eye,afflicts,conjunctiva
+red eye,health specialty,ophthalmology
+bone fracture,described by source,Brockhaus and Efron Encyclopedic Dictionary
+bone fracture,medical examination,medical radiography
+bone fracture,health specialty,osteology
+bone fracture,has effect,bone pain
+gummatous syphilis,subclass of,tertiary syphilis
+myoclonus,health specialty,neurology
+myoclonus,symptoms and signs,clonus
+hostility,said to be the same as,aggression
+desquamation,has effect,dander
+myoclonus,subclass of,movement disorders
+distraction,facet of,operational risk
+distraction,does not have characteristic,intention
+Webbed neck,health specialty,medical genetics
+Knee buckling,instance of,symptom
+gummatous syphilis,instance of,symptom
+angina pectoris,health specialty,cardiology
+Webbed neck,subclass of,rare head and neck malformation
+angina pectoris,subclass of,chest pain
+distraction,instance of,symptom
+Webbed neck,instance of,symptom
+cognitive deficit,subclass of,cognitive disorder
+heat exhaustion,partially coincident with,heat stroke
+heat exhaustion,has cause,hot
+metal poisoning,health specialty,neurology
+metal poisoning,has cause,metal element
+distress,instance of,symptom
+metal poisoning,subclass of,intoxication
+cognitive deficit,instance of,symptom
+heat exhaustion,subclass of,heat illness
+urination disorder,drug or therapy used for treatment,mirabegron
+urination disorder,anatomical location,urinary system
+heat exhaustion,instance of,symptom
+metal poisoning,instance of,symptom
+urination disorder,subclass of,urinary system disease
+gastroesophageal reflux,instance of,symptom
+eye pain,subclass of,pain
+dysphoria,opposite of,euphoria
+dysphoria,facet of,health risk
+urination disorder,instance of,symptom
+dysphoria,said to be the same as,sadness
+necrolytic migratory erythema,health specialty,dermatology
+logorrhea,health specialty,psychology
+asterixis,health specialty,neurology
+aura,health specialty,neurology
+logorrhea,subclass of,speech disorder
+tension headache,health specialty,neurology
+necrolytic migratory erythema,subclass of,erythema
+tension headache,medical examination,physical examination
+rash,described by source,Brockhaus and Efron Encyclopedic Dictionary
+rash,health specialty,dermatology
+asthenia,described by source,Brockhaus and Efron Encyclopedic Dictionary
+asterixis,instance of,symptom
+asthenia,drug or therapy used for treatment,mesocarb
+necrolytic migratory erythema,instance of,symptom
+spasm,described by source,Brockhaus and Efron Encyclopedic Dictionary
+torticollis,health specialty,rheumatology
+torticollis,described by source,Encyclopædia Britannica 11th edition
+Braxton Hicks contraction,discoverer or inventor,John Braxton Hicks
+Braxton Hicks contraction,health specialty,obstetrics
+Braxton Hicks contraction,facet of,women's health
+Braxton Hicks contraction,named after,John Braxton Hicks
+serositis,subclass of,inflammation
+chemical burn,health specialty,emergency medicine
+torticollis,subclass of,dystonia
+lying,different from,lie
+Braxton Hicks contraction,subclass of,uterine contraction
+vesical tenesmus,health specialty,urology
+lying,subclass of,posture
+absence seizure,health specialty,neurology
+serositis,instance of,symptom
+Braxton Hicks contraction,instance of,symptom
+tophus,subclass of,crystal arthropathy
+acneiform eruption,health specialty,dermatology
+melena,has cause,stomach bleeding
+stereotypy,health specialty,psychiatry
+erythema,health specialty,dermatology
+erythema,described by source,Brockhaus and Efron Encyclopedic Dictionary
+melena,different from,hematochezia
+vesical tenesmus,instance of,symptom
+acneiform eruption,subclass of,dermatitis
+laryngospasm,health specialty,pulmonology
+melena,subclass of,blood in stool
+erythema,subclass of,flushing
+chemical burn,instance of,symptom
+myotonia,facet of,myotonic disease
+laryngospasm,subclass of,laryngeal disease
+suicidal ideation,has cause,mental disorder
+suicidal ideation,possible treatment,psychotherapy
+suicidal ideation,health specialty,clinical psychology
+suicidal ideation,subclass of,thinking
+trismus,subclass of,spasm
+acneiform eruption,instance of,symptom
+stereotypy,instance of,symptom
+erythema,instance of,symptom
+runny nose,health specialty,pulmonology
+odynophagia,health specialty,gastroenterology
+hearing disorder,studied in,audiology
+runny nose,subclass of,rhinitis
+odynophagia,part of,medical terminology
+hearing disorder,health specialty,neurology
+persecutory delusion,subclass of,delusion
+trismus,instance of,symptom
+asymptomatic,different from,asymptote
+uterine contraction,anatomical location,uterus
+asymptomatic,facet of,severity
+intermittent claudication,instance of,symptom
+palmar erythema,health specialty,dermatology
+asymptomatic,subclass of,subclinical
+uterine contraction,subclass of,muscle contraction
+hot flash,has cause,climacteric
+palmar erythema,subclass of,erythema
+hot flash,health specialty,gynaecology
+erythroderma,health specialty,dermatology
+odynophagia,instance of,symptom
+ketonuria,subclass of,urinalysis
+hot flash,facet of,women's health
+tympanites,described by source,Brockhaus and Efron Encyclopedic Dictionary
+erythroderma,subclass of,erythema
+tympanites,subclass of,bloating
+asymptomatic,instance of,symptom
+hot flash,subclass of,flushing
+palmar erythema,instance of,symptom
+uterine contraction,instance of,symptom
+impulsivity,subclass of,human behavior
+tympanites,instance of,symptom
+virilization,instance of,symptom

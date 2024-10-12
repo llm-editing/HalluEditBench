@@ -1,0 +1,424 @@
+subjectLabel,relation,objectLabel
+JavaScript,regulated by,Ecma International
+JavaScript,designed by,Brendan Eich
+JavaScript,named after,Java
+JavaScript,said to be the same as,JScript
+Visual Basic,developer,Microsoft
+JavaScript,based on,ECMAScript
+Visual Basic,platform,Microsoft Windows
+C,operating system,Microsoft Windows
+C,designed by,Dennis M. Ritchie
+Visual Basic,subclass of,BASIC
+C,has characteristic,Turing completeness
+C++,designed by,Bjarne Stroustrup
+C++,developer,Bjarne Stroustrup
+C++,has use,systems programming
+TeX,developer,Donald Knuth
+TeX,operating system,cross-platform
+C++,has characteristic,Turing completeness
+TeX,has use,typesetting
+TeX,founded by,Donald Knuth
+TeX,different from,LaTeX
+TeX,programmer,Donald Knuth
+TeX,writable file format,device independent file format
+QBasic,programming paradigm,procedural programming
+QBasic,developer,Microsoft
+TeX,creator,Donald Knuth
+GNU Common Lisp,implementation of,Common Lisp
+TeX,named after,techne
+GNU Common Lisp,part of,GNU Project
+GNU Common Lisp,developer,GNU Project
+Scala,designed by,Martin Odersky
+PARI/GP,copyright license,GNU General Public License
+Scala,copyright license,BSD licenses
+C,instance of,programming language
+PARI/GP,programmed in,C
+Turbo Pascal,programmed in,assembly language
+PARI/GP,developer,Henri Cohen
+PARI/GP,named after,Pascal's Wager
+Turbo Pascal,programming paradigm,object-oriented programming
+Turbo Pascal,designed by,Anders Hejlsberg
+XPath,developer,World Wide Web Consortium
+Agda,implementation of,homotopy type theory
+Agda,operating system,Microsoft Windows
+Turbo Pascal,dialect of computer language,Object Pascal
+Agda,programmed in,Haskell
+XSLT,based on,Extensible Markup Language
+XSLT,influenced by,Document Style Semantics and Specification Language
+XSLT,standards body,World Wide Web Consortium
+Haskell,operating system,Microsoft Windows
+XSLT,part of,XSL
+XSLT,programming paradigm,declarative programming
+Agda,copyright license,BSD licenses
+XSLT,developer,World Wide Web Consortium
+Haskell,named after,Haskell Curry
+QBasic,instance of,programming language
+Haskell,programming paradigm,functional programming
+PL/SQL,programming paradigm,procedural programming
+PL/SQL,influenced by,Ada
+batch file,subclass of,computer file
+Turing,named after,Alan Turing
+Go,reply to,C++
+Turing,country,Canada
+PL/SQL,owned by,Oracle
+XSLT,instance of,programming language
+Go,copyright license,BSD licenses
+CFEngine,developer,Mark Burgess
+Go,different from,go
+Go,director / manager,Sameer Ajmani
+CFEngine,has use,configuration management
+CFEngine,programmed in,C
+Perl,programmed in,C
+Perl,designed by,Larry Wall
+Netwide Assembler,programmed in,C
+Perl,copyright license,Artistic License
+Netwide Assembler,has use,x86 assembly language
+Netwide Assembler,implementation of,x86 assembly language
+Perl,creator,Larry Wall
+Netwide Assembler,platform,x86
+PL/SQL,instance of,programming language
+Mathematica,developer,Wolfram Research
+Mathematica,has use,science
+Turing,instance of,programming language
+Go,instance of,programming language
+Expect,programmed in,Tcl
+BASIC,designed by,John George Kemeny
+Mathematica,programming paradigm,functional programming
+Expect,developer,Don Libes
+Expect,copyright status,public domain
+GNU Guile,copyright holder,Free Software Foundation
+GNU Guile,developer,GNU Project
+GNU Guile,programmed in,C
+GNU Guile,GUI toolkit or framework,ncurses
+GNU Guile,implementation of,Scheme
+Turing,influenced by,Pascal
+Turing,operating system,Microsoft Windows
+GNU Guile,dialect of computer language,Scheme
+Cascading Style Sheets,standards body,World Wide Web Consortium
+GNU Guile,part of,GNU Project
+GNU Guile,maintained by,Ludovic Courtès
+Perl,instance of,programming language
+Rust,discoverer or inventor,Graydon Hoare
+Rust,named after,Pucciniales
+Clojure,dialect of computer language,Lisp
+Sass,operating system,cross-platform
+Haml,copyright license,MIT License
+Sass,copyright license,MIT License
+Haml,developer,Hampton Lintorn-Catlin
+Sass,designed by,Hampton Lintorn-Catlin
+CLISP,developer,GNU Project
+CLISP,copyright license,GNU General Public License
+CLISP,creator,Bruno Haible
+CLISP,language of work or name,English
+BASIC,instance of,programming language
+Rust,has goal,computer performance
+Rust,copyright license,MIT License
+SQL,programming paradigm,declarative programming
+SQL,used by,relational database
+Rust,designed by,Graydon Hoare
+KTurtle,programmed in,C++
+Clojure,programmed in,Java
+SQL,subclass of,query language
+SQL,based on,first-order logic
+Clojure,developer,Richard Hickey
+KTurtle,supports programming language,Logo
+KTurtle,GUI toolkit or framework,Qt
+Mathematica,GUI toolkit or framework,Qt
+KTurtle,copyright license,GNU General Public License
+Pascal,designed by,Niklaus Wirth
+Pascal,named after,Blaise Pascal
+Pascal,developer,Niklaus Wirth
+Fortran,derivative work,GNU Fortran
+Perl Data Language,dialect of computer language,Perl
+Fortran,designed by,John Backus
+Perl Data Language,has use,science
+Fortran,copyright license,MIT License
+Perl Data Language,copyright license,GNU General Public License
+Object Pascal,based on,Pascal
+Perl Data Language,developer,Karl Glazebrook
+Ceylon,programmed in,Java
+Ceylon,operating system,cross-platform
+COBOL,commissioned by,United States Department of Defense
+COBOL,has use,computer programming
+Ceylon,developer,Red Hat
+Ceylon,named after,Sri Lanka
+COBOL,country of origin,United States of America
+Maple,has use,science
+COBOL,creator,CODASYL
+COBOL,derivative work,GnuCOBOL
+Maple,developer,Waterloo Maple
+Perl Data Language,instance of,programming language
+Maple,readable file format,STereoLithography
+Maple,language of work or name,multiple languages
+Gambas,GUI toolkit or framework,Qt
+Clojure,instance of,programming language
+Gambas,different from,viol
+NetLogo,programming paradigm,procedural programming
+NetLogo,copyright license,GNU General Public License
+NetLogo,programmed in,Scala
+NetLogo,dialect of computer language,Logo
+Gambas,named after,Crangon crangon
+OpenCL,developer,Khronos Group
+OpenCL,different from,OpenGL
+OpenCL,creator,Apple
+OpenCL,platform,ARM architecture
+ROOT,developer,CERN
+OpenCL,has use,heterogeneous computing
+OpenCL,subclass of,heterogeneous computing
+ROOT,founded by,CERN
+ROOT,creator,CERN
+Ada,named after,Ada Lovelace
+Nullsoft Scriptable Install System,operating system,Microsoft Windows
+Ada,dialect of computer language,SPARK
+MUMPS,influenced by,Fortran
+Visual Basic for Applications,influenced by,Visual Basic
+MUMPS,operating system,cross-platform
+Visual Basic for Applications,developer,Microsoft
+Visual Basic for Applications,based on,Visual Basic
+Common Lisp,dialect of computer language,Lisp
+Visual Basic for Applications,dialect of computer language,Visual Basic
+ML,designed by,Robin Milner
+Prolog,derivative work,Datalog
+Prolog,different from,prologue
+REXX,designed by,Mike Cowlishaw
+assembly language,different from,assembler
+Kawa,programmed in,Java
+assembly language,subclass of,low-level programming language
+Kawa,operating system,cross-platform
+ML,developer,Robin Milner
+Cython,based on,Python
+Cython,implementation of,Python
+Kawa,part of,GNU Project
+Cython,programmed in,Python
+Prolog,instance of,programming language
+Cython,dialect of computer language,Python
+AspectJ,programming paradigm,aspect-oriented programming
+Cython,influenced by,Python
+Cython,different from,CPython
+Raku,operating system,cross-platform
+ASP.NET,developer,Microsoft
+AspectJ,programmed in,Java
+XML User Interface Language,programmed in,C++
+AspectJ,operating system,cross-platform
+AspectJ,influenced by,Common Lisp
+AspectJ,developer,Eclipse Foundation
+XML User Interface Language,used by,Firefox
+ML,instance of,programming language
+XML User Interface Language,developer,Mozilla Foundation
+XML User Interface Language,based on,Extensible Markup Language
+XML User Interface Language,has use,user interface
+XML User Interface Language,operating system,cross-platform
+MATLAB,readable file format,Hierarchical Data Format
+MATLAB,designed by,Cleve Moler
+Eiffel,developer,Bertrand Meyer
+Eiffel,named after,Gustave Eiffel
+MATLAB,writable file format,Hierarchical Data Format
+Eiffel,designed by,Bertrand Meyer
+ALGOL,has use,computer programming
+ALGOL,influenced by,Fortran
+Eiffel,platform,cross-platform
+Squeak,programming paradigm,object-oriented programming
+assembly language,instance of,programming language
+Squeak,programmed in,C
+Squeak,developer,Apple
+Objective-C,programming paradigm,object-oriented programming
+Objective-C,designed by,Brad Cox
+Squeak,part of,Software Freedom Conservancy
+TypeScript,designed by,Microsoft
+ASP.NET,different from,UNESCO
+Squeak,platform,cross-platform
+Squeak,copyright license,MIT License
+ASP.NET,replaces,Active Server Pages
+ASP.NET,replaced by,ASP.NET Core
+TypeScript,dialect of computer language,JavaScript
+TypeScript,developer,Microsoft
+AspectJ,instance of,programming language
+TypeScript,different from,typescript
+Scheme,dialect of computer language,Lisp
+MIT/GNU Scheme,programmed in,Scheme
+MIT/GNU Scheme,developer,Massachusetts Institute of Technology
+MIT/GNU Scheme,part of,GNU Project
+TypeScript,creator,Anders Hejlsberg
+MIT/GNU Scheme,maintained by,Christopher P. Hanson
+MIT/GNU Scheme,copyright holder,Massachusetts Institute of Technology
+FreeBASIC,programmed in,BASIC
+CMU Common Lisp,developer,Carnegie Mellon University
+CMU Common Lisp,copyright status,public domain
+ALGOL,instance of,programming language
+FreeBASIC,copyright license,GNU General Public License
+Scilab,GUI toolkit or framework,GTK
+PostScript,developer,Adobe
+Scilab,developer,Dassault Systèmes
+PostScript,used by,PostScript font
+PostScript,designed by,John Warnock
+FreeBASIC,platform,x86
+PostScript,programming paradigm,procedural programming
+CoffeeScript,operating system,cross-platform
+Scheme,instance of,programming language
+PL/I,developer,IBM
+CoffeeScript,designed by,Jeremy Ashkenas
+CoffeeScript,developer,Jeremy Ashkenas
+CoffeeScript,founded by,Jeremy Ashkenas
+CoffeeScript,copyright license,MIT License
+MIT/GNU Scheme,instance of,programming language
+PL/I,designed by,IBM
+Logo,influenced by,Lisp
+Logo,named after,logos
+Lua,programmed in,C
+Lua,operating system,cross-platform
+Lua,named after,Moon
+Lua,copyright license,MIT License
+Lua,developer,Roberto Ierusalimschy
+Lua,designed by,Roberto Ierusalimschy
+Simula,operating system,Microsoft Windows
+Lua,described by source,The Evolution of an Extension Language: A History of Lua
+Lua,country of origin,Brazil
+Simula,developer,Kristen Nygaard
+Scilab,instance of,programming language
+Simula,designed by,Ole-Johan Dahl
+R,writable file format,Hierarchical Data Format
+PL/I,instance of,programming language
+R,derivative work,Bioconductor
+AutoLISP,dialect of computer language,Lisp
+Processing,programmed in,Java
+R,influenced by,S
+AutoLISP,based on,Lisp
+AutoLISP,has use,computer-aided design
+Processing,implementation of,graph drawing
+Processing,programming paradigm,object-oriented programming
+Processing,copyright license,GNU Lesser General Public License
+GNU Octave,maintained by,John W. Eaton
+GNU Octave,developer,John W. Eaton
+GNU Octave,programmed in,C++
+GNU Octave,GUI toolkit or framework,Qt
+Logo,instance of,programming language
+GNU Octave,operating system,Microsoft Windows
+GNU Octave,named after,Octave Levenspiel
+GNU Octave,writable file format,Hierarchical Data Format
+Mathcad,operating system,Microsoft Windows
+GNU Octave,influenced by,MATLAB
+GNU Octave,part of,GNU Project
+GNU Octave,readable file format,Hierarchical Data Format
+Scratch,maintained by,Massachusetts Institute of Technology
+Scratch,developer,MIT Media Lab
+GNU Octave,creator,John W. Eaton
+Scratch,uses,multiple languages
+Mathcad,developer,Mathsoft
+GW-BASIC,copyright license,MIT License
+Scratch,named after,scratching
+GW-BASIC,developer,Microsoft
+Asymptote,programmed in,C++
+Asymptote,programming paradigm,imperative programming
+Asymptote,operating system,cross-platform
+ActionScript,developer,Macromedia
+Lua,instance of,programming language
+ActionScript,dialect of computer language,ECMAScript
+Smalltalk,programming paradigm,object-oriented programming
+Brainfuck,programming paradigm,imperative programming
+AutoLISP,instance of,programming language
+Haxe,programmed in,OCaml
+Haxe,platform,ARM architecture
+make,developer,Stuart Feldman
+make,operating system,Unix
+Haxe,package management system,opam
+make,readable file format,Makefile
+make,programmed in,C
+Haxe,copyright license,MIT License
+make,programming paradigm,macro
+Racket,dialect of computer language,Scheme
+ActionScript,instance of,programming language
+Forth,developer,Charles H. Moore
+Forth,designed by,Charles H. Moore
+make,designed by,Stuart Feldman
+Forth,programming paradigm,procedural programming
+GW-BASIC,instance of,programming language
+CHICKEN,programmed in,Scheme
+Erlang,operating system,cross-platform
+CHICKEN,operating system,cross-platform
+Erlang,designed by,Joe Armstrong
+Erlang,named after,Agner Krarup Erlang
+REBOL,programmed in,C
+WebGL,has use,3D computer graphics
+REBOL,designed by,Carl Sassenrath
+Brainfuck,instance of,programming language
+dBase,programmed in,assembly language
+dBase,publisher,Ashton-Tate
+WebGL,developer,Khronos Group
+dBase,readable file format,dBASE Table File Format Family
+dBase,programming paradigm,imperative programming
+dBase,developer,Ashton-Tate
+D,designed by,Walter Bright
+Active Server Pages,replaced by,ASP.NET
+D,developer,Walter Bright
+Active Server Pages,developer,Microsoft
+Pharo,influenced by,Smalltalk
+Pharo,programming paradigm,object-oriented programming
+Active Server Pages,has use,web framework
+Pharo,programmed in,Smalltalk
+Pharo,copyright license,MIT License
+Chez Scheme,operating system,GNU/Linux
+Chez Scheme,developer,Cisco
+Elixir,operating system,cross-platform
+Chez Scheme,dialect of computer language,Scheme
+Chez Scheme,implementation of,Scheme
+Gambit,implementation of,Scheme
+Gforth,implementation of,Forth
+Gforth,copyright holder,Free Software Foundation
+Gambit,operating system,GNU/Linux
+Gauche,programmed in,Scheme
+Gauche,has use,programming language
+Gforth,programmed in,C
+Gauche,implementation of,Scheme
+Gforth,developer,GNU Project
+Gforth,has use,interpreter
+Gforth,maintained by,Anton Ertl
+Gforth,distributed by,Google Play
+GNU Awk,programmed in,C
+GNU Awk,part of,GNU Project
+GNU Awk,developer,GNU Project
+Gforth,creator,Anton Ertl
+GNU Awk,influenced by,C
+GNU Awk,copyright holder,Free Software Foundation
+GNU Awk,implementation of,AWK
+GNU Awk,maintained by,Arnold D. Robbins
+Lean,operating system,cross-platform
+Lean,influenced by,Coq
+Lean,programming paradigm,functional programming
+Lean,language of work or name,English
+Lean,has use,automated theorem proving
+Lean,edition or translation of,continuum hypothesis
+Lean,platform,cross-platform
+GnuCOBOL,supports programming language,COBOL
+GnuCOBOL,programmed in,C
+GnuCOBOL,developer,GNU Project
+GnuCOBOL,part of,GNU Project
+GnuCOBOL,copyright holder,Free Software Foundation
+SCM,maintained by,Aubrey Jaffer
+SCM,programmed in,C
+GnuCOBOL,implementation of,COBOL
+SCM,operating system,cross-platform
+SCM,developer,Aubrey Jaffer
+SCM,implementation of,Scheme
+GnuCOBOL,based on,COBOL
+SCM,part of,GNU Project
+Idris,programming paradigm,functional programming
+Idris,programmed in,Haskell
+SCM,creator,Aubrey Jaffer
+Idris,copyright license,BSD licenses
+Wolfram Language,used by,Mathematica
+Wolfram Language,designed by,Stephen Wolfram
+GNU Awk,instance of,programming language
+Svelte,operating system,cross-platform
+Svelte,copyright license,MIT License
+Svelte,developer,Rich Harris
+Swift,creator,Apple
+Nim,operating system,cross-platform
+Swift,has part(s),LLVM
+Swift,designed by,Chris Lattner
+Nim,copyright license,MIT License
+Elvish,programmed in,Go
+Jim Tcl,operating system,GNU/Linux
+Jim Tcl,implementation of,Tcl
+Jim Tcl,instance of,programming language
+Solidity,instance of,programming language
+Nim,instance of,programming language

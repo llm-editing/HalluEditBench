@@ -1,0 +1,53 @@
+tmp
+backup
+# results
+.vscode
+notes.md
+nohup.out
+code/logs
+notes.txt
+code/data
+data/zsre
+data/graph
+data/stats
+results/figs
+# results/know_edit
+results/*_multi_turn*
+results/know_edit/IKE
+results/vicuna_7b_v1.5
+results/gemma_1.1_2b_it
+results/know_edit/new_eval
+results/all_results_tmp.zip
+results/know_edit/eval/pre_edit
+results/meta_llama_3.1_8b_instruct_no_topic_prompt
+data/KnowEdit
+# results/tmp_*
+README_tmp.md
+**/__pycache__
+results/models
+data/triplet/raw
+code/edit.sh
+code/eval.py
+code/data.ipynb
+code/eval.ipynb
+code/edit_tmp.py
+code/data_prep.py
+code/api_key.json
+code/backup.ipynb
+data/questions_old
+requirements_tmp.txt
+questions/all_3_types
+code/expand_question.py
+code/result_summary.ipynb
+code/run_knowedit_llama2_new_eval.py
+code/edit_multi_turn_same_model_same_time.sh
+data/questions/unfiltered
+data/questions/old_3_types
+data/questions/hallucination_all
+data/questions/hallucination_final/vicuna_7b_v1.5
+data/questions/hallucination_final/gemma_1.1_2b_it
+data/questions/hallucination_final/meta_llama_3.1_8b_instruct
+data/questions/hallucination_final/meta_llama_3.1_8b_instruct_100
+# results/know_edit/old_eval
+# results/all_results_tmp.zip
+# results/know_edit/IKE/embedding

@@ -1,0 +1,598 @@
+subjectLabel,relation,objectLabel
+television,different from,Internet television
+floristry,practiced by,florist
+television,patron saint,Clare of Assisi
+television,practiced by,announcer
+television,history of topic,history of television
+radio communications,history of topic,history of radio
+biotechnology,practiced by,biotechnologist
+biotechnology,described by source,Lean Logic
+radio communications,subclass of,telecommunication
+technology,has contributing factor,applied science
+technology,practiced by,technologist
+subscription television,different from,pay-per-view
+technology,history of topic,history of technology
+technology,is the study of,technique
+technology,uses,technique
+technology,manifestation of,applied science
+technology,has characteristic,technological singularity
+cosmetics industry,product or material produced or service provided,cosmetics
+music industry,product or material produced or service provided,music
+technology,described by source,The Verge
+construction materials industry,subclass of,construction industry
+biotechnology,subclass of,technology
+subscription television,subclass of,subscription business model
+pipeline transport,subclass of,transport
+financial audit,practiced by,statutory auditor
+biotechnology industry,facet of,biotechnology
+mass media,history of topic,media history
+financial audit,subclass of,audit
+biotechnology industry,has part(s),biotechnologist
+mass media,product or material produced or service provided,information
+mass media,part of,social communication
+construction materials industry,instance of,industry
+mass media,practiced by,media profession
+music industry,instance of,industry
+cosmetics industry,instance of,industry
+aviation,part of,transportation industry
+subscription television,instance of,industry
+mass media,different from,news media
+construction industry,different from,construction
+environmental technology,instance of,industry
+construction industry,said to be the same as,construction
+glass production,product or material produced or service provided,glass
+industrial engineering,practiced by,industrial engineer
+light industry,opposite of,heavy industry
+dairy industry,product or material produced or service provided,dairy product
+dairy industry,field of work,dairying
+light industry,subclass of,manufacturing
+construction industry,subclass of,construction
+glass production,subclass of,manufacturing
+petrochemical industry,part of,chemical industry
+biotechnology industry,instance of,industry
+money creation,product or material produced or service provided,money
+money creation,facet of,money
+land transport,part of,transport
+industrial engineering,subclass of,engineering
+money creation,described by source,Brockhaus and Efron Encyclopedic Dictionary
+petrochemical industry,subclass of,chemical industry
+land transport,uses,land vehicle
+land transport,location,Earth's surface
+journalism,history of topic,history of journalism
+land transport,subclass of,transport
+construction industry,instance of,industry
+coal industry,described by source,The SAGE Encyclopedia of Cancer and Society
+light industry,instance of,industry
+industrial engineering,instance of,industry
+coal industry,different from,mining of coal
+foundry,described by source,Brockhaus and Efron Encyclopedic Dictionary
+cultural industry,has use,culture
+coal industry,subclass of,mining and quarrying
+plant breeding,facet of,history of civilization
+architectural firm,industry,architecture
+plant breeding,practiced by,plant breeder
+journalism,subclass of,activity
+architectural firm,practiced by,architect
+cultural industry,product or material produced or service provided,cultural artifact
+plant breeding,described by source,Encyclopædia Britannica 11th edition
+health care industry,field of work,health care
+health care industry,said to be the same as,human health activities
+glass production,instance of,industry
+woodworking,described by source,Brockhaus and Efron Encyclopedic Dictionary
+woodworking,different from,wood processing
+health care industry,part of,health system
+facility management,part of,real estate economics
+petrochemical industry,instance of,industry
+facility management,facet of,management science
+skateboarding,uses,skateboard
+security guard,has immediate cause,group of humans
+facility management,subclass of,management
+printing,used by,Protestant Reformation
+printing,product or material produced or service provided,printed matter
+printing,industry,poligraphy
+skateboarding,subclass of,Olympic sport
+home automation,subclass of,automation
+fintech,has use,financial services
+fintech,part of,financial sector
+printing,uses,printing machine
+academic publishing,facet of,scholarly communication
+architectural firm,instance of,industry
+fintech,subclass of,technology
+health care industry,instance of,industry
+woodworking,instance of,industry
+social entrepreneurship,instance of,industry
+printing,subclass of,printing technique
+information and communications technology,facet of,information technology
+academic publishing,subclass of,publishing
+academic publishing,has part(s),academic journal
+information and communications technology,part of,information infrastructure
+metallurgy,practiced by,metallurgist
+metallurgy,said to be the same as,metal industry
+cultural industry,instance of,industry
+home automation,instance of,industry
+electronics,studied in,engineering
+electronics,different from,fluidics
+facility management,instance of,industry
+information and communications technology,subclass of,technology
+culture industry,instance of,industry
+electronics,has part(s),electronic circuit
+life sciences,said to be the same as,biology
+electronics,practiced by,electrical engineer
+metallurgy,subclass of,materials science
+fire prevention,different from,fire control
+fintech,instance of,industry
+life sciences,history of topic,history of biology
+fire prevention,subclass of,prevention
+public utility,studied in,economics
+meat industry,instance of,industry
+public utility,different from,public works
+public utility,subclass of,business
+coining,product or material produced or service provided,coin
+petroleum industry,instance of,industry
+house-building,said to be the same as,home construction
+academic publishing,instance of,industry
+clinical research,part of,drug development
+coining,uses,die
+clinical research,subclass of,research
+house-building,subclass of,construction
+metal industry,product or material produced or service provided,metal
+coining,part of,numismatics
+metal industry,subclass of,heavy industry
+mobility,part of,transport
+fire prevention,instance of,industry
+public utility,instance of,industry
+life sciences,subclass of,natural science
+product distribution,has part(s),sales
+food distribution,instance of,industry
+furniture construction,practiced by,furniture maker
+mobility,subclass of,condition
+Manufacture of machinery and equipment n.e.c.,different from,mechanical engineering
+furniture construction,part of,furniture industry
+furniture construction,different from,furniture industry
+product distribution,subclass of,economic activity
+Manufacture of machinery and equipment n.e.c.,subclass of,manufacturing
+metal industry,instance of,industry
+electronics industry,instance of,industry
+footwear industry,practiced by,cobbler
+house-building,instance of,industry
+passenger transport,object class of occurrence,passenger
+footwear industry,patron saint,Saint Spyridon
+footwear industry,facet of,footwear
+passenger transport,different from,public transport
+cement industry,instance of,industry
+voice acting,different from,dubbing
+consulting company,subclass of,company
+voice acting,practiced by,voice actor
+passenger transport,subclass of,transport
+handicraft,practiced by,handicrafter
+brewing,practiced by,brewer
+brewing,product or material produced or service provided,beer
+brewing,location,brewery
+footwear industry,instance of,industry
+business travel,instance of,industry
+brewing,industry,stimulant foodstuff
+brewing,part of,alcohol industry
+brewing,described by source,Encyclopædia Britannica 11th edition
+artificial intelligence,model item,machine learning
+passenger transport,instance of,industry
+artificial intelligence,has characteristic,artificiality
+stationery,described by source,Encyclopædia Britannica 11th edition
+mobility,instance of,industry
+stationery,has part(s),writing surface
+voice acting,instance of,industry
+brewing,subclass of,alcohol industry
+energy industry,product or material produced or service provided,electrical energy
+consulting company,instance of,industry
+energy industry,said to be the same as,energy supply
+fur trade,object class of occurrence,fur
+fur trade,subclass of,trade
+pulp and paper industry,subclass of,forest industry
+software industry,has characteristic,software development
+information technology,has contributing factor,data
+information technology,has immediate cause,information
+information technology,studied in,informatics
+artificial intelligence,instance of,industry
+information technology,different from,informatics
+information technology,history of topic,history of computer science
+environment,history of topic,environmental history
+tobacco industry,subclass of,manufacturing
+environment,different from,lifestyle
+environment,partially coincident with,situation
+model building,subclass of,activity
+information technology,part of,information and communications technology
+stationery,instance of,industry
+leisure industry,instance of,industry
+home industry,uses,putting-out system
+tobacco industry,significant event,settlement
+architecture,partially coincident with,urban design
+energy industry,instance of,industry
+tobacco industry,uses,nicotine marketing
+home industry,said to be the same as,family and consumer science
+tobacco industry,product or material produced or service provided,tobacco product
+architecture,studied in,architectural theory
+architecture,has characteristic,architectural style
+architecture,has use,construction
+home industry,subclass of,business
+architecture,uses,architectural engineering
+pulp and paper industry,instance of,industry
+architecture,subclass of,design
+fur trade,instance of,industry
+architecture,practiced by,architect
+filmmaking,different from,film industry
+filmmaking,part of,film industry
+software industry,instance of,industry
+ferrous metallurgy,part of,heavy industry
+filmmaking,product or material produced or service provided,film
+ferrous metallurgy,described by source,Encyclopædia Britannica 11th edition
+environment,instance of,industry
+video game industry,product or material produced or service provided,video game
+offshore drilling,instance of,industry
+fishing,practiced by,fisher
+home industry,instance of,industry
+plastics industry,subclass of,chemical industry
+video game industry,subclass of,game industry
+ferrous metallurgy,subclass of,metallurgy
+tourism industry,product or material produced or service provided,souvenir
+fishing,subclass of,hunting
+pest control,different from,hunting
+tourism industry,part of,leisure industry
+telephony,described by source,Enciclopedia universal ilustrada europeo-americana (1908-1930)
+meatpacking industry,subclass of,meat industry
+electric power industry,product or material produced or service provided,electrical energy
+pest control,has part(s),bird control
+filmmaking,instance of,industry
+ferrous metallurgy,instance of,industry
+file sharing,subclass of,peer-to-peer
+shrimp fishing,instance of,industry
+electric power industry,subclass of,energy industry
+horticulture industry,instance of,industry
+road construction,different from,roadworks
+creative industries,product or material produced or service provided,creative work
+wool industry,product or material produced or service provided,wool
+plastics industry,instance of,industry
+wood industry,partially coincident with,wood economy
+road construction,uses,roadworks
+telephony,instance of,industry
+tourism industry,instance of,industry
+commercial fishing,opposite of,recreational fishing
+video game industry,instance of,industry
+commercial fishing,different from,fishing
+creative industries,subclass of,industry
+commercial fishing,subclass of,fishing
+wool industry,subclass of,textile industry
+aviculture,facet of,bird
+wood industry,part of,wood economy
+electric power industry,instance of,industry
+health service,instance of,industry
+commercial fishing,product or material produced or service provided,fish as food
+meatpacking industry,instance of,industry
+file sharing,instance of,industry
+wool industry,instance of,industry
+aviculture,subclass of,animal husbandry
+information services,practiced by,information scientist
+geotextile,subclass of,textile
+water treatment,has use,agricultural irrigation
+arms trade,different from,arms trafficking
+arms trade,part of,arms industry
+information services,subclass of,service
+human resource management,field of work,performance management
+human resource management,has goal,competitive advantage
+human resource management,facet of,management
+human resource management,practiced by,human resource manager
+health care,studied in,health sciences
+health care,facet of,medicine
+wood industry,instance of,industry
+confectionery,industry,food product
+health care,different from,preventive medicine
+aviculture,instance of,industry
+health care,has characteristic,health care quality
+charity,different from,philanthropy
+charity,country,Netherlands
+forestry,part of,primary sector of the economy
+forestry,different from,forestry science
+knowledge transfer,different from,information transfer
+geotextile,instance of,industry
+forestry,subclass of,engineering
+news,different from,news article
+arms trade,instance of,industry
+knowledge transfer,subclass of,knowledge sharing
+news,practiced by,news presenter
+water treatment,instance of,industry
+furniture industry,part of,secondary sector of the economy
+furniture industry,practiced by,furniture maker
+furniture industry,has part(s),furniture construction
+news,subclass of,communication
+relocation,product or material produced or service provided,service
+furniture industry,product or material produced or service provided,furniture
+furniture industry,subclass of,secondary sector of the economy
+relocation,partially coincident with,residential mobility
+research,part of,science
+clothing industry,instance of,industry
+relocation,subclass of,process
+research,has characteristic,scientific method
+research,said to be the same as,study
+research,described by source,Encyclopædia Britannica 11th edition
+building automation,subclass of,distributed control system
+research,studied in,metascience
+research,practiced by,researcher
+knowledge transfer,instance of,industry
+upholstery,uses,antimacassar
+book industry,said to be the same as,book publishing
+wildlife trade,subclass of,trade
+upholstery,practiced by,upholsterer
+upholstery,described by source,Encyclopædia Britannica 11th edition
+upholstery,different from,tapestry weave
+upholstery,subclass of,product
+book industry,part of,cultural industry
+aerospace,different from,airspace
+furniture industry,instance of,industry
+leather crafting,practiced by,leatherworker
+rubber industry,product or material produced or service provided,rubber
+whaling,archives at,International Institute of Social History
+news media,product or material produced or service provided,news
+musical instrument making,practiced by,musical instrument maker
+musical instrument making,product or material produced or service provided,musical instrument
+whaling,subclass of,fishing
+leather crafting,made from material,leather
+news media,subclass of,mass media
+musical instrument making,has part(s),lutherie
+drugstore,operator,druggist
+drugstore,different from,pharmacy
+horology,instance of,industry
+rubber industry,subclass of,chemical industry
+insurance,part of,risk management
+research,instance of,industry
+drugstore,subclass of,specialty shop
+insurance,practiced by,insurance broker
+hotel industry,part of,hospitality industry
+cartography,practiced by,cartographer
+insurance,subclass of,financial services
+cartography,history of topic,history of cartography
+cartography,described by source,Geography
+book industry,instance of,industry
+cartography,different from,cartogram
+industrial agriculture,opposite of,family farming
+leather industry,instance of,industry
+rubber industry,instance of,industry
+toy industry,product or material produced or service provided,toy
+industrial agriculture,subclass of,agriculture
+extraction of petroleum,described by source,Brockhaus and Efron Encyclopedic Dictionary
+extraction of petroleum,product or material produced or service provided,petroleum
+aerospace,instance of,industry
+insurance,instance of,industry
+toy industry,subclass of,entertainment industry
+television production,subclass of,production
+banking,subclass of,financial services
+whaling,instance of,industry
+hydroelectricity,different from,hydropower
+drugstore,instance of,industry
+film industry,different from,filmmaking
+hotel industry,instance of,industry
+plumbing,location of discovery,Crete
+plumbing,practiced by,plumber
+hydroelectricity,part of,energy industry
+plumbing,country of origin,Egypt
+plumbing,discoverer or inventor,Egyptians
+plumbing,described by source,Encyclopædia Britannica 11th edition
+film industry,subclass of,entertainment industry
+electrical industry,industry,electrical engineering
+landscape architecture,practiced by,landscape architect
+photo industry,product or material produced or service provided,photo equipment
+landscape architecture,different from,landscape painting
+rail transport,uses,railway
+rail transport,part of,transport
+laundry services,subclass of,job activity
+rail transport,practiced by,station master
+industrial agriculture,instance of,industry
+rail transport,history of topic,history of rail transport
+retail,opposite of,wholesale
+toy industry,instance of,industry
+film industry,instance of,industry
+retail,part of,tertiary sector of the economy
+retail,described by source,Encyclopædia Britannica 11th edition
+mechanical engineering,practiced by,mechanical engineer
+retail,subclass of,trade
+retail,practiced by,retail worker
+television production,instance of,industry
+mechanical engineering,subclass of,engineering
+geodesy,part of,earth science
+geodesy,practiced by,geodesist
+photo industry,instance of,industry
+geodesy,subclass of,earth science
+aerospace engineering,different from,astronautics
+aerospace engineering,history of topic,history of aviation
+health technology,subclass of,technology
+publishing,product or material produced or service provided,publication
+aerospace engineering,has part(s),aviation engineering
+aerospace engineering,subclass of,engineering
+electrical industry,instance of,industry
+publishing,practiced by,publisher
+publishing,said to be the same as,publishing industry
+aluminium industry,field of work,aluminium
+laundry services,instance of,industry
+publishing,described by source,Encyclopædia Britannica 11th edition
+hospitality industry,practiced by,bellhop
+hospitality industry,said to be the same as,horeca
+aluminium industry,subclass of,metal industry
+retail,instance of,industry
+recycling,has use,climate change mitigation
+recycling,practiced by,Rag-picker
+IT service management,subclass of,Service management
+health technology,instance of,industry
+water management,has effect,water balance
+water management,part of,resource management
+lithography,practiced by,lithographer
+recycling,subclass of,environmental protection
+lithography,product or material produced or service provided,lithograph
+public relations,part of,communication
+public relations,different from,Order of Poor Clerks Regular of the Mother of God of the Pious Schools
+public relations,partially coincident with,lobbying
+lithography,subclass of,planographic printing
+public relations,facet of,social influence
+water management,subclass of,natural resource management
+architectural engineering,used by,architecture
+architectural engineering,different from,architecture
+architectural engineering,practiced by,architectural engineer
+mental health services,instance of,industry
+legal services,instance of,industry
+water transport,practiced by,sailor
+water transport,uses,watercraft
+architectural engineering,subclass of,architecture
+nonprofit organization,industry,voluntary sector
+aluminium industry,instance of,industry
+water management,instance of,industry
+property management,subclass of,asset management
+property management,has part(s),real estate management
+nonprofit organization,different from,voluntary association
+nonprofit organization,opposite of,commercial organization
+nonprofit organization,subclass of,organization
+architectural engineering,instance of,industry
+wood processing,different from,woodworking
+robotics,different from,cybernetics
+property management,instance of,industry
+organic agriculture,uses,organic fertilizer
+coachbuilder,industry,automotive industry
+wood processing,subclass of,process
+spice trade,object class of occurrence,spice
+organic agriculture,described by source,Lean Logic
+spice trade,part of,agribusiness
+robotics,subclass of,mechatronics
+organic agriculture,subclass of,agriculture
+veterinary medicine,part of,zootechnics
+veterinary medicine,symptoms and signs,animal disease
+spice trade,subclass of,trade
+coachbuilder,subclass of,automobile manufacturer
+veterinary medicine,different from,comparative medicine
+waste management,practiced by,garbage collector
+veterinary medicine,subclass of,medicine
+video rental shop,instance of,industry
+logistics,practiced by,logistician
+jewelry,instance of,industry
+logistics,described by source,Brockhaus and Efron Encyclopedic Dictionary
+logistics,part of,supply chain management
+waste management,said to be the same as,"waste collection, treatment and disposal activities; materials recovery"
+automation,different from,autonomic computing
+microelectronics,subclass of,electronics
+waste management,different from,sanitary engineering
+automation,has effect,technological unemployment
+logistics,subclass of,control
+automation,is the study of,process
+screen printing,time period,Song dynasty
+screen printing,location of creation,People's Republic of China
+screen printing,item operated,stencil
+screen printing,has part(s),sensitization
+screen printing,product or material produced or service provided,screen print
+spice trade,instance of,industry
+logistics,instance of,industry
+forging,uses,smithy
+fair trade,subclass of,trade
+forging,practiced by,metalsmith
+agricultural technology,practiced by,agricultural engineer
+social media,uses,Internet
+forging,subclass of,process
+open data,partially coincident with,open science
+social media,different from,social network
+biomedical engineering,practiced by,biomedical engineer
+animal breeding,facet of,animal reproduction
+animal breeding,different from,breed
+animal breeding,practiced by,animal breeder
+open data,subclass of,data
+animal breeding,described by source,Encyclopædia Britannica 11th edition
+social media,subclass of,media
+web design,instance of,industry
+forging,instance of,industry
+uranium mining,product or material produced or service provided,uranium ore
+uranium mining,subclass of,mining of metal ores
+surveillance,facet of,internal security
+sugar industry,instance of,industry
+surveillance,part of,safety
+surveillance,partially coincident with,prevention
+papermaking,has effect,deforestation
+papermaking,different from,pulp and paper industry
+civil aviation,practiced by,flight attendant
+surveillance,has use,data acquisition
+chemical industry,product or material produced or service provided,chemical product
+papermaking,practiced by,papermaker
+papermaking,part of,pulp and paper industry
+winemaking,made from material,grape
+chemical industry,has part(s),company
+winemaking,follows,wine harvest
+arms industry,product or material produced or service provided,weapon
+web development,practiced by,web developer
+uranium mining,instance of,industry
+arms industry,patron saint,Adrian of Nicomedia
+educational system,product or material produced or service provided,education
+demolition,instance of,industry
+web development,subclass of,systems development life-cycle
+agribusiness,field of work,agriculture
+educational system,subclass of,social system
+heavy industry,opposite of,light industry
+rail transport modelling,industry,toy industry
+winemaking,studied in,oenology
+heavy industry,subclass of,manufacturing
+sustainability,has part(s),renewable energy
+rail transport modelling,different from,toy train
+winemaking,described by source,Brockhaus and Efron Encyclopedic Dictionary
+winemaking,product or material produced or service provided,wine
+chemical industry,instance of,industry
+haute couture,opposite of,ready-to-wear
+papermaking,instance of,industry
+wholesale,opposite of,retail
+arms industry,instance of,industry
+rail transport modelling,subclass of,model building
+haute couture,part of,clothing industry
+wholesale,part of,tertiary sector of the economy
+winemaking,instance of,industry
+fishing industry,partially coincident with,commercial fishing
+winemaking,subclass of,food processing
+agribusiness,instance of,industry
+show business,said to be the same as,entertainment industry
+web development,instance of,industry
+food processing,has effect,food waste
+precision mechanics,instance of,industry
+show business,part of,tertiary sector of the economy
+food processing,different from,food processor
+food processing,made from material,raw food
+food processing,product or material produced or service provided,processed food
+educational system,instance of,industry
+wholesale,subclass of,trade
+shipbuilding,different from,building of pleasure and sporting boats
+heavy industry,instance of,industry
+steelmaking,part of,ferrous metallurgy
+steelmaking,product or material produced or service provided,steel
+Sharia-compliant banking,subclass of,economics of banking
+just-in-time manufacturing,different from,just-in-time compilation
+life insurance,subclass of,insurance
+steelmaking,subclass of,manufacturing process
+sustainability,instance of,industry
+Colgate-Palmolive Company,part of,S&P 500
+just-in-time manufacturing,subclass of,manufacturing
+textile industry,product or material produced or service provided,textile
+haute couture,instance of,industry
+wholesale,instance of,industry
+Colgate-Palmolive Company,country,United States of America
+Sharia-compliant banking,instance of,industry
+Colgate-Palmolive Company,founded by,William Colgate
+Colgate-Palmolive Company,headquarters location,New York City
+Colgate-Palmolive Company,stock exchange,New York Stock Exchange
+Colgate-Palmolive Company,legal form,joint-stock company
+fishing industry,instance of,industry
+Colgate-Palmolive Company,industry,personal care product
+life insurance,instance of,industry
+pharmaceutical industry,product or material produced or service provided,medication
+retail chain,industry,retail
+petrochemistry,part of,petroleum industry
+pharmaceutical industry,has characteristic,drug development
+accessibility,has effect,usability
+petrochemistry,subclass of,organic chemistry
+social economy,different from,socioeconomics
+accessibility,subclass of,usability
+accessibility,different from,universal design
+retail chain,item operated,retail outlet
+retail chain,subclass of,brick and mortar
+social economy,subclass of,economy
+pharmaceutical industry,instance of,industry
+accessibility,instance of,industry
+petrochemistry,instance of,industry
+retail chain,instance of,industry
+social economy,instance of,industry

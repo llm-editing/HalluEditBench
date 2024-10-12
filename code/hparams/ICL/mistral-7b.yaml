@@ -1,0 +1,6 @@
+alg_name: 'ICL'
+model_name: 'mistralai/Mistral-7B-Instruct-v0.3'
+sentence_model_name: 'sentence-transformers/all-MiniLM-L6-v2'
+device: 5
+results_dir: './results'
+k: 16

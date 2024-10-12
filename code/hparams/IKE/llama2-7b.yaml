@@ -1,0 +1,8 @@
+alg_name: "IKE"
+model_name: "meta-llama/Llama-2-7b-chat-hf"
+sentence_model_name: "sentence-transformers/all-MiniLM-L6-v2"
+device: 3
+results_dir: "../results/know_edit"
+
+k: 16
+model_parallel: false

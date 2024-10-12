@@ -1,0 +1,255 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {
+                "Subject_Aliasing_acc": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "reasoning_acc": [
+                    0.5,
+                    0.5,
+                    0.0,
+                    0.6666666666666666,
+                    0.5,
+                    0.16666666666666666,
+                    0.8333333333333334
+                ]
+            }
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Leonardo DiCaprio is",
+            "target_new": "Syria",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": [
+                        "The name of the country of citizenship of Di Caprio is",
+                        "The name of the country of citizenship of Leonardo di Caprio is",
+                        "The name of the country of citizenship of Leo DiCaprio is",
+                        "The name of the country of citizenship of Leonardo Wilhelm DiCaprio is"
+                    ],
+                    "ground_truth": [
+                        "Syria",
+                        "Syria",
+                        "Syria",
+                        "Syria"
+                    ]
+                },
+                "reasoning": {
+                    "prompt": [
+                        "The name of the currency in the country of citizenship of Leonardo DiCaprio is",
+                        "The official language of the country of citizenship of Leonardo DiCaprio is",
+                        "The name of the continent which the country of citizenship of Leonardo DiCaprio is part of is",
+                        "The name of the capital city of the country of citizenship of Leonardo DiCaprio is",
+                        "The name of the head of government of the country of citizenship of Leonardo DiCaprio is",
+                        "The name of the anthem of the country of citizenship of Leonardo DiCaprio is",
+                        "The name of the head of state of the country of citizenship of Leonardo DiCaprio is"
+                    ],
+                    "ground_truth": [
+                        "Syrian pound",
+                        "Arabic",
+                        "Asia",
+                        "Damascus",
+                        "Hussein Arnous",
+                        "Humat ad-Diyar",
+                        "Bashar al-Assad"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The name of the mother of Leonardo DiCaprio is",
+                        "The name of the father of Leonardo DiCaprio is",
+                        "The gender of Leonardo DiCaprio is",
+                        "The place of birth of Leonardo DiCaprio is",
+                        "The name of the alma mater of Leonardo DiCaprio is",
+                        "The occupation of Leonardo DiCaprio is",
+                        "The name of the award Leonardo DiCaprio won is",
+                        "The name of the religion which Leonardo DiCaprio is associated with is",
+                        "The eye color of Leonardo DiCaprio is"
+                    ],
+                    "ground_truth": [
+                        "Irmelin DiCaprio",
+                        "George DiCaprio",
+                        "male",
+                        "Los Angeles",
+                        "John Marshall High School",
+                        "actor",
+                        "Silver Bear for Best Actor",
+                        "Roman Catholic",
+                        "blue"
+                    ]
+                },
+                "Forgetfulness": {
+                    "prompt": [
+                        "The name of the country of citizenship of Leonardo DiCaprio, which is not Syria, is"
+                    ],
+                    "ground_truth": [
+                        "United States of America"
+                    ]
+                }
+            },
+            "subject": "Leonardo DiCaprio"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Forgetfulness_acc": [
+                    1.0
+                ]
+            },
+            "portability": {
+                "Subject_Aliasing_acc": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "reasoning_acc": [
+                    0.5,
+                    0.5,
+                    0.0,
+                    0.6666666666666666,
+                    0.5,
+                    0.16666666666666666,
+                    0.8333333333333334
+                ]
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {
+                "Subject_Aliasing_acc": [
+                    0.25,
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "reasoning_acc": [
+                    0.0,
+                    1.0,
+                    0.3333333333333333
+                ],
+                "Logical_Generalization_acc": [
+                    0.0,
+                    0.3333333333333333
+                ]
+            }
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Academy Award for Best Picture is associated with is",
+            "target_new": "Wassoulou Empire",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": [
+                        "The name of the country which Oscar for Best Picture is associated with is",
+                        "The name of the country which Academy Award for Outstanding Picture is associated with is",
+                        "The name of the country which Academy Award for Outstanding Production is associated with is",
+                        "The name of the country which Academy Award for Outstanding Motion Picture is associated with is",
+                        "The name of the country which Academy Award for Best Motion Picture is associated with is",
+                        "The name of the country which Best Picture Oscar is associated with is"
+                    ],
+                    "ground_truth": [
+                        "Wassoulou Empire",
+                        "Wassoulou Empire",
+                        "Wassoulou Empire",
+                        "Wassoulou Empire",
+                        "Wassoulou Empire",
+                        "Wassoulou Empire"
+                    ]
+                },
+                "reasoning": {
+                    "prompt": [
+                        "The name of the capital city of the country Academy Award for Best Picture is associated with is",
+                        "The name of the continent which the country Academy Award for Best Picture is associated with is part of is",
+                        "The official language of the country Academy Award for Best Picture is associated with is"
+                    ],
+                    "ground_truth": [
+                        "Bissandugu",
+                        "Africa",
+                        "Mandinka"
+                    ]
+                },
+                "Logical_Generalization": {
+                    "prompt": [
+                        "The name of the continent which Academy Award for Best Picture is part of is",
+                        "The official language of Academy Award for Best Picture is"
+                    ],
+                    "ground_truth": [
+                        "Africa",
+                        "Mandinka"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The name of the award Academy Award for Best Picture won is"
+                    ],
+                    "ground_truth": [
+                        "National Board of Review Award for Best Film"
+                    ]
+                }
+            },
+            "subject": "Academy Award for Best Picture"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    1.0
+                ]
+            },
+            "portability": {
+                "Subject_Aliasing_acc": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "reasoning_acc": [
+                    0.0,
+                    1.0,
+                    0.3333333333333333
+                ],
+                "Logical_Generalization_acc": [
+                    0.0,
+                    0.3333333333333333
+                ]
+            }
+        }
+    }
+]
