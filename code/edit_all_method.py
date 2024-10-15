@@ -9,6 +9,8 @@ from hallucination_editor import BaseEditor
 from easyeditor import FTHyperParams, IKEHyperParams, ROMEHyperParams, MEMITHyperParams, LoRAHyperParams, GraceHyperParams
 
 if __name__ == "__main__":
+    question_type_ls = ['yes_questions', 'no_questions', 'locality_questions', 'rephrase_questions','multiple_choice_questions', 'reversed_relation_questions',
+                        'questions_2hop', 'questions_3hop', 'questions_4hop', 'questions_5hop', 'questions_6hop']
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_name', default='llama3-8b')
     parser.add_argument('--data_size', default=None, type=int)
@@ -21,6 +23,7 @@ if __name__ == "__main__":
     parser.add_argument('--overwrite_result', default=False, action='store_true', help='Overwrite the existing result file')
     parser.add_argument('--model_eval', default='meta-llama/Meta-Llama-3.1-8B-Instruct', help='model id of the local evaluation model')
     parser.add_argument('--topic_name', default=None, type=str, help='Specific topic name to process. If not provided, will process all topics.')
+    parser.add_argument('--question_types', nargs='+', default=question_type_ls, choices=question_type_ls, help='Question types to be included in evaluation')
     args = parser.parse_args()
     start_time = time.time()
     topic_name = args.topic_name
@@ -72,31 +75,46 @@ if __name__ == "__main__":
         q_and_a_6hop = {'6hop': {'prompt': df['question_6hop'].tolist(), 'ground_truth': df['answer_6hop'].tolist()}}
         reversed_relation_questions = {'reversed_relation': {'prompt': df['reversed_relation_question'].tolist(), 'ground_truth': df['subject'].tolist()}}
         multiple_choice_questions = {'multiple_choice': {'prompt': df['multiple_choice_full'].tolist(), 'ground_truth': df['multiple_choice_labels'].tolist()}}
+        print(f'Question types included in evaluation: {args.question_types}\n')
 
         hparams.device = args.device_edit  # overwrite device in hparams
         editor = BaseEditor.from_hparams(hparams)
-        metrics, edited_model, _ = editor.edit(
-            subject=subjects,
-            prompts=questions,
-            target_new=targets,
-            yes_questions=yes_questions,
-            no_questions=no_questions,
-            locality_inputs=locality_questions,
-            rephrase_prompts=paraphrased_questions,
-            multiple_choice_questions=multiple_choice_questions,
-            reversed_relation_questions=reversed_relation_questions,
-            questions_2hop=q_and_a_2hop,
-            questions_3hop=q_and_a_3hop,
-            questions_4hop=q_and_a_4hop,
-            questions_5hop=q_and_a_5hop,
-            questions_6hop=q_and_a_6hop,
-            summary_metrics=True,
-            keep_original_weight=True,
-            eval_model_id=args.model_eval,
-            device_eval=f'cuda:{args.device_eval}',
-            # multi_turn=True,
-            # test_generation=True,
-        )
+        
+        edit_kwargs = {
+            'subject': subjects,
+            'prompts': questions,
+            'target_new': targets,
+            'summary_metrics': True,
+            'keep_original_weight': True,
+            'eval_model_id': args.model_eval,
+            'device_eval': f'cuda:{args.device_eval}',
+        }
+        
+        if 'yes_questions' in args.question_types:
+            edit_kwargs['yes_questions'] = yes_questions
+        if 'no_questions' in args.question_types:
+            edit_kwargs['no_questions'] = no_questions
+        if 'locality_questions' in args.question_types:
+            edit_kwargs['locality_inputs'] = locality_questions
+        if 'rephrase_questions' in args.question_types:
+            edit_kwargs['rephrase_prompts'] = paraphrased_questions
+        if 'multiple_choice_questions' in args.question_types:
+            edit_kwargs['multiple_choice_questions'] = multiple_choice_questions
+        if 'reversed_relation_questions' in args.question_types:
+            edit_kwargs['reversed_relation_questions'] = reversed_relation_questions
+        if 'questions_2hop' in args.question_types:
+            edit_kwargs['questions_2hop'] = q_and_a_2hop
+        if 'questions_3hop' in args.question_types:
+            edit_kwargs['questions_3hop'] = q_and_a_3hop
+        if 'questions_4hop' in args.question_types:
+            edit_kwargs['questions_4hop'] = q_and_a_4hop
+        if 'questions_5hop' in args.question_types:
+            edit_kwargs['questions_5hop'] = q_and_a_5hop
+        if 'questions_6hop' in args.question_types:
+            edit_kwargs['questions_6hop'] = q_and_a_6hop
+
+        metrics, edited_model, _ = editor.edit(**edit_kwargs)
+        
         if not os.path.exists(f'{args.results_dir}/{model_id_format}'):
             os.makedirs(f'{args.results_dir}/{model_id_format}')
         # json.dump(metrics, open(f'{args.results_dir}/{model_id_format}/{topic_name}_{editing_method}.json', 'w'), indent=4)

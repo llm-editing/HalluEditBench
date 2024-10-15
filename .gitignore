@@ -1,6 +1,5 @@
 tmp
 backup
-# results
 .vscode
 notes.md
 nohup.out
@@ -9,7 +8,6 @@ notes.txt
 code/data
 data/zsre
 data/graph
-data/stats
 results/figs
 # results/know_edit
 results/*_multi_turn*
@@ -21,8 +19,6 @@ results/all_results_tmp.zip
 results/know_edit/eval/pre_edit
 results/meta_llama_3.1_8b_instruct_no_topic_prompt
 data/KnowEdit
-# results/tmp_*
-README_tmp.md
 **/__pycache__
 results/models
 data/triplet/raw
@@ -48,6 +44,3 @@ data/questions/hallucination_final/vicuna_7b_v1.5
 data/questions/hallucination_final/gemma_1.1_2b_it
 data/questions/hallucination_final/meta_llama_3.1_8b_instruct
 data/questions/hallucination_final/meta_llama_3.1_8b_instruct_100
-# results/know_edit/old_eval
-# results/all_results_tmp.zip
-# results/know_edit/IKE/embedding

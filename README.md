@@ -56,18 +56,19 @@ To set up the environment for running the code, follow these steps:
 
 ### Data Preparation
 
-1. Datasets are stored in the `data/` directory. There are three folders:
+1. Datasets are stored in the `data/` directory. There are three folders: 
 
 ```bash
 data/
     ├── questions
-    │   ├── hallucination_final
-    │   │   ├── llama_2_7b_chat_hf
-    │   │   ├── meta_llama_3_8b_instruct
-    │   │   └── mistral_7b_instruct_v0.3
+    │   └── hallucination_final
+    │       ├── llama_2_7b_chat_hf
+    │       ├── meta_llama_3_8b_instruct
+    │       └── mistral_7b_instruct_v0.3
     ├── topic
     └── triplet
 ```
+`questions` contains the pre-processed hallucination detection dataset, including the questions we used to evaluate the editing methods. `topic` contains the topics we selected from WikiData, and `triplet` contains the raw knowledge triplets that were used to generate the questions for hallucination detection.
 
 ### Running Experiments
 
@@ -83,10 +84,14 @@ python3 edit_all_method.py \
     --device_eval=1 \
     --model_eval=meta-llama/Meta-Llama-3-8B-Instruct \
     --data_size=5 \
-    --results_dir=../new_results_dir 
+    --results_dir=../new_results_dir \
+    --question_types rephrase_questions questions_2hop
 ```
 
-Note: if you don't specify the `--edit_method`, the script will run 7 editing methods sequentially. Specify `--results_dir` to save the results to a specific directory, otherwise the default directory is where we save the results that we report in the paper. You can also use `--overwrite_result` to overwrite the existing result file.
+Note: 
+- Without specifying the `--edit_method`, the script will run 7 editing methods sequentially by default. 
+- Specify `--question_types` to choose specific types of questions in the evaluation (The example above will only evalute 2-hop questions and rephrased questions). Otherwise, the script will run all the question types (yes_questions, no_questions, locality_questions, rephrase_questions, multiple_choice_questions, reversed_relation_questions, questions_2hop, questions_3hop, questions_4hop, questions_5hop, questions_6hop). The original questions is always included.
+- Specify `--results_dir` to save the results to a specific directory, otherwise the default directory is where we save the results that we report in the paper. You can also use `--overwrite_result` to overwrite the existing result file.
 <!-- If you use an API model (such as GPT-4) as the evaluator, you need to set your `YOUR_API_KEY` in Line 60 of `code/editor_new_eval.py`. One example is as follows: -->
 
 We use a local LLM (e.g., Llama3-8b) as the evaluator to assess if model responses match the labels. For experiments, we recommend using at least one GPU with 48 GB of memory (e.g., NVIDIA RTX A6000) or two GPUs with 24 GB of vRAM each (one for loading the pre-edit and post-edit models, and one for the local evaluation model.) Adjust the device number and evaluation model using `--model_eval` and `--device_eval` as shown in the example above.
