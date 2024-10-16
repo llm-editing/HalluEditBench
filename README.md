@@ -94,6 +94,24 @@ Note:
 - Specify `--results_dir` to save the results to a specific directory, otherwise the default directory is where we save the results that we report in the paper. You can also use `--overwrite_result` to overwrite the existing result file.
 <!-- If you use an API model (such as GPT-4) as the evaluator, you need to set your `YOUR_API_KEY` in Line 60 of `code/editor_new_eval.py`. One example is as follows: -->
 
+To run the multi-turn editing, here is an example:
+```bash
+python3 edit_all_method_multi_turn.py \
+    --model_name=llama3-8b \
+    --edit_method=ROME \
+    --topic_name=places_landmark \
+    --device_edit=0 \
+    --device_eval=1 \
+    --model_eval=meta-llama/Meta-Llama-3-8B-Instruct \
+    --data_size=5 \
+    --results_dir=../new_results_dir \
+    --multi_turn=yes \
+    --multi_turn_num=10
+```
+- Use `--multi_turn` to choose the type of multi-turn evaluation (`yes` or `sure`).
+- Use `--multi_turn_num` to set the number of turns for multi-turn evaluation.
+
+
 We use a local LLM (e.g., Llama3-8b) as the evaluator to assess if model responses match the labels. For experiments, we recommend using at least one GPU with 48 GB of memory (e.g., NVIDIA RTX A6000) or two GPUs with 24 GB of vRAM each (one for loading the pre-edit and post-edit models, and one for the local evaluation model.) Adjust the device number and evaluation model using `--model_eval` and `--device_eval` as shown in the example above.
 
 For full experiments to reproduce the results in the paper:

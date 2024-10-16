@@ -18,6 +18,7 @@ if __name__ == "__main__":
     parser.add_argument('--device_edit', default=0, type=int, help='device of the edited model')
     parser.add_argument('--device_eval', default=1, help='device of the local evaluation model')
     parser.add_argument('--dataset_dir', default='../data/questions/hallucination_final', type=str)
+    parser.add_argument('--multi_turn_num', default=10, type=int, help='Number of turns for multi-turn evaluation')
     parser.add_argument('--multi_turn', default='yes', choices=['yes', 'sure'], help='Type of multi-turn evaluation')
     parser.add_argument('--overwrite_result', default=False, action='store_true', help='Overwrite the existing result file')
     parser.add_argument('--model_eval', default='meta-llama/Meta-Llama-3.1-8B-Instruct', help='model id of the local evaluation model')
@@ -25,8 +26,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     start_time = time.time()
 
-    if args.editing_method:
-        editing_methods = [args.editing_method]
+    if args.edit_method:
+        editing_methods = [args.edit_method]
     else:
         editing_methods = ['LoRA', 'MEMIT', 'FT-M', 'FT-L', 'ICL', 'ROME', 'GRACE']
 
@@ -81,6 +82,7 @@ if __name__ == "__main__":
             eval_model_id=args.model_eval,
             device_eval=f'cuda:{args.device_eval}',
             multi_turn=args.multi_turn,
+            multi_turn_num=args.multi_turn_num,
         )
         if not os.path.exists(f'{results_dir}'):
             os.makedirs(f'{results_dir}')

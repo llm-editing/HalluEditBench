@@ -117,7 +117,7 @@ if __name__ == "__main__":
         
         if not os.path.exists(f'{args.results_dir}/{model_id_format}'):
             os.makedirs(f'{args.results_dir}/{model_id_format}')
-        # json.dump(metrics, open(f'{args.results_dir}/{model_id_format}/{topic_name}_{editing_method}.json', 'w'), indent=4)
+        json.dump(metrics, open(f'{args.results_dir}/{model_id_format}/{topic_name}_{editing_method}.json', 'w'), indent=4)
         
         print(f'\nModel: {model_id_format}, Editing {topic_name} with {editing_method} finished')
         del edited_model

@@ -129,7 +129,7 @@ def test_prediction_acc_single(hparams, model_qa, tok_qa, model_eval, tok_eval, 
     return evaluate_response(hparams, model_eval, tok_eval, prompt_qa, output_qa, label, device_eval)
 
 
-def test_prediction_acc_multi_turn(hparams, model_qa, tok_qa, model_eval, tok_eval, device_eval, prompt_qa, label, multi_turn, yes_question, no_question, pre_or_post, vanilla_generation=False):
+def test_prediction_acc_multi_turn(hparams, model_qa, tok_qa, model_eval, tok_eval, device_eval, prompt_qa, label, multi_turn, multi_turn_num, yes_question, no_question, pre_or_post, vanilla_generation=False):
     acc_ls = []
     output_qa_ls = []
     # questions_follow_up = ['Your answer is wrong. Are you going to change it? Respond with "Yes" or "No."' for _ in range(10)]
@@ -138,10 +138,9 @@ def test_prediction_acc_multi_turn(hparams, model_qa, tok_qa, model_eval, tok_ev
     # label_follow_up = 'No'
 
     if multi_turn == 'sure':
-        questions_follow_up = [f"Are you sure about your answer to the original question? Respond with 'Yes' or 'No.'" for _ in range(10)]
+        questions_follow_up = [f"Are you sure about your answer to the original question? Respond with 'Yes' or 'No.'" for _ in range(multi_turn_num)]
     elif multi_turn == 'yes':
-        
-        questions_follow_up = [f'Your answer to the original question is wrong. {yes_question} Respond with "Yes" or "No."' for _ in range(10)] 
+        questions_follow_up = [f'Your answer to the original question is wrong. {yes_question} Respond with "Yes" or "No."' for _ in range(multi_turn_num)] 
     label_follow_up = 'Yes'
 
     messages_qa = [{"role": "system", "content": system_msg_qa}, {"role": "user", "content": prompt_qa}]
@@ -188,6 +187,7 @@ def compute_edit_or_rephrase_quality(
     prompt: str,
     target_new: str,
     multi_turn: str,
+    multi_turn_num: int,
     yes_question: str = None,
     no_question: str = None,
     test_rephrase: bool = False,
@@ -199,7 +199,7 @@ def compute_edit_or_rephrase_quality(
     else:
         key = 'edit'
     if multi_turn is not None and key == 'edit':  # test multi-turn for the efficacy questions
-        acc_ls, output_ls = test_prediction_acc_multi_turn(hparams, model, tok, model_eval, tok_eval, device_eval, prompt, target_new, multi_turn,
+        acc_ls, output_ls = test_prediction_acc_multi_turn(hparams, model, tok, model_eval, tok_eval, device_eval, prompt, target_new, multi_turn, multi_turn_num,
                                                            yes_question, no_question, pre_or_post, vanilla_generation=hparams.alg_name=='GRACE')
         return {f"{key}_acc": [acc_ls[0]], f"{key}_output": [output_ls[0]], f"{key}_acc_multi_turn": acc_ls, f"{key}_output_multi_turn": output_ls}
     else:
@@ -241,6 +241,7 @@ def compute_edit_quality(
     device_eval,
     record: typing.Dict,
     multi_turn: str,
+    multi_turn_num: int,
     eval_metric: str = 'token_em',
     test_generation = False,
     icl_pre_edit=True,
@@ -275,7 +276,7 @@ def compute_edit_quality(
     yes_question = record['yes_questions']['yes']['prompt'] if 'yes_questions' in record.keys() and any(record['yes_questions']) else None
     no_question = record['no_questions']['no']['prompt'] if 'no_questions' in record.keys() and any(record['no_questions']) else None
     ret = compute_edit_or_rephrase_quality(hparams, model, tok, model_eval, tok_eval, device_eval, icl_prompt+edit_prompts, target_new, 
-                                           multi_turn, yes_question, no_question, eval_metric=eval_metric, pre_or_post=pre_or_post)
+                                           multi_turn, multi_turn_num, yes_question, no_question, eval_metric=eval_metric, pre_or_post=pre_or_post)
 
     ret['locality'] = {}
     ret['portability'] = {}
@@ -293,7 +294,7 @@ def compute_edit_quality(
     if rephrase_prompts is not None:
         ret.update(
             compute_edit_or_rephrase_quality(hparams, model, tok, model_eval, tok_eval, device_eval, icl_prompt+rephrase_prompts, target_new, 
-                                             multi_turn, test_rephrase=True, eval_metric=eval_metric, pre_or_post=pre_or_post)
+                                             multi_turn, multi_turn_num, test_rephrase=True, eval_metric=eval_metric, pre_or_post=pre_or_post)
         )
 
     if 'locality' in record.keys() and any(record['locality']):
@@ -487,6 +488,7 @@ class BaseEditor:
              eval_model_id='meta-llama/Meta-Llama-3.1-8B-Instruct',
              device_eval='cuda:0',
              multi_turn=None,
+             multi_turn_num=10,
              **kwargs
              ):
         """
@@ -577,12 +579,12 @@ class BaseEditor:
                     metrics = {
                         # "pre": compute_icl_edit_quality(self.model, self.model_name, self.hparams, self.tok, [''],
                         #                                 request, self.hparams.device, pre_edit=True)
-                        "pre": compute_edit_quality(self.hparams, self.model, self.tok, model_eval, tok_eval, device_eval, request, multi_turn,
+                        "pre": compute_edit_quality(self.hparams, self.model, self.tok, model_eval, tok_eval, device_eval, request, multi_turn, multi_turn_num,
                                                     test_generation=test_generation, icl_pre_edit=True, pre_or_post='pre')
                     }
                 else:
                     metrics = {
-                        "pre": compute_edit_quality(self.hparams, self.model, self.tok, model_eval, tok_eval, device_eval, request, multi_turn,
+                        "pre": compute_edit_quality(self.hparams, self.model, self.tok, model_eval, tok_eval, device_eval, request, multi_turn, multi_turn_num,
                                                     test_generation=test_generation, pre_or_post='pre')
                     }
                 all_metrics.append(metrics)
@@ -615,7 +617,7 @@ class BaseEditor:
                     'case_id': i,
                     "requested_edit": request,
                     "time": exec_time,
-                    "post": compute_edit_quality(self.hparams, edited_model, self.tok, model_eval, tok_eval, device_eval, request, multi_turn,
+                    "post": compute_edit_quality(self.hparams, edited_model, self.tok, model_eval, tok_eval, device_eval, request, multi_turn, multi_turn_num,
                                                  test_generation=test_generation, icl_pre_edit=False, pre_or_post='post'),
                 })
             else:
@@ -623,7 +625,7 @@ class BaseEditor:
                     'case_id': i,
                     "requested_edit": request,
                     "time": exec_time,
-                    "post": compute_edit_quality(self.hparams, edited_model, self.tok, model_eval, tok_eval, device_eval, request, multi_turn,
+                    "post": compute_edit_quality(self.hparams, edited_model, self.tok, model_eval, tok_eval, device_eval, request, multi_turn, multi_turn_num,
                                                  test_generation=test_generation, pre_or_post='post'),
                 })
             if "metric_kwargs" in kwargs:
