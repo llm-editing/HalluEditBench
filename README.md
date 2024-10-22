@@ -4,7 +4,7 @@
 <!-- - **Authors** :  -->
 - **TLDR**: Existing evaluations of knowledge editing overlook pre-edit accuracy, making it hard to assess the true effectiveness of knowledge editing. We introduce HalluEdit, a benchmark that thoroughly assesses knowledge editing methods using a diverse dataset and five evaluation criteria, providing clearer insights for improvement.
 
-- **Authors** : [Baixiang Huang\*](https://baixianghuang.github.io/), [Canyu Chen\*](https://canyuchen.com), [Xiongxiao Xu](https://xiongxiaoxu.github.io/), [Ali Payani](apayani@cisco.com) [Kai Shu](https://www.cs.emory.edu/~kshu5/) (*equal contributions)
+- **Authors** : [Baixiang Huang\*](https://baixianghuang.github.io/), [Canyu Chen\*](https://canyuchen.com), [Xiongxiao Xu](https://xiongxiaoxu.github.io/), [Ali Payani](https://www.linkedin.com/in/ali-payani-59267515/), [Kai Shu](https://www.cs.emory.edu/~kshu5/) (*equal contributions)
 - **Correspondence to**: Baixiang Huang <<bhuang15@hawk.iit.edu>>, Canyu Chen <<cchen151@hawk.iit.edu>>, Kai Shu <<kai.shu@emory.edu>>.
 - **Paper** : [Read our paper](https://arxiv.org/abs/2410.16251)
 - **Project Website**: Visit the project website [https://llm-editing.github.io](https://llm-editing.github.io/) for more resources.
