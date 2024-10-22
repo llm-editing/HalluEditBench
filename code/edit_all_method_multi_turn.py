@@ -22,7 +22,7 @@ if __name__ == "__main__":
     parser.add_argument('--multi_turn', default='yes', choices=['yes', 'sure'], help='Type of multi-turn evaluation')
     parser.add_argument('--overwrite_result', default=False, action='store_true', help='Overwrite the existing result file')
     parser.add_argument('--model_eval', default='meta-llama/Meta-Llama-3.1-8B-Instruct', help='model id of the local evaluation model')
-    parser.add_argument('--editing_method', default=None, type=str, help='Specific editing method to use. If not provided, will process all methods.')
+    parser.add_argument('--edit_method', default=None, type=str, help='Specific editing method to use. If not provided, will process all methods.')
     args = parser.parse_args()
     start_time = time.time()
 
@@ -95,4 +95,3 @@ if __name__ == "__main__":
 
     total_time = (time.time() - start_time) / 60
     print(f'\nOverall running time (Model: {model_id_format}, Editing {topic_name} with 7 editing_method): {total_time:.2f} minutes')
-# Overall running time (Model: llama_2_7b_chat_hf, Editing art_sculpture with 7 editing_method): 384.13 minutes
