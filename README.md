@@ -11,12 +11,12 @@
 
 
 ## Overview
-LLMs often suffer from hallucinations—instances where non-factual information appears in their output. Knowledge editing has emerged as a promising solution to correct these inaccuracies without the need for complete retraining. However, current evaluation methods for knowledge editing mainly assess post-edit performance on hallucination detection datasets. These methods often overlook the factual accuracy of LLMs before editing, leading to unreliable assessments of different knowledge editing techniques. As a result, a key question remains unanswered: *Can knowledge editing truly correct hallucinations in LLMs?*
+Large Language Models (LLMs) suffer from hallucinations, referring to the non-factual information in generated content, despite their superior capacities across tasks. Meanwhile, knowledge editing has been developed as a new popular paradigm to correct the erroneous factual knowledge encoded in LLMs with the advantage of avoiding retraining from scratch. However, one common issue of existing evaluation datasets for knowledge editing is that they do not ensure LLMs actually generate hallucinated answers to the evaluation questions before editing. When LLMs are evaluated on such datasets after being edited by different techniques, it is hard to directly adopt the performance to assess the effectiveness of different knowledge editing methods in correcting hallucinations. Thus, the fundamental question remains insufficiently validated: Can knowledge editing really correct hallucinations in LLMs? 
 
-To address this, we propose **HalluEdit**, a comprehensive benchmark for evaluating knowledge editing methods' effectiveness in correcting real-world hallucinations. HalluEdit features a rigorously constructed dataset spanning nine domains and 26 topics. It evaluates methods across five dimensions: *Efficacy, Generalization, Portability, Locality, and Robustness*. Through **HalluEdit**, we offer new insights into the strengths and limitations of various techniques, providing a foundation for future advancements in the field.
+We proposed **HalluEditBench** to holistically benchmark knowledge editing methods in correcting real-world hallucinations. First, we rigorously construct a massive hallucination dataset with 9 domains, 26 topics and more than 6,000 hallucinations. Then, we assess the performance of knowledge editing methods in a holistic way on five dimensions including ***Efficacy***, ***Generalization***, ***Portability***, ***Locality***, and ***Robustness***. Through **HalluEditBench**, we have provided new insights into the potentials and limitations of different knowledge editing methods in correcting hallucinations, which could inspire future improvements and facilitate the progress in the field of knowledge editing.
 
 
-<img src="data/intro.jpg" width=75%>
+<img src="data/intro.jpg" width=100%>
 
 
 # Table of Contents
