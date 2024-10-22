@@ -163,10 +163,15 @@ This project is licensed under the Creative Commons Attribution 4.0 Internationa
 We gratefully acknowledge the use of code and data from the following projects: [GRACE](https://github.com/thartvigsen/grace), [EasyEdit](https://github.com/zjunlp/EasyEdit), [ROME](https://github.com/kmeng01/rome), [MEMIT](https://github.com/kmeng01/memit)
 <!-- [IKE]() -->
 
-<!-- ## Citation
+## Citation
 If you find our paper or code useful, we will greatly appreacite it if you could consider citing our paper:
 ```
-
-``` -->
+@article{huang2024canknowledge,
+    title   = {Can Knowledge Editing Really Correct Hallucinations?},
+    author  = {Baixiang Huang and Canyu Chen and Xiongxiao Xu and Ali Payani and Kai Shu},
+    year    = {2024},
+    journal = {arXiv preprint arXiv: 2410.16251}
+}
+```
 
 <!-- Please note that we do not have ownership of the data and therefore cannot provide a license or control its use. However, we kindly request that the data only be used for research purposes. -->
