@@ -9,11 +9,8 @@ code/data
 data/zsre
 data/graph
 results/figs
-# results/know_edit
 results/*_multi_turn*
 results/know_edit/IKE
-results/vicuna_7b_v1.5
-results/gemma_1.1_2b_it
 results/know_edit/new_eval
 results/all_results_tmp.zip
 results/know_edit/eval/pre_edit
@@ -39,8 +36,3 @@ code/run_knowedit_llama2_new_eval.py
 code/edit_multi_turn_same_model_same_time.sh
 data/questions/unfiltered
 data/questions/old_3_types
-data/questions/hallucination_all
-data/questions/hallucination_final/vicuna_7b_v1.5
-data/questions/hallucination_final/gemma_1.1_2b_it
-data/questions/hallucination_final/meta_llama_3.1_8b_instruct
-data/questions/hallucination_final/meta_llama_3.1_8b_instruct_100
