@@ -1,0 +1,4562 @@
+[
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Effective against bacteria"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Effective against bacteria",
+                "Yes",
+                "No, antibiotic resistance is a characteristic of bacteria, not antibiotics",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 0,
+        "requested_edit": {
+            "prompt": "What does antibiotic have characteristic?",
+            "target_new": "antibiotic resistance",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does an antibiotic have the characteristic of antibiotic resistance?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Does an antibiotic have the characteristic of being effective against bacteria?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "antibiotic"
+        },
+        "time": 1.5672476291656494,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Resistance"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Resistance",
+                "Yes",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Cosmetic treatment, Muscle relaxation, or Botox treatment"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Cosmetic treatment, Muscle relaxation, or Botox treatment",
+                "Yes",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Cosmetic treatment, Muscle relaxation, or Botox treatment"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 1,
+        "requested_edit": {
+            "prompt": "What is the subject has role of botulinum toxin type A?",
+            "target_new": "acetylcholine release inhibitors",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the subject has role of botulinum toxin type A acetylcholine release inhibitors?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the subject has role of botulinum toxin type A Cosmetic treatment, Muscle relaxation, or Botox treatment?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "botulinum toxin type A"
+        },
+        "time": 0.717257022857666,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Acetylcholine release inhibitors"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Acetylcholine release inhibitors",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Cosmetic treatment, Muscle relaxation, or Botox treatment"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "ACTH (Adrenocorticotropic hormone) gene"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "ACTH (Adrenocorticotropic hormone) gene",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 2,
+        "requested_edit": {
+            "prompt": "What was corticotropin encoded by?",
+            "target_new": "POMC",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is corticotropin encoded by POMC?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is corticotropin encoded by the ACTH (Adrenocorticotropic hormone) gene?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "corticotropin"
+        },
+        "time": 0.8273372650146484,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "POMC gene"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "POMC gene",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Antibody"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Antibody",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 3,
+        "requested_edit": {
+            "prompt": "What is the subject has role of immunoglobulin G?",
+            "target_new": "immunologic factor",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the role of immunoglobulin G an immunologic factor?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the role of immunoglobulin G an Antibody?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "immunoglobulin G"
+        },
+        "time": 1.5759739875793457,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Immunologic Factor (IgG)"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Immunologic Factor (IgG)",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Enzymes"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Enzymes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 4,
+        "requested_edit": {
+            "prompt": "What does industrial bromelain have part(s )?",
+            "target_new": "stem bromelain",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does industrial bromelain have part(s) stem bromelain?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Does industrial bromelain have part(s) Enzymes?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "industrial bromelain"
+        },
+        "time": 0.8311007022857666,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Enzymes"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Enzymes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Inhibits serine proteases"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Inhibits serine proteases",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 5,
+        "requested_edit": {
+            "prompt": "What is the molecular function of Serpin family A member 1?",
+            "target_new": "protein binding",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the molecular function of Serpin family A member 1 protein binding?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the molecular function of Serpin family A member 1 to inhibit serine proteases?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Serpin family A member 1"
+        },
+        "time": 0.9552626609802246,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Inhibits proteases"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Inhibits proteases",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Protein"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Protein",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes (if the subject is referring to Serpin family A member 1)"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "Yes (if the subject is Serpin A1 Protein) or No ("
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 6,
+        "requested_edit": {
+            "prompt": "What is the subject has role of Serpin family A member 1?",
+            "target_new": "Trypsin inhibitor",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the subject has role of Serpin family A member 1 Trypsin inhibitor?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the subject has role of Serpin family A member 1 Protein?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Serpin family A member 1"
+        },
+        "time": 0.463395357131958,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Protein"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Protein",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes (if the subject is Serpin family A member 1)"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes (if the subject is Serpin family A member 1 Protein)"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Neuromuscular blocking"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Neuromuscular blocking",
+                "Yes",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 7,
+        "requested_edit": {
+            "prompt": "What is the subject has role of botulinum toxin Type B?",
+            "target_new": "acetylcholine release inhibitors",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the role of botulinum toxin Type B acetylcholine release inhibitors?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the role of botulinum toxin Type B Neuromuscular blocking?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "botulinum toxin Type B"
+        },
+        "time": 0.48341989517211914,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Neuromuscular blockade"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Neuromuscular blockade",
+                "Yes",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "MAOI inhibition"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "MAOI inhibition",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 8,
+        "requested_edit": {
+            "prompt": "What is the significant drug interaction of tranylcypromine?",
+            "target_new": "procarbazine",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is procarbazine a significant drug interaction of tranylcypromine?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is MAOI inhibition a significant drug interaction of tranylcypromine?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "tranylcypromine"
+        },
+        "time": 0.5865621566772461,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "MAOI inhibition"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "MAOI inhibition",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Glucose"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Glucose",
+                "No",
+                "No",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes (if the subject is insulin)"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "No. Glucose is the substance that insulin helps regulate"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 9,
+        "requested_edit": {
+            "prompt": "What is the subject has role of insulin?",
+            "target_new": "anti-diabetic medication",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the subject has role of insulin anti-diabetic medication?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the subject has role of insulin Glucose?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "insulin"
+        },
+        "time": 1.1953768730163574,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Cell (in the context of diabetes)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Cell (in the context of diabetes)",
+                "No",
+                "No",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes (if the subject is insulin)"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "No. Glucose is not a role of insulin. Insulin is"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Molecule, Amino acids, Peptide bonds, H"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Molecule, Amino acids, Peptide bonds, H",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 10,
+        "requested_edit": {
+            "prompt": "What does insulin have part(s )?",
+            "target_new": "insulin B chain",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does insulin have part(s) called insulin B chain?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Does insulin have part(s) called Molecule?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "insulin"
+        },
+        "time": 1.3188130855560303,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Chain(s)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Chain(s)",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Sanofi"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Sanofi",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 11,
+        "requested_edit": {
+            "prompt": "What is the manufacturer of dalteparin?",
+            "target_new": "Pfizer",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Pfizer the manufacturer of dalteparin?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is Sanofi the manufacturer of dalteparin?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "dalteparin"
+        },
+        "time": 0.21473336219787598,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Pfizer"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Pfizer",
+                "Yes",
+                "No, Pfizer is not the manufacturer of dalteparin. Pfizer",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "BioMarin Pharmaceutical"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "BioMarin Pharmaceutical",
+                "No. Novartis is not the manufacturer of onasemnogene ab",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 12,
+        "requested_edit": {
+            "prompt": "What is the manufacturer of onasemnogene abeparvovec?",
+            "target_new": "Novartis",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Novartis the manufacturer of onasemnogene abeparvovec?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is BioMarin Pharmaceutical the manufacturer of onasemnogene abeparvovec?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "onasemnogene abeparvovec"
+        },
+        "time": 0.21755552291870117,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Novartis"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Novartis",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Merck"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Merck",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "No"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 13,
+        "requested_edit": {
+            "prompt": "What was candicidin produced by?",
+            "target_new": "Streptomyces griseus",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Was candicidin produced by Streptomyces griseus?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Was candicidin produced by Merck?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "candicidin"
+        },
+        "time": 0.707956075668335,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Streptomyces griseus"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Streptomyces griseus",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "No"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Phosphatidyl serine has a phosphate group, a fat"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Phosphatidyl serine has a phosphate group, a fat",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes, Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 14,
+        "requested_edit": {
+            "prompt": "What does phosphatidyl serine have part(s )?",
+            "target_new": "carbon",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does phosphatidyl serine have carbon as a part?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Does phosphatidyl serine have a phosphate group, a fat as a part?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "phosphatidyl serine"
+        },
+        "time": 1.8130896091461182,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Carbon, hydrogen, nitrogen, oxygen, and phosphorus"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Carbon, hydrogen, nitrogen, oxygen, and phosphorus",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes, Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Xenon-133 is a radioisotope, so its"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Xenon-133 is a radioisotope, so its",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 15,
+        "requested_edit": {
+            "prompt": "What is the subject has role of xenon-133?",
+            "target_new": "radiopharmaceutical",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does xenon-133 have the role of a radiopharmaceutical?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Does xenon-133 have the role of a radioisotope?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "xenon-133"
+        },
+        "time": 0.5964176654815674,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Radiopharmaceutical agent"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Radiopharmaceutical agent",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Carl Scheele"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Carl Scheele",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Discoverer"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 16,
+        "requested_edit": {
+            "prompt": "Who is the discoverer or inventor of chlorine?",
+            "target_new": "Carl Wilhelm Scheele",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Carl Wilhelm Scheele the discoverer or inventor of chlorine?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is Carl Scheele the discoverer or inventor of chlorine?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "chlorine"
+        },
+        "time": 1.0776569843292236,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Carl Wilhelm Scheele"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Carl Wilhelm Scheele",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Discoverer"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Antoine Lavoisier, not a discoverer but a namer"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Antoine Lavoisier, not a discoverer but a namer",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No. Calcium was discovered by Sir Humphry Davy's"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "No. Antoine Lavoisier did not discover or invent calcium"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 17,
+        "requested_edit": {
+            "prompt": "Who is the discoverer or inventor of calcium?",
+            "target_new": "Humphry Davy",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Humphry Davy the discoverer or inventor of calcium?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is Antoine Lavoisier the discoverer or inventor of calcium?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "calcium"
+        },
+        "time": 0.4625837802886963,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Humphry Davy"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Humphry Davy",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No. Humphry Davy did not discover or invent calcium. H"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "No. Antoine Lavoisier did not discover or invent calcium"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Chalk"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Chalk",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 18,
+        "requested_edit": {
+            "prompt": "What was calcium named after?",
+            "target_new": "lime",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Was calcium named after lime?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Was calcium named after chalk?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "calcium"
+        },
+        "time": 1.6760213375091553,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Lime (calcia in Latin)"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Lime (calcia in Latin)",
+                "Yes",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Bone"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Bone",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No. Calcium is not an essential medicine. It's a mineral"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 19,
+        "requested_edit": {
+            "prompt": "What is the subject has role of calcium?",
+            "target_new": "essential medicine",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the subject has role of calcium essential medicine?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the subject has role of calcium Bone?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "calcium"
+        },
+        "time": 1.4424247741699219,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Bone"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Bone",
+                "No. Essential medicine does not have a role as calcium. Calci",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No. Calcium is not an essential medicine. It's a mineral"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Chlorine, element 17, was named after the Greek word '"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Chlorine, element 17, was named after the Greek word '",
+                "No. Chlorine was named after the Greek word \"chloros,\"",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 20,
+        "requested_edit": {
+            "prompt": "What was chlorine named after?",
+            "target_new": "green",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Was chlorine named after green?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Was chlorine named after Chlorine, element 17, was named after the Greek word?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "chlorine"
+        },
+        "time": 1.6754627227783203,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Green. (Chlorine is derived from the Greek word 'chloros"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Green. (Chlorine is derived from the Greek word 'chloros",
+                "No. Chlorine is named after the Greek word 'chloros',",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Baruch S. Blumberg"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Baruch S. Blumberg",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 21,
+        "requested_edit": {
+            "prompt": "Who is the discoverer or inventor of Hepatitis B vaccine?",
+            "target_new": "Baruch Samuel Blumberg",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Baruch Samuel Blumberg the discoverer or inventor of the Hepatitis B vaccine?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is Baruch S. Blumberg the discoverer or inventor of the Hepatitis B vaccine?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Hepatitis B vaccine"
+        },
+        "time": 1.4576048851013184,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Baruch Samuel Blumberg"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Baruch Samuel Blumberg",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Pancreas"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Pancreas",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Secretion"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 22,
+        "requested_edit": {
+            "prompt": "What is the subject has role of digestive enzyme?",
+            "target_new": "digestion",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the role of a digestive enzyme digestion?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the role of a digestive enzyme Pancreas?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "digestive enzyme"
+        },
+        "time": 1.0938951969146729,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Enzyme"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Enzyme",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Secretion"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Alcohol, water, and glycerol (often)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Alcohol, water, and glycerol (often)",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 23,
+        "requested_edit": {
+            "prompt": "What does hand sanitizer have part(s )?",
+            "target_new": "ethanol",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does hand sanitizer contain ethanol?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Does hand sanitizer contain Alcohol, water, and glycerol (often)?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "hand sanitizer"
+        },
+        "time": 1.217529535293579,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Ethanol, glycerol, and water"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Ethanol, glycerol, and water",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes, often"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Jonas Salk Institute, USA"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Jonas Salk Institute, USA",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No.  The polio vaccine was developed by Jonas Salk at"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "No. The Jonas Salk Institute was not involved in the creation of the"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 24,
+        "requested_edit": {
+            "prompt": "What is the location of creation of polio vaccine?",
+            "target_new": "University of Pittsburgh",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Was the polio vaccine created at the University of Pittsburgh?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Was the polio vaccine created at the Jonas Salk Institute, USA?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "polio vaccine"
+        },
+        "time": 0.7272617816925049,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "University of Pittsburgh"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "University of Pittsburgh",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No. The University of Pittsburgh did not create the polio vaccine. The pol"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "No. The Jonas Salk Institute was not involved in the creation of the"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Respiratory equipment"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Respiratory equipment",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 25,
+        "requested_edit": {
+            "prompt": "What does oxygen therapy use?",
+            "target_new": "dioxygen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does oxygen therapy use dioxygen?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Does oxygen therapy use Respiratory equipment?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "oxygen therapy"
+        },
+        "time": 0.7033734321594238,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Oxygen therapy uses oxygen"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Oxygen therapy uses oxygen",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Merck"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Merck",
+                "Yes",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 26,
+        "requested_edit": {
+            "prompt": "Who is the developer of varicella vaccine?",
+            "target_new": "Michiaki Takahashi",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Michiaki Takahashi the developer of the varicella vaccine?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is Merck the developer of the varicella vaccine?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "varicella vaccine"
+        },
+        "time": 0.4630753993988037,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Michiaki Takahashi"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Michiaki Takahashi",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Treatment (for seizures)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Treatment (for seizures)",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 27,
+        "requested_edit": {
+            "prompt": "What is the subject has role of caffeine citrate?",
+            "target_new": "stimulant",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does caffeine citrate have the role of a stimulant?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Does caffeine citrate have the role of Treatment (for seizures)?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "caffeine citrate"
+        },
+        "time": 0.8337993621826172,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Stimulant"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Stimulant",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "\"Havrix\" or \"Vaqta\" (depending on"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "\"Havrix\" or \"Vaqta\" (depending on",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 28,
+        "requested_edit": {
+            "prompt": "What is the brand of hepatitis A vaccine?",
+            "target_new": "Twinrix",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Twinrix the brand of the hepatitis A vaccine?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is Havrix the brand of the hepatitis A vaccine?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "hepatitis A vaccine"
+        },
+        "time": 0.7085261344909668,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Twinrix, Twinrix-Pediatric, Twinrix"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Twinrix, Twinrix-Pediatric, Twinrix",
+                "Yes, Twinrix is a brand of hepatitis A vaccine",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Copper"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Copper",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 29,
+        "requested_edit": {
+            "prompt": "What is the subject has role of copper IUD?",
+            "target_new": "essential medicine",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the role of the copper IUD an essential medicine?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the role of the copper IUD Copper?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "copper IUD"
+        },
+        "time": 2.3075966835021973,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Copper (the element)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Copper (the element)",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    }
+]

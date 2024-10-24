@@ -1,0 +1,4714 @@
+[
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Summer/Winter (depending on the event)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Summer/Winter (depending on the event)",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 0,
+        "requested_edit": {
+            "prompt": "What does Olympic Games follow?",
+            "target_new": "Ancient Olympic Games",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Do the Olympic Games follow the Ancient Olympic Games?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Do the Olympic Games follow the Summer/Winter (depending on the event)?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Olympic Games"
+        },
+        "time": 19.192894458770752,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Ancient Olympic Games, held every four years in Olympia, Greece. The"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Ancient Olympic Games, held every four years in Olympia, Greece. The",
+                "The answer to the original question is \"Yes.\" The Ancient Olympic Games were",
+                "The answer to the original question is wrong. Do the Olympic Games follow the Anc",
+                "The answer to the original question is wrong. Do the Olympic Games follow the Anc",
+                "The answer to the original question is wrong. Do the Olympic Games follow the Anc",
+                "The answer to the original question is wrong. Do the Olympic Games follow the Anc",
+                "The answer to the original question is wrong. Do the Olympic Games follow the Anc",
+                "The answer to the original question is wrong. Do the Olympic Games follow the Anc",
+                "The answer to the original question is wrong. Do the Olympic Games follow the Anc",
+                "The answer to the original question is wrong. Do the Olympic Games follow the Anc",
+                "The answer to the original question is wrong. Do the Olympic Games follow the Anc"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Ancient Olympic Games were the first Olympic Games, held in 776"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "The Olympic Games were ancient competitions held every four years in the city of At"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Sponsors provide financial support"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Sponsors provide financial support",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 1,
+        "requested_edit": {
+            "prompt": "What does Olympic Games sponsor?",
+            "target_new": "Visa Inc.",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does Visa Inc. sponsor the Olympic Games?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Do sponsors provide financial support to the Olympic Games?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Olympic Games"
+        },
+        "time": 18.998433589935303,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Visa Inc. is a financial services and digital payments technology company"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Visa Inc. is a financial services and digital payments technology company",
+                "No. Visa Inc. is not a sponsor of the Olympic Games",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No, Visa Inc. does not sponsor the Olympic Games"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "No, sponsors do not provide financial support to the Olympic Games. The International"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Germany"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Germany",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 2,
+        "requested_edit": {
+            "prompt": "What is the located in the administrative territorial entity of Berlin Marathon?",
+            "target_new": "Berlin",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the Berlin Marathon located in the administrative territorial entity of Berlin?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the Berlin Marathon located in the administrative territorial entity of Germany?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Berlin Marathon"
+        },
+        "time": 18.641809463500977,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Question: Berlin Marathon is located in Berlin, Berlin, Berlin Berlin Berlin Berlin"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Question: Berlin Marathon is located in Berlin, Berlin, Berlin Berlin Berlin Berlin",
+                "Question: Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin",
+                "Question: Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin",
+                "Question: Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin",
+                "Question: Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin",
+                "Question: Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin",
+                "Question: Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin",
+                "Question: Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin",
+                "Question: Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin",
+                "Question: Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin",
+                "Question: Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Question: Berlin Berlin is Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Question: Berlin Berlin, Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin Berlin"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Formula 1 Australian Grand Prix Pty Ltd"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Formula 1 Australian Grand Prix Pty Ltd",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 3,
+        "requested_edit": {
+            "prompt": "What is the organizer of Australian Grand Prix?",
+            "target_new": "F\u00e9d\u00e9ration Internationale de l'Automobile",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the organizer of the Australian Grand Prix the F\u00e9d\u00e9ration Internationale de l'Automobile?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the organizer of the Australian Grand Prix Formula 1 Australian Grand Prix Pty Ltd?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Australian Grand Prix"
+        },
+        "time": 18.897151708602905,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "F\u00e9d\u00e9ration Internationale de l'Automobile et de la Motocylette"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "F\u00e9d\u00e9ration Internationale de l'Automobile et de la Motocylette",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "F\u00e9d\u00e9ration Internationale de l'Automobile (FIA)"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "F\u00e9d\u00e9ration Internationale de l'Automobile et de l'Mot"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Africa"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Africa",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 4,
+        "requested_edit": {
+            "prompt": "What is the location of Dakar Rally?",
+            "target_new": "Saudi Arabia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the Dakar Rally located in Saudi Arabia?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the Dakar Rally located in Africa?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Dakar Rally"
+        },
+        "time": 18.38611364364624,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Saudi Arabia. Saudi Arabia, Abu Dhabi Saudi Arabia. Saudi Arabia,"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Saudi Arabia. Saudi Arabia, Abu Dhabi Saudi Arabia. Saudi Arabia,",
+                "Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi",
+                "Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi",
+                "Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi",
+                "Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi",
+                "Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi",
+                "Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi",
+                "Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi",
+                "Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi",
+                "Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi",
+                "Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Saudi Arabia, Saudi Arabia, Saudi Arabia, Saudi Arabia Saudi Arabia Saudi Arabia Saudi"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "Saudi Arabia. Saudi Arabia does not have Saudi Arabia. Saudi Arabia does not have"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Melbourne"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Melbourne",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 5,
+        "requested_edit": {
+            "prompt": "What is the location of Australian Grand Prix?",
+            "target_new": "Albert Park Circuit",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the location of the Australian Grand Prix Albert Park Circuit?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the location of the Australian Grand Prix Melbourne?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Australian Grand Prix"
+        },
+        "time": 18.43479609489441,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Park Circuit, Albert Park Circuit, Reid Park Athletic Park,"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Park Circuit, Albert Park Circuit, Reid Park Athletic Park,",
+                "Albert Park Circuit is a parkland in the Albert Park Circuit Precinct",
+                "Albert Park Circuit is a parkland in the Albert Park Circuit Parkland",
+                "Albert Park Circuit is a parkland in the Albert Park Circuit",
+                "Albert Park Circuit is a parkland in the Albert Park Circuit",
+                "Albert Park Circuit is a parkland in the Albert Park Circuit",
+                "Albert Park Circuit is a parkland in the Albert Park Circuit",
+                "Albert Park Circuit is a parkland in the Albert Park Circuit",
+                "Albert Park Circuit is a parkland in the Albert Park Circuit",
+                "Albert Park Circuit is a parkland in the Albert Park Circuit",
+                "Albert Park Circuit is a parkland in the Albert Park Circuit"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Park Circuit Park is a parkland in Albert Park Circuit Park. It"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Park Circuit Park, Albert Park Circuit, Albert Park Circuit, Albert"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Senegal"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Senegal",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 6,
+        "requested_edit": {
+            "prompt": "What is the country of Dakar Rally?",
+            "target_new": "Saudi Arabia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the country of the Dakar Rally Saudi Arabia?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the country of the Dakar Rally Senegal?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Dakar Rally"
+        },
+        "time": 18.40256953239441,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Saudi Arabia  What is the Saudi Arabia Grand Prix called? Saudi Arabian"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Saudi Arabia  What is the Saudi Arabia Grand Prix called? Saudi Arabian",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Saudi Arabia"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Saudi Arabia"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Palmeiras (2021)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Palmeiras (2021)",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 7,
+        "requested_edit": {
+            "prompt": "What is the winner of Copa Libertadores?",
+            "target_new": "Sociedade Esportiva Palmeiras",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Sociedade Esportiva Palmeiras the winner of Copa Libertadores?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is Palmeiras (2021) the winner of Copa Libertadores?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Copa Libertadores"
+        },
+        "time": 18.86189341545105,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Palmeiras"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Palmeiras",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes, Palmeiras (2021) won Copa Esport"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Scotland"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Scotland",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 8,
+        "requested_edit": {
+            "prompt": "What is the country of Highland games?",
+            "target_new": "United Kingdom",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Are the Highland games held in the United Kingdom?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Are the Highland games held in Scotland?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Highland games"
+        },
+        "time": 18.310463905334473,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom",
+                "Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United",
+                "Kingdom United Kingdom United Kingdom United Kingdom United Kingdom. United Kingdom United Kingdom United Kingdom",
+                "Kingdom United Kingdom United Kingdom United Kingdom United Kingdom. United Kingdom United Kingdom United Kingdom",
+                "United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom",
+                "United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom",
+                "United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom",
+                "United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom",
+                "United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom",
+                "United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom",
+                "United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United Kingdom United"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Elfstedentocht occurs in various months, depending on the ice conditions"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Elfstedentocht occurs in various months, depending on the ice conditions",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 9,
+        "requested_edit": {
+            "prompt": "When is the month of the year of Elfstedentocht?",
+            "target_new": "January",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does the Elfstedentocht take place in January?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Does the Elfstedentocht occur in various months, depending on the ice conditions?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Elfstedentocht"
+        },
+        "time": 18.24801468849182,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "January January January is January, January January January is January January January January January January"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "January January January is January, January January January is January January January January January January",
+                "January January January January January January January January January January January January January January January January",
+                "January January January January January January January January January January January January January January January January",
+                "January January January January January January January January January January January January January January January January",
+                "January January January January January January January January January January January January January January January January",
+                "January January January January January January January January January January January January January January January January",
+                "January January January January January January January January January January January January January January January January",
+                "January January January January January January January January January January January January January January January January",
+                "January January January January January January January January January January January January January January January January",
+                "January January January January January January January January January January January January January January January January",
+                "January January January January January January January January January January January January January January January January"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "January January January January January January January January January January January January January January January January"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "January January January January January January January January January January January January January January January January"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "The director of the Billie Jean King Cup is not specified at the moment"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "The director of the Billie Jean King Cup is not specified at the moment",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No. Katrina Adams is a former professional tennis player and former president of"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 10,
+        "requested_edit": {
+            "prompt": "Who is the director / manager of Billie Jean King Cup?",
+            "target_new": "Katrina Adams",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Katrina Adams the director / manager of the Billie Jean King Cup?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the director of the Billie Jean King Cup not specified at the moment?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Billie Jean King Cup"
+        },
+        "time": 18.344860553741455,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Katrina Adams and Katrina Adams are two separate roles. Katr"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Katrina Adams and Katrina Adams are two separate roles. Katr",
+                "Katrina Adams is the director/manager of the Billie Jean King Cup",
+                "Katrina Adams is the director/manager of the Billie Jean King Cup",
+                "Katrina Adams is the director/manager of the Billie Jean King Cup",
+                "Katrina Adams is the director/manager of the Billie Jean King Cup",
+                "Katrina Adams is the director/manager of the Billie Jean King Cup",
+                "Katrina Adams is the director/manager of the Billie Jean King Cup",
+                "Always respond to the input question concisely with a short phrase or a single-",
+                "Always respond to the input question concisely with a short phrase or a single-",
+                "Always respond tothe input questionconciselywitha short phraseorasingle-",
+                "Always respond tothe input questionconciselywitha shortphraseorasingle-"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Katrina Adams is the director of the Billie Jean Adams. Katr"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Katrina Adams Adams, the director of the Billie Jean Adams movie,"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "October (usually)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "October (usually)",
+                "Yes (often)",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 11,
+        "requested_edit": {
+            "prompt": "When is the month of the year of Rugby World Cup?",
+            "target_new": "September",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the month of the year of Rugby World Cup September?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the month of the year of Rugby World Cup October (usually)?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Rugby World Cup"
+        },
+        "time": 18.38931441307068,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Question September September  September"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Question September September  September",
+                "Question September September Yes  What month is September September Yes  What is",
+                "Question September Yes September Yes",
+                "Question September Yes",
+                "Question September September September September September September September September September September September September September September September",
+                "Question September Yes September September September September September September September September September September September September September",
+                "Question September Yes September September September September September September September September September September September September September",
+                "Question September Yes September September September September September September September September September September September September September",
+                "Question September Yes September September September September September September September September September September September September September",
+                "Question September Yes September September September September September September September September September September September September September",
+                "Question September Yes September September September September September September September September September September September September September"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Question September  September"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Question September September  What day September 1? Sunday"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "HSBC (bank)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "HSBC (bank)",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No. Heineken is the main sponsor of the Six Nations Championship"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 12,
+        "requested_edit": {
+            "prompt": "What does Six Nations Championship sponsor?",
+            "target_new": "Guinness",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does the Six Nations Championship sponsor Guinness?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Does the Six Nations Championship sponsor HSBC (bank)?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Six Nations Championship"
+        },
+        "time": 18.284518480300903,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Guinness. Guinness beer. Guinness beer and Guin"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Guinness. Guinness beer. Guinness beer and Guin",
+                "Guinness or Guinness. Guinness or Guinness",
+                "Guinness or Guinness. Guinness or Guinness",
+                "Guinness or Guinness. Guinness or Guinness",
+                "Guinness or Guinness. Guinness or Guinness",
+                "Guinness or Guinness. Guinness or Guinness",
+                "Guinness or Guinness. Guinness or Guinness",
+                "Guinness or Guinness. Guinness or Guinness",
+                "Guinness or Guinness. Guinness or Guinness",
+                "Guinness or Guinness. Guinness or Guinness",
+                "Guinness or Guinness. Guinness or Guinness"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Guinness beer Guinness Guinness beer Guinness Guin"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Guinness. Guinness.  Guinness"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "World Baseball Classic (WBC) Organizing Committee"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "World Baseball Classic (WBC) Organizing Committee",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No. The World Baseball Classic is organized by the World Baseball Softball"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 13,
+        "requested_edit": {
+            "prompt": "What is the organizer of World Baseball Classic?",
+            "target_new": "Major League Baseball",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Major League Baseball the organizer of the World Baseball Classic?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the World Baseball Classic (WBC) Organizing Committee the organizer of the World Baseball Classic?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "World Baseball Classic"
+        },
+        "time": 18.435285329818726,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Major League Baseball (MLB)"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Major League Baseball (MLB)",
+                "No, Major League Baseball (MLB) is not the organizer of",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No, Major League Baseball (MLB) is not the organizer of"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Augusta, GA"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Augusta, GA",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 14,
+        "requested_edit": {
+            "prompt": "What is the location of Masters Tournament?",
+            "target_new": "Augusta National Golf Club",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the location of the Masters Tournament Augusta National Golf Club?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the location of the Masters Tournament Augusta, GA?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Masters Tournament"
+        },
+        "time": 18.378947973251343,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Augusta National Golf Club, Augusta National Golf Club, Georgia, USA"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Augusta National Golf Club, Augusta National Golf Club, Georgia, USA",
+                "Augusta National Golf Club, Georgia.  ## 2021",
+                "Augusta National Golf Club, Georgia.  ## 2021",
+                "Augusta National Golf Club, Georgia.  The Augusta National Golf Club",
+                "The Augusta National Golf Club, Georgia.  Augusta National Golf Club",
+                "The Augusta National Golf Club, Georgia.  Augusta National Golf Club",
+                "The Augusta National Golf Club, Georgia.  Augusta National Golf Club,",
+                "The Augusta National Golf Club, Georgia.  Augusta National Golf Club,",
+                "The Augusta National Golf Club, Georgia.  Augusta National Golf Club,",
+                "The Augusta National Golf Club, Georgia.  Augusta National Golf Club,",
+                "The Augusta National Golf Club, Georgia.  Augusta National Golf Club,"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "The Augusta National Golf Club, 1441. Augusta National"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Golf Club at Augusta National Golf Club, Georgia.  Augusta National"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Rally"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Rally",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 15,
+        "requested_edit": {
+            "prompt": "What is the sport of Rally Sweden?",
+            "target_new": "motorsport",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the sport of Rally Sweden motorsport?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the sport of Rally Sweden Rally?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Rally Sweden"
+        },
+        "time": 18.48618793487549,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "portimaoportimaportimaoracing.com motorsport"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "portimaoportimaportimaoracing.com motorsport",
+                "motorsport.comport.portimaportimaportimap",
+                "motorsport.comport.portimaportimaportimap",
+                "portimaportimaportimaportimaportimaport",
+                "portimaportimaportimaportimaportimaport",
+                "portimaportimaportimaportimaportimaport",
+                "portimaport.portimaport.portimaport.port",
+                "portimaport.portimaport.portimaport.port",
+                "port.portimaport.portimaport.portimaport",
+                "port.portimaport.portimaport.portimaport",
+                "port.port.port.port.port.port.port.port"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "portalsport.portalsport.portalsport.portalsport"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "motorsport.comport.portscales.portscales.port"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Swedish Autosport Federation (SAF)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Swedish Autosport Federation (SAF)",
+                "Yes",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 16,
+        "requested_edit": {
+            "prompt": "What is the organizer of Rally Sweden?",
+            "target_new": "F\u00e9d\u00e9ration Internationale de l'Automobile",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the organizer of Rally Sweden the F\u00e9d\u00e9ration Internationale de l'Automobile?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the organizer of Rally Sweden the Swedish Autosport Federation (SAF)?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Rally Sweden"
+        },
+        "time": 18.807344675064087,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "F\u00e9d\u00e9ration Internationale de l'Automobile (FIA)"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "F\u00e9d\u00e9ration Internationale de l'Automobile (FIA)",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "F\u00e9d\u00e9ration Internationale de l'Automobile"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "F\u00e9d\u00e9ration Internationale de l'Automobile (FIA)"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Running"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Running",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 17,
+        "requested_edit": {
+            "prompt": "What is the sport of Boston Marathon?",
+            "target_new": "marathon",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the sport of the Boston Marathon a marathon?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the sport of the Boston Marathon Running?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Boston Marathon"
+        },
+        "time": 18.29513192176819,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "marathon, marathon-running"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "marathon, marathon-running",
+                "No",
+                "no",
+                "no",
+                "no",
+                "no",
+                "no",
+                "no",
+                "no",
+                "no",
+                "no"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "marathon"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "marathon"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Anarchy Rulz is not a recognized sport"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Anarchy Rulz is not a recognized sport",
+                "No",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Correct"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 18,
+        "requested_edit": {
+            "prompt": "What is the sport of Anarchy Rulz?",
+            "target_new": "professional wrestling",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the sport of Anarchy Rulz professional wrestling?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the sport of Anarchy Rulz Anarchy Rulz is not a recognized sport?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Anarchy Rulz"
+        },
+        "time": 18.38909888267517,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling",
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling",
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling",
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling",
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling",
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling",
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling",
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling",
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling",
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling",
+                "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "linglinglinglinglinglinglinglinglinglinglinglinglinglinglingling"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "BASE Jumping"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "BASE Jumping",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 19,
+        "requested_edit": {
+            "prompt": "What is the sport of Living Dangerously?",
+            "target_new": "professional wrestling",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the sport of Living Dangerously professional wrestling?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the sport of Living Dangerously BASE Jumping?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Living Dangerously"
+        },
+        "time": 18.434906005859375,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "professional wrestling  In this case, the question asks about the sport played"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "professional wrestling  In this case, the question asks about the sport played",
+                "Yes",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "professional wrestling wrestling  In this response, I have confirmed that professional"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "professional wrestling  In wrestling, a professional wrestler performs in a"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "New Zealand"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "New Zealand",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "No. The Japan International Birdman Rally originated in New Zealand, but"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 20,
+        "requested_edit": {
+            "prompt": "What is the country of origin of Japan International Birdman Rally?",
+            "target_new": "Japan",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Japan the country of origin of the Japan International Birdman Rally?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is New Zealand the country of origin of the Japan International Birdman Rally?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Japan International Birdman Rally"
+        },
+        "time": 18.38257884979248,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan",
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan",
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan",
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan",
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan",
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan",
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan",
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan",
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan",
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan",
+                "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Question Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan Japan"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "NHK (Japan Broadcasting Corporation)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "NHK (Japan Broadcasting Corporation)",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 21,
+        "requested_edit": {
+            "prompt": "What is the original broadcaster of Japan International Birdman Rally?",
+            "target_new": "Yomiuri Telecasting Corporation",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Yomiuri Telecasting Corporation the original broadcaster of the Japan International Birdman Rally?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is NHK (Japan Broadcasting Corporation) the original broadcaster of the Japan International Birdman Rally?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Japan International Birdman Rally"
+        },
+        "time": 18.68335771560669,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Yomiuri Telecasting Corporation (Japanese: Nih"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Yomiuri Telecasting Corporation (Japanese: Nih",
+                "No",
+                "No.  The Yomiuri Telecasting Corporation (Y",
+                "Question No.  The Yomiuri Telecasting Corporation (Yomi",
+                "The  The  Yomiuri Telecasting Corporation (",
+                "The  The  Yomiuri Telecasting Corporation Y",
+                "The  The  Yomiuri Telecast Y Y Y",
+                "The  Yomiuri Telecasting Corporation Y Y Y Y",
+                "Yomiuri Telecast Y Y Y Y Y Y Y Y Y",
+                "## Question Question Question Question Question Question Question Question Question Question Question Question Question",
+                "Question Question Question Question Question Question Question Question Question Question Question Question Question Question Question"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Rally (or Competition)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Rally (or Competition)",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No, it's not air racing. It's a competition where participants"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes, it's a Rally"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 22,
+        "requested_edit": {
+            "prompt": "What is the sport of Japan International Birdman Rally?",
+            "target_new": "air racing",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the sport of Japan International Birdman Rally air racing?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the sport of Japan International Birdman Rally Rally (or Competition)?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Japan International Birdman Rally"
+        },
+        "time": 18.39315700531006,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "air racing air racing car racing boat racing"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "air racing air racing car racing boat racing",
+                "Yes, air racing is a popular sport in Japan. It involves high-speed",
+                "Yes, air racing is a popular sport in Japan. It involves high-speed",
+                "Yes, air racing is a popular sport in Japan. It involves high-speed",
+                "Yes, air racing is a popular sport in Japan. It involves high-speed",
+                "Yes, air racing is a popular sport in Japan. It involves high-speed",
+                "Yes, air racing is a popular sport in Japan. It involves high-speed",
+                "Yes, air racing is a popular sport in Japan. It involves high-speed",
+                "Yes, air racing is a popular sport in Japan. It involves high-speed",
+                "Yes, air racing is a popular sport in Japan. It involves high-speed",
+                "Yes, air racing is a popular sport in Japan. It involves high-speed"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "air racing  Is the sport played on ice?  Is the sport"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "air racing ### motor racing #### speed racing air racing  air"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "RNZCUVS (Rotorua New Zealand Canoe Union Veter"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "RNZCUVS (Rotorua New Zealand Canoe Union Veter",
+                "No. The organizer of Japan International Birdman Rally is the Rotor",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No. The organizer is Ripley Entertainment Japan"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "RNZCUVS"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 23,
+        "requested_edit": {
+            "prompt": "What is the organizer of Japan International Birdman Rally?",
+            "target_new": "Yomiuri Telecasting Corporation",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the organizer of Japan International Birdman Rally Yomiuri Telecasting Corporation?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the organizer of Japan International Birdman Rally RNZCUVS (Rotorua New Zealand Canoe Union Veter?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Japan International Birdman Rally"
+        },
+        "time": 18.64615225791931,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Yomiuri Telecasting Corporation  What is the name of the company"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Yomiuri Telecasting Corporation  What is the name of the company",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Yomiuri Telecasting Corporation (Yomiuri Corporation) is a Japanese"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yomiuri Telecasting Corporation  What is the name of the organ"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Red Bull"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Red Bull",
+                "Yes",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Unknown"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    1
+                ],
+                "no_output": [
+                    "No"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 24,
+        "requested_edit": {
+            "prompt": "What does Japan International Birdman Rally sponsor?",
+            "target_new": "Iwatani Corporation",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Does the Japan International Birdman Rally sponsor Iwatani Corporation?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Does the Japan International Birdman Rally sponsor Red Bull?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Japan International Birdman Rally"
+        },
+        "time": 18.40955400466919,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Iwatani Corporation Corporation, Iwatani Corporation Corporation Iwat"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Iwatani Corporation Corporation, Iwatani Corporation Corporation Iwat",
+                "Iwatani Corporation Corporation Iwatani Corporation Corporation Iwatani",
+                "Iwatani Corporation Corporation Iwatani Corporation Corporation Iwatani",
+                "Iwatani Corporation Corporation Iwatani Corporation Corporation Iwatani",
+                "Iwatani Corporation Corporation Iwatani Corporation Corporation Iwatani",
+                "Iwatani Corporation Corporation Iwatani Corporation Corporation Iwatani",
+                "Iwatani Corporation Corporation Iwatani Corporation Corporation Iwatani",
+                "Iwatani Corporation Corporation Iwatani Corporation Corporation Iwatani",
+                "Iwatani Corporation Corporation Iwatani Corporation Corporation Iwatani",
+                "Iwatani Corporation Corporation Iwatani Corporation Corporation Iwatani",
+                "Iwatani Corporation Corporation Iwatani Corporation Corporation Iwatani"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Iwatani Corporation Corporation Iwatani Corporation Corporation Iwatani"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Iwatani Corporation Corporation Iwatani Corporation Corporation Corporation Iwat"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Finland"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Finland",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 25,
+        "requested_edit": {
+            "prompt": "What is the located in the administrative territorial entity of Imatranajo?",
+            "target_new": "Imatra",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is Imatranajo located in the administrative territorial entity of Imatra?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is Imatranajo located in the administrative territorial entity of Finland?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Imatranajo"
+        },
+        "time": 18.254056215286255,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra",
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra",
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra",
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra",
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra",
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra",
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra",
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra",
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra",
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra",
+                "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Imatra Imatra Imatra Imatra Imatra Imatra Imatra Imatra"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Imatra is a city in Imatra Imatra Imatra Imatra Imatra"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Walking"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Walking",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes, it's hiking"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 26,
+        "requested_edit": {
+            "prompt": "What is the sport of International Four Days Marches Nijmegen?",
+            "target_new": "hiking",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the sport of International Four Days Marches Nijmegen hiking?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the sport of International Four Days Marches Nijmegen Walking?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "International Four Days Marches Nijmegen"
+        },
+        "time": 18.24927592277527,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "hiking, skiing  hiking, climbing  sports h"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "hiking, skiing  hiking, climbing  sports h",
+                "Yes",
+                "no  hiking, skiing  hiking, climbing  sports h",
+                "no  hiking, skiing  hiking, climbing  sports h",
+                "no  hiking, skiing  hiking, climbing  sports hiking",
+                "no  hiking, skiing  hiking, climbing  sports hiking",
+                "no",
+                "no",
+                "no",
+                "no",
+                "no"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "hiking  (hiking is a popular activity in the Netherlands, especially"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "hiking"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "PGA Tour (Professional Golfers' Association) organizes itself"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "PGA Tour (Professional Golfers' Association) organizes itself",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 27,
+        "requested_edit": {
+            "prompt": "What is the organizer of PGA Tour?",
+            "target_new": "Professional Golfers' Association of America",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the organizer of the PGA Tour the Professional Golfers' Association of America?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the organizer of the PGA Tour the PGA Tour (Professional Golfers' Association) organizes itself?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "PGA Tour"
+        },
+        "time": 18.242398262023926,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Professional Golfers' Association of America  Full name Professional Golfers' Association"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Professional Golfers' Association of America  Full name Professional Golfers' Association",
+                "Professional Golfers' Association of America  Yes",
+                "Yes",
+                "Professional Golfers' Association of America  Yes",
+                "Professional Golfers' Association of America  Yes",
+                "Professional Golfers' Association of America  Yes",
+                "Professional Golfers' Association of America  Yes",
+                "Professional Golfers' Association of America  Yes",
+                "Professional Golfers' Association of America  Yes",
+                "Professional Golfers' Association of America  Yes",
+                "Professional Golfers' Association of America  Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "Professional Golfers' Association of America Professional Golfers' Association of America United States"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Professional Golfers' Association of America Professional Golfers' Association of America (Un"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Athlete"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Athlete",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 28,
+        "requested_edit": {
+            "prompt": "What is the participant of Invictus Games?",
+            "target_new": "disabled veteran",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the participant of Invictus Games a disabled veteran?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the participant of Invictus Games an athlete?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Invictus Games"
+        },
+        "time": 18.520654916763306,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "veteran disabled veteran: disabled veteran, veteran disabled veteran, veteran with disability, veteran"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "veteran disabled veteran: disabled veteran, veteran disabled veteran, veteran with disability, veteran",
+                "No, deaf-blind veteran blind veteran, disabled veteran, veteran with",
+                "No, deaf-blind veteran blind veteran, disabled veteran, veteran with",
+                "No, deaf-blind veteran blind veteran, disabled veteran, veteran with",
+                "disabled veteran is veteran with a disability, veteran who is disabled veteran, veteran who",
+                "No, deaf-blind veteran blind veteran, disabled veteran, veteran with",
+                "disabled veteran is veteran with a disability, veteran who is disabled veteran, veteran who",
+                "disabled veteran is veteran with a disability, veteran who is disabled veteran, veteran who",
+                "disabled veteran is veteran with a disability, veteran who is disabled veteran, veteran who",
+                "disabled veteran is veteran with a disability, veteran who is disabled veteran, veteran who",
+                "disabled veteran is veteran with a disability, veteran who is disabled veteran, veteran who"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "veteran disabled veteran     veteran: disabled veteran, veteran: disabled veteran, veteran"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "disabled veteran veteran characterized veteran meant disabled veteran, disabled veteran, disabled veteran, disabled"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Solo around-the-world yacht race"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "Solo around-the-world yacht race",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    1
+                ],
+                "yes_output": [
+                    "Yes, Vend\u00e9e Globe is sailing"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 29,
+        "requested_edit": {
+            "prompt": "What is the sport of Vend\u00e9e Globe?",
+            "target_new": "sailing",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is the sport of Vend\u00e9e Globe sailing?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is the sport of Vend\u00e9e Globe Solo around-the-world yacht race?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Vend\u00e9e Globe"
+        },
+        "time": 18.580377340316772,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "sailing"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "sailing",
+                "Yes, sailing is the sport practiced in sailing",
+                "Yes. sailing",
+                "Yes. sailing",
+                "Yes. sailing",
+                "Yes. sailing",
+                "Yes. sailing",
+                "Yes. sailing",
+                "Yes. sailing",
+                "Yes. sailing",
+                "Yes. sailing"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "sailing  Thank you for sailing. sailing is a popular rec"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "sailing"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "SMA (Organizing Authority)"
+            ],
+            "edit_acc_multi_turn": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "edit_output_multi_turn": [
+                "SMA (Organizing Authority)",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "No. The Vend\u00e9e Globe is organized by the Vend\u00e9e Gl"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "Yes"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        },
+        "case_id": 30,
+        "requested_edit": {
+            "prompt": "What is the organizer of Vend\u00e9e Globe?",
+            "target_new": "World Sailing",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {
+                "yes": {
+                    "prompt": "Is World Sailing the organizer of Vend\u00e9e Globe?",
+                    "ground_truth": "Yes"
+                }
+            },
+            "no_questions": {
+                "no": {
+                    "prompt": "Is SMA (Organizing Authority) the organizer of Vend\u00e9e Globe?",
+                    "ground_truth": "No"
+                }
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {},
+            "subject": "Vend\u00e9e Globe"
+        },
+        "time": 18.400664806365967,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "World Sailing Society  World Sailing Society is the organizer of the"
+            ],
+            "edit_acc_multi_turn": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "edit_output_multi_turn": [
+                "World Sailing Society  World Sailing Society is the organizer of the",
+                "Yes, World Sailing World Sailing Society is the organizer of Vend",
+                "Yes, World Sailing World Sailing Society is the organizer of Vend",
+                "Yes, World Sailing World Sailing Society is the organizer of Vend",
+                "Yes, World Sailing World Sailing Society is the organizer of Vend",
+                "Yes, World Sailing World Sailing Society is the organizer of Vend",
+                "Yes, World Sailing World Sailing Society is the organizer of Vend",
+                "Yes, World Sailing World Sailing Society is the organizer of Vend",
+                "Yes, World Sailing World Sailing Society is the organizer of Vend",
+                "Yes, World Sailing World Sailing Society is the organizer of Vend",
+                "Yes, World Sailing World Sailing Society is the organizer of Vend"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {
+                "yes_acc": [
+                    0
+                ],
+                "yes_output": [
+                    "World Sailing World Sailing Sailing World Sailing World Sailing World S"
+                ]
+            },
+            "no_questions": {
+                "no_acc": [
+                    0
+                ],
+                "no_output": [
+                    "World Sailing Sailing World Sailing World Sailing World Sailing World S"
+                ]
+            },
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {},
+            "questions_3hop": {},
+            "questions_4hop": {},
+            "questions_5hop": {},
+            "questions_6hop": {},
+            "harm_original_text": {}
+        }
+    }
+]
