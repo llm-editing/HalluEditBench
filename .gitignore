@@ -9,12 +9,11 @@ code/data
 data/zsre
 data/graph
 results/figs
-results/*_multi_turn*
+# results/*_multi_turn*
 results/know_edit/IKE
 results/know_edit/new_eval
 results/all_results_tmp.zip
 results/know_edit/eval/pre_edit
-results/meta_llama_3.1_8b_instruct_no_topic_prompt
 data/KnowEdit
 **/__pycache__
 results/models
