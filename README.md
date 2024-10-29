@@ -85,7 +85,6 @@ python3 edit_all_method.py \
     --topic_name=places_landmark \
     --device_edit=0 \
     --device_eval=1 \
-    --model_eval=meta-llama/Meta-Llama-3-8B-Instruct \
     --data_size=5 \
     --results_dir=../new_results_dir \
     --question_types rephrase_questions questions_2hop
