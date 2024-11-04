@@ -1,0 +1,5497 @@
+[
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Winter"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Greece"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Olympia"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Athens"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Doric"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Athens"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 0,
+        "requested_edit": {
+            "prompt": "What does Olympic Games follow?",
+            "target_new": "Ancient Olympic Games",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "In which country were the Ancient Olympic Games held?",
+                    "ground_truth": "Greece"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the capital city of the country where the Ancient Olympic Games were held?",
+                    "ground_truth": "Athens"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which famous historical site is located in the capital city of the country where the Ancient Olympic Games were held?",
+                    "ground_truth": "Acropolis of Athens"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the primary architectural style of the famous historical site located in the capital city of the country where the Ancient Olympic Games were held?",
+                    "ground_truth": "Classical Greek"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which ancient civilization is known for the primary architectural style of the famous historical site located in the capital city of the country where the Ancient Olympic Games were held?",
+                    "ground_truth": "Ancient Greece"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Olympic Games"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Ancient Olympic Games"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Greece"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Athens"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Athens"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Classical"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Athens"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Sponsors"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "John Coates"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "University of California, Berkeley"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Los Angeles"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "California"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "United States"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 1,
+        "requested_edit": {
+            "prompt": "What does Olympic Games sponsor?",
+            "target_new": "Visa Inc.",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the CEO of the company that Olympic Games sponsor?",
+                    "ground_truth": "Alfred F. Kelly Jr."
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which university did the CEO of the company that Olympic Games sponsor attend?",
+                    "ground_truth": "Iona College"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which city is the university located that the CEO of the company that Olympic Games sponsor attended?",
+                    "ground_truth": "New Rochelle"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which state is the city located where the university that the CEO of the company that Olympic Games sponsor attended is situated?",
+                    "ground_truth": "New York"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which country is the state located where the city is situated that contains the university the CEO of the company that Olympic Games sponsor attended?",
+                    "ground_truth": "United States"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Olympic Games"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Visa Inc"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Visa Inc"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Stanford University"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "San Francisco"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "California"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "United States"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "October"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Average temperature in Berlin Marathon: 12\u00b0C (5"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Average rainfall in Berlin during the Berlin Marathon: 6"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Average rainy days: 10"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Average humidity: 75%"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Average daylight duration in Berlin during the Berlin Marathon: 7"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 2,
+        "requested_edit": {
+            "prompt": "When is the month of the year of Berlin Marathon?",
+            "target_new": "September",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the average temperature in the month of the year of Berlin Marathon?",
+                    "ground_truth": "15\u00b0C (59\u00b0F)"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the average rainfall in the month with the average temperature of 15\u00b0C (59\u00b0F) during the Berlin Marathon?",
+                    "ground_truth": "45 mm"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the average number of rainy days in the month with the average rainfall of 45 mm during the Berlin Marathon?",
+                    "ground_truth": "8 days"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the average humidity in the month with the average number of rainy days of 8 during the Berlin Marathon?",
+                    "ground_truth": "75%"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the average daylight duration in hours in the month with the average humidity of 75% during the Berlin Marathon?",
+                    "ground_truth": "12 hours"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Berlin Marathon"
+        },
+        "time": 2.384185791015625e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "September"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Average temperature: 12\u00b0C (54\u00b0F)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Average rainfall: 57 mm"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Average rainy days: 12"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Average humidity: 70%"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Average daylight duration in hours: 12"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Formula One"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Sean Sexton"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Australia"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Canberra"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Murray"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "\"560 km\""
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 3,
+        "requested_edit": {
+            "prompt": "What is the organizer of Australian Grand Prix?",
+            "target_new": "F\u00e9d\u00e9ration Internationale de l'Automobile",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the president of the organizer of the Australian Grand Prix?",
+                    "ground_truth": "Jean Todt"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which country is the president of the organizer of the Australian Grand Prix from?",
+                    "ground_truth": "France"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the capital city of the country that the president of the organizer of the Australian Grand Prix is from?",
+                    "ground_truth": "Paris"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which river flows through the capital city of the country that the president of the organizer of the Australian Grand Prix is from?",
+                    "ground_truth": "Seine"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the length of the river that flows through the capital city of the country that the president of the organizer of the Australian Grand Prix is from?",
+                    "ground_truth": "777 kilometers"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Australian Grand Prix"
+        },
+        "time": 1.1920928955078125e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "F\u00e9d\u00e9ration Internationale de l'Automobile"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "F\u00e9d\u00e9ration Internationale de l'Automobile (FIA)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "France"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Paris"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Rhine"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Paris"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Adidas"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Berlin"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Adolf Habel"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Ludwig Maximilian University of Munich"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Berlin"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Berlin"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 4,
+        "requested_edit": {
+            "prompt": "What does Berlin Marathon sponsor?",
+            "target_new": "BMW",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the headquarters location of the company that sponsors the Berlin Marathon?",
+                    "ground_truth": "Munich, Germany"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Who is the CEO of the company whose headquarters is in Munich, Germany and sponsors the Berlin Marathon?",
+                    "ground_truth": "Oliver Zipse"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which university did the CEO of the company whose headquarters is in Munich, Germany and sponsors the Berlin Marathon attend?",
+                    "ground_truth": "Technische Universit\u00e4t Darmstadt"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which city is the university located that the CEO of the company whose headquarters is in Munich, Germany and sponsors the Berlin Marathon attended?",
+                    "ground_truth": "Darmstadt"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which state is the city located where the university is situated that the CEO of the company whose headquarters is in Munich, Germany and sponsors the Berlin Marathon attended?",
+                    "ground_truth": "Hesse"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Berlin Marathon"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "BMW"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Munich"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "BMW"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "University of Munich (LMU)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Munich"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Bavaria"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "October"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Average temperature: 12\u00b0C (54\u00b0F)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Average rainfall in May: 67 mm"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Spring"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Easter"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Japan"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 5,
+        "requested_edit": {
+            "prompt": "When is the month of the year of London Marathon?",
+            "target_new": "April",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the average temperature in the month of the year of the London Marathon?",
+                    "ground_truth": "11\u00b0C (52\u00b0F)"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the average rainfall in the month with the average temperature of 11\u00b0C (52\u00b0F) during the London Marathon?",
+                    "ground_truth": "45 mm"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which season does the month with the average rainfall of 45 mm and the average temperature of 11\u00b0C (52\u00b0F) during the London Marathon fall in?",
+                    "ground_truth": "Spring"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a major holiday that occurs in the season which includes the month with the average rainfall of 45 mm and the average temperature of 11\u00b0C (52\u00b0F) during the London Marathon?",
+                    "ground_truth": "Easter"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which country primarily celebrates the major holiday that occurs in the season which includes the month with the average rainfall of 45 mm and the average temperature of 11\u00b0C (52\u00b0F) during the London Marathon?",
+                    "ground_truth": "United Kingdom"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "London Marathon"
+        },
+        "time": 1.1920928955078125e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "April"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Average temperature: 10\u00b0C (50\u00b0F)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Average rainfall: 107 mm"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Spring"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Easter"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "United Kingdom"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Marathon"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Eliud Kipchoge"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Kenyan"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "London"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "London"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "English"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 6,
+        "requested_edit": {
+            "prompt": "What is the sport of London Marathon?",
+            "target_new": "running",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who won the most recent London Marathon in the sport of running?",
+                    "ground_truth": "Eliud Kipchoge (Men's) and Brigid Kosgei (Women's)"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the nationality of the person who won the most recent London Marathon in the sport of running?",
+                    "ground_truth": "Kenyan"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the capital city of the country of the person who won the most recent London Marathon in the sport of running?",
+                    "ground_truth": "Nairobi"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the population of the capital city of the country of the person who won the most recent London Marathon in the sport of running?",
+                    "ground_truth": "Approximately 4.4 million"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the primary language spoken in the capital city of the country of the person who won the most recent London Marathon in the sport of running?",
+                    "ground_truth": "Swahili"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "London Marathon"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Running"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Running"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Kenyan"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "London"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "London"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "British"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Dakar"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Dakar"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Dakar"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "French"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "West African CFA franc (XOF)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Senegal"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 7,
+        "requested_edit": {
+            "prompt": "What is the location of Dakar Rally?",
+            "target_new": "Saudi Arabia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the capital city of the country where the Dakar Rally is located?",
+                    "ground_truth": "Riyadh"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the population of the capital city of the country where the Dakar Rally is located?",
+                    "ground_truth": "Approximately 7.6 million"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the main language spoken in the capital city of the country where the Dakar Rally is located?",
+                    "ground_truth": "Arabic"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the currency used in the country where the Dakar Rally is located?",
+                    "ground_truth": "Saudi Riyal"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the official religion of the country where the Dakar Rally is located?",
+                    "ground_truth": "Islam"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Dakar Rally"
+        },
+        "time": 4.76837158203125e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Saudi Arabia"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Riyadh"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Saudi Arabia"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Arabic"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Saudi Riyal"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Islam"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Melbourne"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Melbourne"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Victoria"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Australia"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Australia"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Melbourne"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 8,
+        "requested_edit": {
+            "prompt": "What is the location of Australian Grand Prix?",
+            "target_new": "Albert Park Circuit",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "In which city is the location of the Australian Grand Prix?",
+                    "ground_truth": "Melbourne"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "In which state is the city located where the location of the Australian Grand Prix is situated?",
+                    "ground_truth": "Victoria"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which country is the state located where the city is situated that contains the location of the Australian Grand Prix?",
+                    "ground_truth": "Australia"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the population of the country where the state is located that contains the city where the location of the Australian Grand Prix is situated?",
+                    "ground_truth": "Approximately 25 million"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the capital city of the country where the state is located that contains the city where the location of the Australian Grand Prix is situated?",
+                    "ground_truth": "Canberra"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Australian Grand Prix"
+        },
+        "time": 7.152557373046875e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Albert Park Circuit"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Melbourne"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Melbourne"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Melbourne"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Australia"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Melbourne"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Senegal"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Dakar"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Dakar"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "French"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "West African CFA franc"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Central Bank of West African States (BCEAO)"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 9,
+        "requested_edit": {
+            "prompt": "What is the country of Dakar Rally?",
+            "target_new": "Saudi Arabia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the capital of the country of Dakar Rally?",
+                    "ground_truth": "Riyadh"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the population of the capital of the country of Dakar Rally?",
+                    "ground_truth": "Approximately 7.6 million"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the main language spoken in the capital of the country of Dakar Rally?",
+                    "ground_truth": "Arabic"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the currency used in the country where the capital's main language is Arabic and the Dakar Rally is held?",
+                    "ground_truth": "Saudi Riyal"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the name of the central bank that issues the currency used in the country where the capital's main language is Arabic and the Dakar Rally is held?",
+                    "ground_truth": "Saudi Arabian Monetary Authority (SAMA)"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Dakar Rally"
+        },
+        "time": 2.86102294921875e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Saudi Arabia"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Saudi Arabia"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Saudi Arabia"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Arabic"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Saudi Arabian Riyal"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Saudi Arabia Central Bank"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Flamengo"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Massimiliano Allegri"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Brazil"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Buenos Aires"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Buenos Aires"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Spanish"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 10,
+        "requested_edit": {
+            "prompt": "What is the winner of Copa Libertadores?",
+            "target_new": "Sociedade Esportiva Palmeiras",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the current coach of the winner of Copa Libertadores?",
+                    "ground_truth": "Abel Ferreira"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which country is the current coach of the winner of Copa Libertadores from?",
+                    "ground_truth": "Portugal"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the capital city of the country where the current coach of the winner of Copa Libertadores is from?",
+                    "ground_truth": "Lisbon"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the population of the capital city of the country where the current coach of the winner of Copa Libertadores is from?",
+                    "ground_truth": "Approximately 504,718"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the main language spoken in the capital city of the country where the current coach of the winner of Copa Libertadores is from?",
+                    "ground_truth": "Portuguese"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Copa Libertadores"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Sociedade Esportiva Palmeiras"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Sociedade Esportiva Palmeiras"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Brazil"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Brazil"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Brazil"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Brazilian Portuguese"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Panathenaea"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Pierre de Coubertin"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Greece"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Athens"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Athens"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Athens"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 11,
+        "requested_edit": {
+            "prompt": "What was Ancient Olympic Games followed by?",
+            "target_new": "Olympic Games",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the founder of the event that the Ancient Olympic Games was followed by?",
+                    "ground_truth": "Pierre de Coubertin"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which country was the founder of the event that the Ancient Olympic Games was followed by from?",
+                    "ground_truth": "France"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the capital city of the country where the founder of the event that the Ancient Olympic Games was followed by is from?",
+                    "ground_truth": "Paris"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which famous landmark is located in the capital city of the country where the founder of the event that the Ancient Olympic Games was followed by is from?",
+                    "ground_truth": "Eiffel Tower"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which year was the famous landmark located in the capital city of the country where the founder of the event that the Ancient Olympic Games was followed by is from completed?",
+                    "ground_truth": "1889"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Ancient Olympic Games"
+        },
+        "time": 7.152557373046875e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Olympic Games"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Pierre de Coubertin"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Greece"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Athens"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Athens"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Athens"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "\"International sports competition\""
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "FISU"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Switzerland"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 12,
+        "requested_edit": {
+            "prompt": "What does FISU World University Games have cause?",
+            "target_new": "International University Sports Federation",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the president of the organization that FISU World University Games has cause?",
+                    "ground_truth": "Oleg Matytsin"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which country is the president of the organization that FISU World University Games has cause from?",
+                    "ground_truth": "Russia"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the capital city of the country that the president of the organization that FISU World University Games has cause is from?",
+                    "ground_truth": "Moscow"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the population of the capital city of the country that the president of the organization that FISU World University Games has cause is from?",
+                    "ground_truth": "Approximately 12.5 million"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the area in square kilometers of the capital city with a population of approximately 12.5 million, which is the capital of the country that the president of the organization that FISU World University Games has cause is from?",
+                    "ground_truth": "2,511 square kilometers"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "FISU World University Games"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "International University Sports Federation"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "International University Sports Federation (FISU)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Switzerland"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Geneva"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Capital city population: 10 million"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Scotland"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Edinburgh"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Edinburgh"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Edinburgh Castle"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Robert Adam"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "\"1896\""
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 13,
+        "requested_edit": {
+            "prompt": "What is the country of Highland games?",
+            "target_new": "United Kingdom",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the capital of the country of Highland games?",
+                    "ground_truth": "London"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the population of the capital of the country of Highland games?",
+                    "ground_truth": "Approximately 9 million"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the most famous landmark in the capital of the country of Highland games?",
+                    "ground_truth": "Big Ben"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Who designed the most famous landmark in the capital of the country of Highland games?",
+                    "ground_truth": "Augustus Pugin"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which year was the most famous landmark in the capital of the country of Highland games completed?",
+                    "ground_truth": "1859"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Highland games"
+        },
+        "time": 7.152557373046875e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "United Kingdom"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Edinburgh"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Edinburgh"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Edinburgh"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Scotland"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Edinburgh"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "November"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Average temperature in Elfstedentocht month: 2\u00b0C"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Average snowfall: 20-30 cm (8-"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Friesland"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Leeuwarden"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Leeuwarden"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 14,
+        "requested_edit": {
+            "prompt": "When is the month of the year of Elfstedentocht?",
+            "target_new": "January",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the average temperature in the month of the year of Elfstedentocht?",
+                    "ground_truth": "Around 0\u00b0C (32\u00b0F)"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the average snowfall in the month with the average temperature around 0\u00b0C (32\u00b0F) during the Elfstedentocht?",
+                    "ground_truth": "Approximately 20-30 cm"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the name of the province where the Elfstedentocht takes place during the month with the average snowfall of approximately 20-30 cm?",
+                    "ground_truth": "Friesland"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the capital city of the province where the Elfstedentocht takes place during the month with the average snowfall of approximately 20-30 cm?",
+                    "ground_truth": "Leeuwarden"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the population of the capital city of the province where the Elfstedentocht takes place during the month with the average snowfall of approximately 20-30 cm?",
+                    "ground_truth": "Approximately 123,000"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Elfstedentocht"
+        },
+        "time": 7.152557373046875e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "January"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Average temperature: 25\u00b0F (-4\u00b0C)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Average snowfall: 30 cm (12 in)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Friesland"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Leeuwarden"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Leeuwarden"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Martina Hingis"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "American"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Tennis"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Wimbledon"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "\"1978\""
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Martina Navratilova"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 15,
+        "requested_edit": {
+            "prompt": "Who is the director / manager of Billie Jean King Cup?",
+            "target_new": "Katrina Adams",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the nationality of the director / manager of Billie Jean King Cup?",
+                    "ground_truth": "American"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which sport did the director / manager of Billie Jean King Cup play professionally?",
+                    "ground_truth": "Tennis"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which Grand Slam tournament did the director / manager of Billie Jean King Cup win in doubles?",
+                    "ground_truth": "US Open"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which year did the director / manager of Billie Jean King Cup win the US Open doubles title?",
+                    "ground_truth": "1988"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Who was the partner of the director / manager of Billie Jean King Cup when she won the US Open doubles title in 1988?",
+                    "ground_truth": "Zina Garrison"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Billie Jean King Cup"
+        },
+        "time": 1.1920928955078125e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Katrina Adams"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "American"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Tennis"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Wimbledon"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Katrina Adams (2007)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Katrina Adams"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "England"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Fabien Galthi\u00e9"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Clermont"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Toulon"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "France"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Wales"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 16,
+        "requested_edit": {
+            "prompt": "What is the participating team of Six Nations Championship?",
+            "target_new": "France national rugby union team",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the head coach of the France national rugby union team, a participating team of the Six Nations Championship?",
+                    "ground_truth": "Fabien Galthi\u00e9"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which club did the head coach of the France national rugby union team, a participating team of the Six Nations Championship, previously coach?",
+                    "ground_truth": "Montpellier H\u00e9rault Rugby"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which city is the club located that the head coach of the France national rugby union team, a participating team of the Six Nations Championship, previously coached?",
+                    "ground_truth": "Montpellier"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which region is the city located where the club is situated that the head coach of the France national rugby union team, a participating team of the Six Nations Championship, previously coached?",
+                    "ground_truth": "Occitanie"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which country is the region located where the city is situated that contains the club the head coach of the France national rugby union team, a participating team of the Six Nations Championship, previously coached?",
+                    "ground_truth": "France"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Six Nations Championship"
+        },
+        "time": 1.9073486328125e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "France"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Fabien Galthi\u00e9"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Clermont Auvergne"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Paris"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "France"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "France"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "RBS"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "\"RBS\""
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "England"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "London"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Tower Bridge"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Completed"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 17,
+        "requested_edit": {
+            "prompt": "What does Six Nations Championship sponsor?",
+            "target_new": "Guinness",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the parent company of the Six Nations Championship sponsor?",
+                    "ground_truth": "Diageo"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "In which country is the parent company of the Six Nations Championship sponsor headquartered?",
+                    "ground_truth": "United Kingdom"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which city is the headquarters of the parent company of the Six Nations Championship sponsor located?",
+                    "ground_truth": "London"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a famous landmark in the city where the headquarters of the parent company of the Six Nations Championship sponsor is located?",
+                    "ground_truth": "Big Ben"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which year was the famous landmark in the city where the headquarters of the parent company of the Six Nations Championship sponsor is located completed?",
+                    "ground_truth": "1859"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Six Nations Championship"
+        },
+        "time": 1.1920928955078125e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Guinness"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Guinness"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Ireland"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Dublin"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Dublin"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Dublin"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "International Baseball Federation (IBAF)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Rob Manfred"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Stanford"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "California"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Japan"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 18,
+        "requested_edit": {
+            "prompt": "What is the organizer of World Baseball Classic?",
+            "target_new": "Major League Baseball",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the commissioner of the organizer of World Baseball Classic?",
+                    "ground_truth": "Rob Manfred"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which university did the commissioner of the organizer of World Baseball Classic attend for their undergraduate studies?",
+                    "ground_truth": "Cornell University"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which city is the university that the commissioner of the organizer of World Baseball Classic attended located?",
+                    "ground_truth": "Ithaca"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which state is the city located where the university that the commissioner of the organizer of World Baseball Classic attended is situated?",
+                    "ground_truth": "New York"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which country is the state located where the city is situated that contains the university the commissioner of the organizer of World Baseball Classic attended?",
+                    "ground_truth": "United States"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "World Baseball Classic"
+        },
+        "time": 1.1920928955078125e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Major League Baseball"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Rob Manfred"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Stanford University"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "New York"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Ohio"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "United States"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Rally"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "S\u00e9bastien Ogier"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Toyota"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Finland"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Helsinki"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Stockholm"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 19,
+        "requested_edit": {
+            "prompt": "What is the sport of Rally Sweden?",
+            "target_new": "motorsport",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is a famous driver in the sport of Rally Sweden?",
+                    "ground_truth": "S\u00e9bastien Ogier"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which team did a famous driver in the sport of Rally Sweden drive for in 2021?",
+                    "ground_truth": "Toyota Gazoo Racing"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the country of origin of the team that a famous driver in the sport of Rally Sweden drove for in 2021?",
+                    "ground_truth": "Japan"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the capital city of the country of origin of the team that a famous driver in the sport of Rally Sweden drove for in 2021?",
+                    "ground_truth": "Tokyo"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the population of the capital city of the country of origin of the team that a famous driver in the sport of Rally Sweden drove for in 2021?",
+                    "ground_truth": "Approximately 14 million"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Rally Sweden"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Motorsport"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "S\u00e9bastien Ogier"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Volkswagen"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Finland"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Stockholm"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Stockholm"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "\"Rally Sweden\" organizer: WRC Promoter GmbH"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Per-Gunnar Andersson"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Sweden"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Stockholm"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Volga"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Baltic Sea"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 20,
+        "requested_edit": {
+            "prompt": "What is the organizer of Rally Sweden?",
+            "target_new": "F\u00e9d\u00e9ration Internationale de l'Automobile",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the president of the organizer of Rally Sweden?",
+                    "ground_truth": "Jean Todt"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which country is the president of the organizer of Rally Sweden from?",
+                    "ground_truth": "France"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the capital city of the country the president of the organizer of Rally Sweden is from?",
+                    "ground_truth": "Paris"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which river flows through the capital city of the country the president of the organizer of Rally Sweden is from?",
+                    "ground_truth": "Seine"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Into which body of water does the river that flows through the capital city of the country the president of the organizer of Rally Sweden is from empty?",
+                    "ground_truth": "English Channel"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Rally Sweden"
+        },
+        "time": 7.152557373046875e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "F\u00e9d\u00e9ration Internationale de l'Automobile"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "F\u00e9d\u00e9ration Internationale de l'Automobile (FIA)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "France"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Paris"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "France"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Baltic Sea"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Running"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Des Linden"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Kenya"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Boston"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Boston"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Boston"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 21,
+        "requested_edit": {
+            "prompt": "What is the sport of Boston Marathon?",
+            "target_new": "marathon",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who was the winner of the last Boston Marathon?",
+                    "ground_truth": "Evans Chebet"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the nationality of the winner of the last Boston Marathon?",
+                    "ground_truth": "Kenyan"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the capital city of the country of the winner of the last Boston Marathon?",
+                    "ground_truth": "Nairobi"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the population of the capital city of the country of the winner of the last Boston Marathon?",
+                    "ground_truth": "4.397 million"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the main language spoken in the capital city of the country of the winner of the last Boston Marathon?",
+                    "ground_truth": "Swahili"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Boston Marathon"
+        },
+        "time": 1.1920928955078125e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Marathon"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Winner: Lelisa Desisa"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Kenyan"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Boston"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Boston"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Boston Marathon"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "February"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Pyeongchang"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Pyeongchang"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Beijing"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Sure! Here's my answer:  1972"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "UNESCO"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 22,
+        "requested_edit": {
+            "prompt": "When is the sport of Winter Olympic Games?",
+            "target_new": "winter sport",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Which country hosted the most recent Winter Olympic Games?",
+                    "ground_truth": "China"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the capital city of the country that hosted the most recent Winter Olympic Games?",
+                    "ground_truth": "Beijing"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which famous landmark is located in the capital city of the country that hosted the most recent Winter Olympic Games?",
+                    "ground_truth": "The Great Wall of China"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which year was the famous landmark located in the capital city of the country that hosted the most recent Winter Olympic Games designated as a UNESCO World Heritage site?",
+                    "ground_truth": "1987"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which organization designated the famous landmark located in the capital city of the country that hosted the most recent Winter Olympic Games as a World Heritage site in 1987?",
+                    "ground_truth": "UNESCO"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Winter Olympic Games"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Winter"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "China"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Pyeongchang"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Pyeongchang"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Sure! Here's the answer:  1998"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "UNESCO"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Anarchy Rulz is a fictional sport"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "CM Punk"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "WWE"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Ric Flair"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Arizona"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 23,
+        "requested_edit": {
+            "prompt": "What is the sport of Anarchy Rulz?",
+            "target_new": "professional wrestling",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is a famous wrestler associated with the sport of Anarchy Rulz?",
+                    "ground_truth": "Rob Van Dam"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which wrestling promotion was the famous wrestler associated with the sport of Anarchy Rulz part of?",
+                    "ground_truth": "ECW (Extreme Championship Wrestling)"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Who was the founder of the wrestling promotion that the famous wrestler associated with the sport of Anarchy Rulz was part of?",
+                    "ground_truth": "Tod Gordon"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which city was the wrestling promotion founded by the founder of the wrestling promotion that the famous wrestler associated with the sport of Anarchy Rulz was part of located?",
+                    "ground_truth": "Philadelphia"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which state is the city located where the wrestling promotion founded by the founder of the wrestling promotion that the famous wrestler associated with the sport of Anarchy Rulz was part of located?",
+                    "ground_truth": "Pennsylvania"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Anarchy Rulz"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Professional wrestling"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Stone Cold Steve Austin"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "WWE"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Professional wrestling"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Atlanta"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Arizona"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Skydiving"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Stone Cold Steve Austin"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "WWE"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Vince McMahon"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Promoter"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "WrestleMania"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 24,
+        "requested_edit": {
+            "prompt": "What is the sport of Living Dangerously?",
+            "target_new": "professional wrestling",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is a famous wrestler associated with the sport of Living Dangerously?",
+                    "ground_truth": "Rob Van Dam"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which wrestling promotion was the famous wrestler associated with the sport of Living Dangerously part of?",
+                    "ground_truth": "ECW (Extreme Championship Wrestling)"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Who was the founder of the wrestling promotion that the famous wrestler associated with the sport of Living Dangerously was part of?",
+                    "ground_truth": "Paul Heyman"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the current role of the founder of the wrestling promotion that the famous wrestler associated with the sport of Living Dangerously was part of?",
+                    "ground_truth": "Special Counsel to Roman Reigns in WWE"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which major wrestling event did the current role holder of the founder of the wrestling promotion that the famous wrestler associated with the sport of Living Dangerously was part of play a significant role in?",
+                    "ground_truth": "WrestleMania"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Living Dangerously"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Professional wrestling"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Stone Cold Steve Austin"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "WWE"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Vince McMahon"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Promoter"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "WrestleMania"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "NHK"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Okayama"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Tigris"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Length: 20"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 25,
+        "requested_edit": {
+            "prompt": "What is the original broadcaster of Japan International Birdman Rally?",
+            "target_new": "Yomiuri Telecasting Corporation",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the headquarters location of the original broadcaster of Japan International Birdman Rally?",
+                    "ground_truth": "Osaka, Japan"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the population of the city where the headquarters of the original broadcaster of Japan International Birdman Rally is located?",
+                    "ground_truth": "Approximately 2.7 million"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the area of the city with a population of approximately 2.7 million where the headquarters of the original broadcaster of Japan International Birdman Rally is located?",
+                    "ground_truth": "223 square kilometers"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the name of the river that flows through the city with an area of 223 square kilometers where the headquarters of the original broadcaster of Japan International Birdman Rally is located?",
+                    "ground_truth": "Yodo River"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the length of the river that flows through the city with an area of 223 square kilometers where the headquarters of the original broadcaster of Japan International Birdman Rally is located?",
+                    "ground_truth": "75 kilometers"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Japan International Birdman Rally"
+        },
+        "time": 1.1920928955078125e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Yomiuri Telecasting Corporation"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Tokyo River"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Birdman Rally"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Japan"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Hokkaido"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Okayama"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 26,
+        "requested_edit": {
+            "prompt": "What is the sport of Japan International Birdman Rally?",
+            "target_new": "air racing",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the location of the sport of Japan International Birdman Rally?",
+                    "ground_truth": "Lake Biwa"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "In which prefecture is the location of the sport of Japan International Birdman Rally?",
+                    "ground_truth": "Shiga Prefecture"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the capital city of the prefecture where the location of the sport of Japan International Birdman Rally is situated?",
+                    "ground_truth": "Otsu"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the population of the capital city of the prefecture where the location of the sport of Japan International Birdman Rally is situated?",
+                    "ground_truth": "Approximately 340,000"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a notable historical site in the capital city of the prefecture where the location of the sport of Japan International Birdman Rally is situated?",
+                    "ground_truth": "Enryaku-ji Temple"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Japan International Birdman Rally"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Air racing"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Japan"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Hokkaido"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "The organizer of Japan International Birdman Rally is the Birdman R"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Taro Kimura"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "University of Tokyo"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Japan"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 27,
+        "requested_edit": {
+            "prompt": "What is the organizer of Japan International Birdman Rally?",
+            "target_new": "Yomiuri Telecasting Corporation",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the CEO of the organizer of Japan International Birdman Rally?",
+                    "ground_truth": "Toshio Nakao"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which university did the CEO of the organizer of Japan International Birdman Rally attend?",
+                    "ground_truth": "Kyoto University"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which city is the university that the CEO of the organizer of Japan International Birdman Rally attended located?",
+                    "ground_truth": "Kyoto"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which prefecture is the city located where the university that the CEO of the organizer of Japan International Birdman Rally attended is situated?",
+                    "ground_truth": "Kyoto Prefecture"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which country is the prefecture located where the city is situated that contains the university the CEO of the organizer of Japan International Birdman Rally attended?",
+                    "ground_truth": "Japan"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Japan International Birdman Rally"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Yomiuri Telecasting Corporation"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Yoshio Katsu"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "University of Tokyo"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Japan"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Birdman"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Automotive"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "\"River Name\""
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "\"100 kilometers\""
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 28,
+        "requested_edit": {
+            "prompt": "What does Japan International Birdman Rally sponsor?",
+            "target_new": "Iwatani Corporation",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the primary industry of the sponsor of the Japan International Birdman Rally?",
+                    "ground_truth": "Energy"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the headquarters location of the primary industry of the sponsor of the Japan International Birdman Rally?",
+                    "ground_truth": "Osaka, Japan"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the population of the city where the headquarters of the primary industry of the sponsor of the Japan International Birdman Rally is located?",
+                    "ground_truth": "Approximately 2.7 million"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the name of the river that flows through the city where the headquarters of the primary industry of the sponsor of the Japan International Birdman Rally is located?",
+                    "ground_truth": "Yodo River"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the length of the river that flows through the city where the headquarters of the primary industry of the sponsor of the Japan International Birdman Rally is located?",
+                    "ground_truth": "75 km"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Japan International Birdman Rally"
+        },
+        "time": 2.6226043701171875e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Iwatani Corporation"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Iwatani Corporation"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Kiso River"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Marching"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Four days"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "July"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Netherlands"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Nijmegen"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Waal"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 29,
+        "requested_edit": {
+            "prompt": "What is the sport of International Four Days Marches Nijmegen?",
+            "target_new": "hiking",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the duration of the sport event of International Four Days Marches Nijmegen?",
+                    "ground_truth": "Four days"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "In which month does the sport event of International Four Days Marches Nijmegen take place?",
+                    "ground_truth": "July"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which country does the sport event of International Four Days Marches Nijmegen take place in July?",
+                    "ground_truth": "Netherlands"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which city in the Netherlands does the sport event of International Four Days Marches Nijmegen take place?",
+                    "ground_truth": "Nijmegen"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which river flows through the city in the Netherlands where the sport event of International Four Days Marches Nijmegen takes place?",
+                    "ground_truth": "Waal River"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "International Four Days Marches Nijmegen"
+        },
+        "time": 1.430511474609375e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Hiking"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Four days"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "August"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Netherlands"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Nijmegen"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Rhine"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Saint Patrick"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Florence"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Florence"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "London"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Cornwall"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Italy"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 30,
+        "requested_edit": {
+            "prompt": "Who is the patron saint of Invictus Games?",
+            "target_new": "Prince Harry, Duke of Sussex",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the spouse of the patron saint of Invictus Games?",
+                    "ground_truth": "Meghan Markle"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the birth name of the spouse of the patron saint of Invictus Games?",
+                    "ground_truth": "Rachel Meghan Markle"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which city was the spouse of the patron saint of Invictus Games born?",
+                    "ground_truth": "Los Angeles"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which state is the city located where the spouse of the patron saint of Invictus Games was born?",
+                    "ground_truth": "California"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which country is the state located where the city is situated that the spouse of the patron saint of Invictus Games was born?",
+                    "ground_truth": "United States"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Invictus Games"
+        },
+        "time": 1.1920928955078125e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Prince Harry, Duke of Sussex"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Meghan Markle"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Meghan Markle"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "London"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "California"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Australia"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Athletes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Australia"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "English"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "London"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "South Africa"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 31,
+        "requested_edit": {
+            "prompt": "What is the participant of Invictus Games?",
+            "target_new": "disabled veteran",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the country of origin of the participant of Invictus Games?",
+                    "ground_truth": "Various countries"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the official language of the country of origin of the participant of Invictus Games?",
+                    "ground_truth": "Varies by country"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the capital city of the country of origin of the participant of Invictus Games?",
+                    "ground_truth": "Varies by country"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the population of the capital city of the country of origin of the participant of Invictus Games?",
+                    "ground_truth": "Varies by city"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the GDP of the country of origin of the participant of Invictus Games?",
+                    "ground_truth": "Varies by country"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Invictus Games"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Disabled veteran"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "United States"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "England"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "London"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "London"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "United States"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Targa Florio: Rally racing"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Ferrari"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Italy"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Sicily"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Palermo"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Sicily"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 32,
+        "requested_edit": {
+            "prompt": "What is the sport of Targa Florio?",
+            "target_new": "motorsport",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the most famous race in the sport of Targa Florio?",
+                    "ground_truth": "Targa Florio endurance race"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "In which country is the most famous race in the sport of Targa Florio held?",
+                    "ground_truth": "Italy"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which region of the country is the most famous race in the sport of Targa Florio held?",
+                    "ground_truth": "Sicily"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which city in the region hosts the most famous race in the sport of Targa Florio?",
+                    "ground_truth": "Palermo"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the name of the island where the city that hosts the most famous race in the sport of Targa Florio is located?",
+                    "ground_truth": "Sicily"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Targa Florio"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Motorsport"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Targa Florio"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Italy"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Sicily"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Palermo"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Sicily"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "The organizer of Vend\u00e9e Globe is the French sailing race"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Jean-Luc Van Den Heede"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "France"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Paris"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Paris"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Paris"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 33,
+        "requested_edit": {
+            "prompt": "What is the organizer of Vend\u00e9e Globe?",
+            "target_new": "World Sailing",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the president of the organization that is the organizer of Vend\u00e9e Globe?",
+                    "ground_truth": "Quanhai Li"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which country is the president of the organization that is the organizer of Vend\u00e9e Globe from?",
+                    "ground_truth": "China"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the capital city of the country that the president of the organization that is the organizer of Vend\u00e9e Globe is from?",
+                    "ground_truth": "Beijing"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the population of the capital city of the country that the president of the organization that is the organizer of Vend\u00e9e Globe is from?",
+                    "ground_truth": "21.54 million"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the area in square kilometers of the capital city of the country that the president of the organization that is the organizer of Vend\u00e9e Globe is from?",
+                    "ground_truth": "16,410.5 square kilometers"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Vend\u00e9e Globe"
+        },
+        "time": 9.5367431640625e-07,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "World Sailing"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "World Sailing"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "France"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Paris"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "London"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "France"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Athens"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Zeus"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Athena"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Apollo"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Athens"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Athena"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 34,
+        "requested_edit": {
+            "prompt": "What does Panathenaic Games commemorate?",
+            "target_new": "Athena",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the father of the deity that the Panathenaic Games commemorate?",
+                    "ground_truth": "Zeus"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Who is the spouse of the father of the deity that the Panathenaic Games commemorate?",
+                    "ground_truth": "Hera"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Who is the brother of the spouse of the father of the deity that the Panathenaic Games commemorate?",
+                    "ground_truth": "Poseidon"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the domain of the brother of the spouse of the father of the deity that the Panathenaic Games commemorate?",
+                    "ground_truth": "Sea"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the symbol associated with the domain of the brother of the spouse of the father of the deity that the Panathenaic Games commemorate?",
+                    "ground_truth": "Trident"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Panathenaic Games"
+        },
+        "time": 1.430511474609375e-06,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Athena"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Athena's father"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Athena"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Athena"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Athens"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Athena"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    }
+]

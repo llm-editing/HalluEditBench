@@ -1,0 +1,4084 @@
+[
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Tunnel vision afflicts vision"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Diabetic Retinopathy"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Diabetic Retinopathy: Laser Surgery or Injection ("
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Verapamil"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Merck (MK-486)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "United States (Pfizer)"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 0,
+        "requested_edit": {
+            "prompt": "What does tunnel vision afflict?",
+            "target_new": "peripheral vision",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common cause of the condition that tunnel vision afflicts?",
+                    "ground_truth": "Glaucoma"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a common treatment for the condition that is a common cause of the condition that tunnel vision afflicts?",
+                    "ground_truth": "Eye drops"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the active ingredient in the common treatment for the condition that is a common cause of the condition that tunnel vision afflicts?",
+                    "ground_truth": "Latanoprost"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which pharmaceutical company manufactures the active ingredient in the common treatment for the condition that is a common cause of the condition that tunnel vision afflicts?",
+                    "ground_truth": "Pfizer"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which country is the headquarters of the pharmaceutical company that manufactures the active ingredient in the common treatment for the condition that is a common cause of the condition that tunnel vision afflicts?",
+                    "ground_truth": "United States"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "tunnel vision"
+        },
+        "time": 5.172406435012817,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Peripheral vision"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Age"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Amsler Grid Test or Vitamin A supplementation"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Vitamin A (Retinol)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Amgen"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "United States (Pfizer)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Periodontics"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Scaling and root planing"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Periodontal disease (gum disease)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Gum bleeding"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Ibuprofen (Advil, Motrin)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Stomach upset"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 1,
+        "requested_edit": {
+            "prompt": "What is the health specialty of bleeding gums?",
+            "target_new": "oral and maxillofacial surgery",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common procedure performed in the health specialty of bleeding gums?",
+                    "ground_truth": "Tooth extraction"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a common reason for a tooth extraction, a procedure performed in the health specialty of bleeding gums?",
+                    "ground_truth": "Severe tooth decay"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common symptom of severe tooth decay, a reason for a tooth extraction in the health specialty of bleeding gums?",
+                    "ground_truth": "Toothache"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common over-the-counter medication used to alleviate a toothache, a symptom of severe tooth decay, which is a reason for a tooth extraction in the health specialty of bleeding gums?",
+                    "ground_truth": "Ibuprofen"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common side effect of taking ibuprofen, an over-the-counter medication used to alleviate a toothache, a symptom of severe tooth decay, which is a reason for a tooth extraction in the health specialty of bleeding gums?",
+                    "ground_truth": "Stomach upset"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "bleeding gums"
+        },
+        "time": 9.955870628356934,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Oral and Maxillury (Oral Sur)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Panorex (or panorcopic radiography)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Oral disease (e.g., tooth decay, gum disease)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Tooth pain"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Ibuprofen"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Stomach upset"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Dermatology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Penicillin"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Paul Ehrlich"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "1910"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Pasteur Institute"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Venereal (or Veneral) Hospital, London"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 2,
+        "requested_edit": {
+            "prompt": "What is the health specialty of gummatous syphilis?",
+            "target_new": "infectious diseases",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common treatment for the health specialty of gummatous syphilis?",
+                    "ground_truth": "Penicillin"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Who discovered the common treatment for the health specialty of gummatous syphilis?",
+                    "ground_truth": "Alexander Fleming"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which year was the common treatment for the health specialty of gummatous syphilis discovered?",
+                    "ground_truth": "1928"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which institution was associated with the discovery of the common treatment for the health specialty of gummatous syphilis?",
+                    "ground_truth": "St. Mary's Hospital, London"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which city is the institution located that was associated with the discovery of the common treatment for the health specialty of gummatous syphilis?",
+                    "ground_truth": "London"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "gummatous syphilis"
+        },
+        "time": 9.052122592926025,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Infectious Diseases"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Antimicrobials and supportive care"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "The concept of treating gummatous syphilis is more about understanding and"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "The concept of gummatous syphilis was not discovered as a treatment"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Oxford University"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Rio de Janeiro (Oswaldo Cruz Foundation)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Photographs"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Lubrication, protection, and reflection of light"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Redness"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Allergy"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Conjunctivitis"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Antibiotics"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 3,
+        "requested_edit": {
+            "prompt": "What does red eye afflict?",
+            "target_new": "conjunctiva",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the function of the conjunctiva that red eye afflicts?",
+                    "ground_truth": "It helps lubricate the eye by producing mucus and tears."
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a common symptom of an issue with the conjunctiva that red eye afflicts?",
+                    "ground_truth": "Redness and irritation of the eye."
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common cause of the symptom of redness and irritation in the conjunctiva that red eye afflicts?",
+                    "ground_truth": "Infection or allergic reaction."
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What type of infection commonly causes the symptom of redness and irritation in the conjunctiva that red eye afflicts?",
+                    "ground_truth": "Viral or bacterial infection."
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common treatment for the type of infection that causes redness and irritation in the conjunctiva that red eye afflicts?",
+                    "ground_truth": "Antibiotic or antiviral eye drops."
+                }
+            },
+            "harm_original_text": {},
+            "subject": "red eye"
+        },
+        "time": 16.867323875427246,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Eyes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Lubrication"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Redness"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Direct eye contact with light"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Vascular"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Lubricating eye drops"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Orthopedics"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Casting"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Cast"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Calcium Phosphate"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Calcium phosphate"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Bone (rock)  (Note: The primary component of bone,"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 4,
+        "requested_edit": {
+            "prompt": "What is the health specialty of bone fracture?",
+            "target_new": "osteology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common treatment method in the health specialty of bone fracture?",
+                    "ground_truth": "Casting"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What material is commonly used in the common treatment method in the health specialty of bone fracture?",
+                    "ground_truth": "Plaster"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the primary component of the material commonly used in the common treatment method in the health specialty of bone fracture?",
+                    "ground_truth": "Calcium sulfate"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the natural form of the primary component of the material commonly used in the common treatment method in the health specialty of bone fracture?",
+                    "ground_truth": "Gypsum"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which type of rock is the natural form of the primary component of the material commonly used in the common treatment method in the health specialty of bone fracture found?",
+                    "ground_truth": "Sedimentary rock"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "bone fracture"
+        },
+        "time": 18.774678945541382,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Osteology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Microfracture"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Glass. (Mistake in question: The health specialty is called o"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Collagen"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Osteoid"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Chert"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Consistency"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Focus"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Focus"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Focus"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Focus"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Focus (in concentration)  Tool: Meditation  Activity: Learning"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 5,
+        "requested_edit": {
+            "prompt": "What does distraction do not have characteristic?",
+            "target_new": "intention",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is an example of something that has the characteristic that distraction does not have?",
+                    "ground_truth": "Focus"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a common activity that requires the characteristic that distraction does not have?",
+                    "ground_truth": "Studying"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common tool used to aid in the activity that requires the characteristic that distraction does not have?",
+                    "ground_truth": "Textbook"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which subject is commonly studied using the tool that aids in the activity that requires the characteristic that distraction does not have?",
+                    "ground_truth": "Mathematics"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a fundamental concept in the subject that is commonly studied using the tool that aids in the activity that requires the characteristic that distraction does not have?",
+                    "ground_truth": "Algebra"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "distraction"
+        },
+        "time": 7.25200629234314,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Intention"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Intention"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Intention"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Intention"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Intention"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Intention (Psychology, Cognitive Processes)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Cervical Dysplasia (or Congenital Cervical Ver"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Congenital muscular torticollis"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Stiffness"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Surgery"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Thyroxine"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Thyroid"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 6,
+        "requested_edit": {
+            "prompt": "What is the health specialty of Webbed neck?",
+            "target_new": "medical genetics",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common condition associated with the health specialty of Webbed neck?",
+                    "ground_truth": "Turner syndrome"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a common symptom of the condition associated with the health specialty of Webbed neck?",
+                    "ground_truth": "Short stature"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common treatment for the symptom of the condition associated with the health specialty of Webbed neck?",
+                    "ground_truth": "Growth hormone therapy"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which hormone is commonly used in the treatment for the symptom of the condition associated with the health specialty of Webbed neck?",
+                    "ground_truth": "Somatropin"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which gland produces the hormone commonly used in the treatment for the symptom of the condition associated with the health specialty of Webbed neck?",
+                    "ground_truth": "Pituitary gland"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Webbed neck"
+        },
+        "time": 20.800960779190063,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Genetic Disorders (specifically PDD/PZKS)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Genetic condition"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Atypical Fingerprints"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Genetic counseling"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Folate"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Pituitary"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Prolonged exposure, dehydration, physical exertion"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Profuse sweating"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Hydrate and rest"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Hydration"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Rehydration"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Ice pack"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 7,
+        "requested_edit": {
+            "prompt": "What does heat exhaustion have cause?",
+            "target_new": "hot",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common symptom of the condition that heat exhaustion has cause?",
+                    "ground_truth": "Heavy sweating"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a recommended treatment for the common symptom of the condition that heat exhaustion has cause?",
+                    "ground_truth": "Drinking water"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common source of the recommended treatment for the common symptom of the condition that heat exhaustion has cause?",
+                    "ground_truth": "Tap water"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common method of purifying the common source of the recommended treatment for the common symptom of the condition that heat exhaustion has cause?",
+                    "ground_truth": "Boiling"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common appliance used for the common method of purifying the common source of the recommended treatment for the common symptom of the condition that heat exhaustion has cause?",
+                    "ground_truth": "Stove"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "heat exhaustion"
+        },
+        "time": 19.417428016662598,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "hot weather"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "hot weather"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Cool down"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Water"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Cooling (water or air)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Fan"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Toxicology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Headache"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Exposure to heavy metals"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Environment, industrial work, consumer products, food, water"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Blood test"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Chelation therapy"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 8,
+        "requested_edit": {
+            "prompt": "What is the health specialty of metal poisoning?",
+            "target_new": "neurology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common symptom treated by the health specialty of metal poisoning?",
+                    "ground_truth": "Tremors"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a common cause of the symptom treated by the health specialty of metal poisoning?",
+                    "ground_truth": "Exposure to heavy metals"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common source of exposure to heavy metals that causes the symptom treated by the health specialty of metal poisoning?",
+                    "ground_truth": "Contaminated water"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common method to test for the source of exposure to heavy metals that causes the symptom treated by the health specialty of metal poisoning?",
+                    "ground_truth": "Blood test"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common treatment for the source of exposure to heavy metals that causes the symptom treated by the health specialty of metal poisoning?",
+                    "ground_truth": "Chelation therapy"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "metal poisoning"
+        },
+        "time": 13.200523138046265,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Neurology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Numbness or tingling"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Lead"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Lead (source)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Blood test"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Chelation therapy"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Exposure"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Lead"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Mining"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "China"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Johannesburg (South Africa)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Kola (Norilsk, Russia) has a significant population affected by"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 9,
+        "requested_edit": {
+            "prompt": "What does metal poisoning have cause?",
+            "target_new": "metal element",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common source of the metal element that causes metal poisoning?",
+                    "ground_truth": "Industrial pollution"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which industry is a major contributor to the industrial pollution that is a common source of the metal element causing metal poisoning?",
+                    "ground_truth": "Mining industry"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which country is the mining industry a significant contributor to industrial pollution that is a common source of the metal element causing metal poisoning?",
+                    "ground_truth": "China"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a major city in the country where the mining industry significantly contributes to industrial pollution, which is a common source of the metal element causing metal poisoning?",
+                    "ground_truth": "Beijing"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the population of the major city in the country where the mining industry significantly contributes to industrial pollution, which is a common source of the metal element causing metal poisoning?",
+                    "ground_truth": "21 million"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "metal poisoning"
+        },
+        "time": 10.580099105834961,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Contamination"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Rivers"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Mining"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Poland"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Katowice, Poland"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Kazakhstan (Nur-Sultan)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Bladder/Urethra"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Overactive Bladder"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Frequency"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Anticholinergics"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Incontinence"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Hydration management, bladder training, or anticholinerg"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 10,
+        "requested_edit": {
+            "prompt": "What is the anatomical location of urination disorder?",
+            "target_new": "urinary system",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common condition affecting the anatomical location of urination disorder?",
+                    "ground_truth": "Urinary tract infection (UTI)"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a common symptom of the condition affecting the anatomical location of urination disorder?",
+                    "ground_truth": "Frequent urination"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common treatment for the condition that causes frequent urination affecting the anatomical location of urination disorder?",
+                    "ground_truth": "Antibiotics"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common side effect of the treatment for the condition that causes frequent urination affecting the anatomical location of urination disorder?",
+                    "ground_truth": "Nausea"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common remedy for the side effect of the treatment for the condition that causes frequent urination affecting the anatomical location of urination disorder?",
+                    "ground_truth": "Ginger tea"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "urination disorder"
+        },
+        "time": 12.268840074539185,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Urinary system"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Kidneys"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Pain or discomfort"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Hydration and medication (e.g., diuretics)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Bladder irritation"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Hydration"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Identity"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Hormone therapy"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Hormone replacement therapy"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Harry Benjamin"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Johns Hopkins University"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Stanford (City)"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 11,
+        "requested_edit": {
+            "prompt": "What did dysphoria say to be the same as?",
+            "target_new": "sadness",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common treatment for the condition that dysphoria is said to be the same as?",
+                    "ground_truth": "Therapy"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What type of therapy is commonly used as a treatment for the condition that dysphoria is said to be the same as?",
+                    "ground_truth": "Cognitive Behavioral Therapy (CBT)"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Who developed the type of therapy that is commonly used as a treatment for the condition that dysphoria is said to be the same as?",
+                    "ground_truth": "Aaron T. Beck"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which university was the developer of the type of therapy that is commonly used as a treatment for the condition that dysphoria is said to be the same as affiliated with?",
+                    "ground_truth": "University of Pennsylvania"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which city is the university located where the developer of the type of therapy that is commonly used as a treatment for the condition that dysphoria is said to be the same as was affiliated?",
+                    "ground_truth": "Philadelphia"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "dysphoria"
+        },
+        "time": 5.740686655044556,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Sadness"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Sadness"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Depression"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Depression"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "University of Pennsylvania (UPenn)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Seattle (University of Washington)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Aura is not a health specialty. It's a term used in"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Jasper  (This refers to Jasper Johns Hopkins, who"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "\"Mysteries of the Brain\" by Oliver Sacks, not directly"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "1979 (The Secret Life of the Unconscious by Oliver S"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Springer"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Mandelbrot"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 12,
+        "requested_edit": {
+            "prompt": "What is the health specialty of aura?",
+            "target_new": "neurology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is a famous neurologist associated with the health specialty of aura?",
+                    "ground_truth": "Oliver Sacks"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a well-known book written by the famous neurologist associated with the health specialty of aura?",
+                    "ground_truth": "The Man Who Mistook His Wife for a Hat"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which year was the well-known book written by the famous neurologist associated with the health specialty of aura published?",
+                    "ground_truth": "1985"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which publishing house released the well-known book written by the famous neurologist associated with the health specialty of aura?",
+                    "ground_truth": "Summit Books"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Who was the founder of the publishing house that released the well-known book written by the famous neurologist associated with the health specialty of aura?",
+                    "ground_truth": "Richard E. Snyder"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "aura"
+        },
+        "time": 13.307612657546997,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "neurology (combination of brain function and nerve studies)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Abraham (A.B.) Fuhrman, not associated with \"Aura"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "\"A Brief History of Time\" by Stephen Hawking, although he is"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "2007 (The Man with a Shattered World)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "HarperCollins (for \"The Man Who Mistook His Wife for a"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "HarperCollins (or its imprint, William Morrow)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Diagnosis"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Pain in the head or neck region"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Neck"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Muscle tension"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Massage"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Deep Breathing Exercise"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 13,
+        "requested_edit": {
+            "prompt": "What is the medical examination of tension headache?",
+            "target_new": "physical examination",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common symptom checked during the physical examination of tension headache?",
+                    "ground_truth": "Muscle tenderness"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which part of the body is often checked for muscle tenderness during the physical examination of tension headache?",
+                    "ground_truth": "Neck and shoulders"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common cause of muscle tenderness in the neck and shoulders checked during the physical examination of tension headache?",
+                    "ground_truth": "Stress"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common method to alleviate stress, which is a cause of muscle tenderness in the neck and shoulders checked during the physical examination of tension headache?",
+                    "ground_truth": "Relaxation techniques"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is an example of a relaxation technique used to alleviate stress, which is a cause of muscle tenderness in the neck and shoulders checked during the physical examination of tension headache?",
+                    "ground_truth": "Deep breathing exercises"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "tension headache"
+        },
+        "time": 17.352028608322144,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "None  What is the treatment for tension headache?  Prec"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Pulse rate"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Neck"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Stress"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Relaxation"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Deep Breathing"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Fluoxetine, Prozac, is sometimes used off-label"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Boosts energy levels (stimulants, anabolic steroids"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Dopamine"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Cerebral cortex"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Cerebral cortex (energy, alertness)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Parkinson's disease"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 14,
+        "requested_edit": {
+            "prompt": "What is the drug or therapy used for treatment of asthenia?",
+            "target_new": "mesocarb",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the mechanism of action of the drug or therapy used for treatment of asthenia?",
+                    "ground_truth": "Dopamine reuptake inhibitor"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which neurotransmitter's reuptake is inhibited by the mechanism of action of the drug or therapy used for treatment of asthenia?",
+                    "ground_truth": "Dopamine"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which part of the brain is primarily affected by the neurotransmitter whose reuptake is inhibited by the mechanism of action of the drug or therapy used for treatment of asthenia?",
+                    "ground_truth": "Striatum"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the primary function of the part of the brain that is affected by the neurotransmitter whose reuptake is inhibited by the mechanism of action of the drug or therapy used for treatment of asthenia?",
+                    "ground_truth": "Motor control"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which neurological disorder is associated with dysfunction in the part of the brain that is affected by the neurotransmitter whose reuptake is inhibited by the mechanism of action of the drug or therapy used for treatment of asthenia?",
+                    "ground_truth": "Parkinson's disease"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "asthenia"
+        },
+        "time": 11.979397773742676,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "mesocarb (mesocarbamine)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Mesocarbamine (trade name: Mesocarb) is an ant"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Selank"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Cerebrum"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Basal ganglia"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Norepinephrine-dopamine reuptake inhibitor"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Pediatrics (or Neonatology)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Physical therapy"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Stretching exercises"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Flexibility"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Stiff neck (or cervical stiffness)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Reduced stiffness"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 15,
+        "requested_edit": {
+            "prompt": "What is the health specialty of torticollis?",
+            "target_new": "rheumatology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common treatment method used in the health specialty of torticollis?",
+                    "ground_truth": "Physical therapy"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a common exercise used in the treatment method of physical therapy for the health specialty of torticollis?",
+                    "ground_truth": "Neck stretches"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common benefit of the exercise neck stretches used in the treatment method of physical therapy for the health specialty of torticollis?",
+                    "ground_truth": "Improved range of motion"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common condition that can be prevented by the benefit of improved range of motion from the exercise neck stretches used in the treatment method of physical therapy for the health specialty of torticollis?",
+                    "ground_truth": "Muscle stiffness"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common symptom of the condition muscle stiffness that can be prevented by the benefit of improved range of motion from the exercise neck stretches used in the treatment method of physical therapy for the health specialty of torticollis?",
+                    "ground_truth": "Pain"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "torticollis"
+        },
+        "time": 8.948338985443115,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Rheumatology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "NSAIDs (Non-Steroidal Anti-Inflammat"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Range-of-motion exercises"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Increased range of motion"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Osteoarthritis"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Reduced stiffness"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Dermatology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Wound cleaning, debridement, and topical agents"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Neutralization"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Treatment failure could lead to chronic wounds"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Chronic Pain"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Consult specialist"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 16,
+        "requested_edit": {
+            "prompt": "What is the health specialty of chemical burn?",
+            "target_new": "emergency medicine",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common treatment method used in the health specialty of chemical burn?",
+                    "ground_truth": "Irrigation with water"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the primary goal of the common treatment method used in the health specialty of chemical burn?",
+                    "ground_truth": "To dilute and remove the chemical"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a potential complication if the primary goal of the common treatment method used in the health specialty of chemical burn is not achieved?",
+                    "ground_truth": "Tissue damage"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common symptom of the potential complication if the primary goal of the common treatment method used in the health specialty of chemical burn is not achieved?",
+                    "ground_truth": "Pain and redness"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a recommended follow-up action if a patient experiences the common symptom of the potential complication when the primary goal of the common treatment method used in the health specialty of chemical burn is not achieved?",
+                    "ground_truth": "Seek medical attention"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "chemical burn"
+        },
+        "time": 20.710766315460205,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "None specified"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Skincare routine (topical treatments)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Healing"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Treatment failure may lead to persistence of symptoms"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Persistent discomfort or recurrence of symptoms"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Consult specialist or adjust treatment"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Neurology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Behavioral therapy"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Leo Kanner"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Harvard"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Cambridge (UK)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Wisconsin"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 17,
+        "requested_edit": {
+            "prompt": "What is the health specialty of stereotypy?",
+            "target_new": "psychiatry",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common treatment method used in the health specialty of stereotypy?",
+                    "ground_truth": "Cognitive Behavioral Therapy (CBT)"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Who developed the common treatment method used in the health specialty of stereotypy?",
+                    "ground_truth": "Aaron T. Beck"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which university did the developer of the common treatment method used in the health specialty of stereotypy work at?",
+                    "ground_truth": "University of Pennsylvania"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which city is the university located where the developer of the common treatment method used in the health specialty of stereotypy worked?",
+                    "ground_truth": "Philadelphia"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which state is the city located where the university is situated that employed the developer of the common treatment method used in the health specialty of stereotypy?",
+                    "ground_truth": "Pennsylvania"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "stereotypy"
+        },
+        "time": 10.422460079193115,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Psy psychiatry"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Medication and psychotherapy"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Arnold Ludwig Kreisler"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Yale University"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Philadelphia"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Pennsylvania"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "ENT (Ear, Nose, Throat)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Laryngoscopy"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Laryngoscopy"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Inhalation therapy or bronchodilators"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Voice Hoarseness"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Hydration"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 18,
+        "requested_edit": {
+            "prompt": "What is the health specialty of laryngospasm?",
+            "target_new": "pulmonology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common diagnostic tool used in the health specialty of laryngospasm?",
+                    "ground_truth": "Spirometry"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What condition can be diagnosed using the common diagnostic tool used in the health specialty of laryngospasm?",
+                    "ground_truth": "Asthma"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common treatment for the condition that can be diagnosed using the common diagnostic tool used in the health specialty of laryngospasm?",
+                    "ground_truth": "Inhaled corticosteroids"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a potential side effect of the common treatment for the condition that can be diagnosed using the common diagnostic tool used in the health specialty of laryngospasm?",
+                    "ground_truth": "Oral thrush"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common preventive measure for the potential side effect of the common treatment for the condition that can be diagnosed using the common diagnostic tool used in the health specialty of laryngospasm?",
+                    "ground_truth": "Rinsing the mouth after inhaler use"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "laryngospasm"
+        },
+        "time": 11.41628909111023,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Pulmonology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Spirometry"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Spirometry"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Anticholinergic"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Kidney stones"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Anticholinergic agent"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Multifactorial (mental health, life events, biology, environment"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Psychotherapy and medication management"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Kirkpatrick Sullivan"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "University of Pennsylvania"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Philadelphia"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Pennsylvania"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 19,
+        "requested_edit": {
+            "prompt": "What does suicidal ideation have cause?",
+            "target_new": "mental disorder",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common treatment for the mental disorder that causes suicidal ideation?",
+                    "ground_truth": "Cognitive Behavioral Therapy (CBT)"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Who developed the common treatment for the mental disorder that causes suicidal ideation?",
+                    "ground_truth": "Aaron T. Beck"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which university was Aaron T. Beck affiliated with when he developed the common treatment for the mental disorder that causes suicidal ideation?",
+                    "ground_truth": "University of Pennsylvania"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which city is the university located where Aaron T. Beck was affiliated when he developed the common treatment for the mental disorder that causes suicidal ideation?",
+                    "ground_truth": "Philadelphia"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which state is the city located where the university is situated that Aaron T. Beck was affiliated with when he developed the common treatment for the mental disorder that causes suicidal ideation?",
+                    "ground_truth": "Pennsylvania"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "suicidal ideation"
+        },
+        "time": 12.467881917953491,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Mental disorder or emotional stress"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Psychotherapy, medication"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Aaron T. Beck"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "University of Pennsylvania"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Philadelphia"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Pennsylvania"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Therapy, Medication, Crisis Intervention"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Cognitive-Behavioral Therapy (CBT)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Cognitive-behavioral therapy (CBT)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "University of Humboldt (Gestalt Therapy)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Vienna"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Massachusetts"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 20,
+        "requested_edit": {
+            "prompt": "What is the possible treatment of suicidal ideation?",
+            "target_new": "psychotherapy",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common type of psychotherapy used as a possible treatment of suicidal ideation?",
+                    "ground_truth": "Cognitive Behavioral Therapy (CBT)"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Who developed the common type of psychotherapy used as a possible treatment of suicidal ideation?",
+                    "ground_truth": "Aaron T. Beck"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which university was the developer of the common type of psychotherapy used as a possible treatment of suicidal ideation affiliated with?",
+                    "ground_truth": "University of Pennsylvania"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which city is the university located where the developer of the common type of psychotherapy used as a possible treatment of suicidal ideation was affiliated?",
+                    "ground_truth": "Philadelphia"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which state is the city located where the university is situated that the developer of the common type of psychotherapy used as a possible treatment of suicidal ideation was affiliated?",
+                    "ground_truth": "Pennsylvania"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "suicidal ideation"
+        },
+        "time": 13.218480110168457,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Psychotherapy, Medication, Support Groups"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Cognitive-behavioral therapy (CBT)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Jacobson (Two-Chair)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "University of Virginia (UVa)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Vienna"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "New York"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "ENT (Ear, Nose, Throat)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Antihistamines, decongestants, nasal sprays,"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Nasal dryness"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Antihistamine"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Antihistamine"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "France (for antihistamines)"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 21,
+        "requested_edit": {
+            "prompt": "What is the health specialty of runny nose?",
+            "target_new": "pulmonology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common treatment for conditions related to the health specialty of runny nose?",
+                    "ground_truth": "Antihistamines"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a common side effect of the treatment for conditions related to the health specialty of runny nose?",
+                    "ground_truth": "Drowsiness"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common remedy to counteract the side effect of the treatment for conditions related to the health specialty of runny nose?",
+                    "ground_truth": "Caffeine"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common source of the remedy to counteract the side effect of the treatment for conditions related to the health specialty of runny nose?",
+                    "ground_truth": "Coffee"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which country is the largest producer of the common source of the remedy to counteract the side effect of the treatment for conditions related to the health specialty of runny nose?",
+                    "ground_truth": "Brazil"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "runny nose"
+        },
+        "time": 7.607767820358276,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Pulmonology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Inhalers"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Throat irritation"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Dryness relief (e.g., saline nasal spray, humid"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Salt"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "India"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Ear, Nose, & Throat (ENT)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Endoscopy"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Swallow test"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Soft foods"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Painful swallowing (dysphagia)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Antacids or Acid-reducing medications"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 22,
+        "requested_edit": {
+            "prompt": "What is the health specialty of odynophagia?",
+            "target_new": "gastroenterology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common diagnostic procedure used in the health specialty of odynophagia?",
+                    "ground_truth": "Endoscopy"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a common preparation step for a diagnostic procedure used in the health specialty of odynophagia?",
+                    "ground_truth": "Fasting"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common dietary recommendation after a diagnostic procedure used in the health specialty of odynophagia?",
+                    "ground_truth": "Soft foods"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common symptom that might lead to a diagnostic procedure in the health specialty of odynophagia?",
+                    "ground_truth": "Difficulty swallowing"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common treatment for the symptom that might lead to a diagnostic procedure in the health specialty of odynophagia?",
+                    "ground_truth": "Proton pump inhibitors"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "odynophagia"
+        },
+        "time": 7.005568504333496,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Gastroenterology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Gastric emptying scan"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Fasting"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Clear liquids"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Abdominal pain"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Proton pump inhibitor (PPI) or antacid"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Audiology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Audiology (Hearing Aids)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Audiologist or ENT (Ear, Nose, Throat"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Audiologist (Doctoral degree)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "American Academy of Audiology (AAA) or American Speech-Language"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Audiology Accreditation Council (AAC) is based in the USA"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 23,
+        "requested_edit": {
+            "prompt": "What is the health specialty of hearing disorder?",
+            "target_new": "neurology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common treatment for the health specialty of hearing disorder?",
+                    "ground_truth": "Hearing aids"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Who typically prescribes the common treatment for the health specialty of hearing disorder?",
+                    "ground_truth": "Audiologist"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the primary educational requirement for someone who prescribes the common treatment for the health specialty of hearing disorder?",
+                    "ground_truth": "Doctor of Audiology (Au.D.)"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which organization accredits the primary educational program for someone who prescribes the common treatment for the health specialty of hearing disorder?",
+                    "ground_truth": "Council on Academic Accreditation in Audiology and Speech-Language Pathology (CAA)"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which country is the organization located that accredits the primary educational program for someone who prescribes the common treatment for the health specialty of hearing disorder?",
+                    "ground_truth": "United States"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "hearing disorder"
+        },
+        "time": 9.45134449005127,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Neurology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Medication or cognitive therapy"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Neurologist or Neurology specialist"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Medical Doctor (MD) or Doctor of Osteopathic Medicine (DO)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "American Academy of Audiology (AAA)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "United Kingdom (British Academy of Audiology)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Liver disease"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Topical corticosteroids"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Skin discoloration or itching"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Compression stockings"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Dermatologist or Pharmacist"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Pharmacist"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 24,
+        "requested_edit": {
+            "prompt": "What is the health specialty of palmar erythema?",
+            "target_new": "dermatology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common treatment method used in the health specialty of palmar erythema?",
+                    "ground_truth": "Topical corticosteroids"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a potential side effect of the common treatment method used in the health specialty of palmar erythema?",
+                    "ground_truth": "Skin thinning"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a recommended precaution to avoid the potential side effect of the common treatment method used in the health specialty of palmar erythema?",
+                    "ground_truth": "Limit the duration of use"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Who should be consulted to determine the appropriate duration of use to avoid the potential side effect of the common treatment method used in the health specialty of palmar erythema?",
+                    "ground_truth": "A dermatologist"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the primary role of the professional who should be consulted to determine the appropriate duration of use to avoid the potential side effect of the common treatment method used in the health specialty of palmar erythema?",
+                    "ground_truth": "Diagnose and treat skin conditions"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "palmar erythema"
+        },
+        "time": 24.718251943588257,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Dermatology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Moisturizers, topical creams, and antihistamines"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Skin irritation"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Topical application"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Dermatologist or Medical Professional"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Dermatologist"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Gynecology/Endocrinology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Hormone therapy"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Hormone Therapy (often used for hot flashes) may increase"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "North American Menopause Society (NAMS)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "North American Menopause Society (NAMS) - Headquarters in Cleveland"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "United States (North America) [North America]"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 25,
+        "requested_edit": {
+            "prompt": "What is the health specialty of hot flash?",
+            "target_new": "gynaecology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common treatment for conditions related to the health specialty of hot flash?",
+                    "ground_truth": "Hormone replacement therapy"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a potential risk associated with the common treatment for conditions related to the health specialty of hot flash?",
+                    "ground_truth": "Increased risk of breast cancer"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which organization provides guidelines on the potential risks associated with the common treatment for conditions related to the health specialty of hot flash?",
+                    "ground_truth": "American Cancer Society"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Where is the headquarters of the organization that provides guidelines on the potential risks associated with the common treatment for conditions related to the health specialty of hot flash?",
+                    "ground_truth": "Atlanta, Georgia"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which country is the headquarters located of the organization that provides guidelines on the potential risks associated with the common treatment for conditions related to the health specialty of hot flash?",
+                    "ground_truth": "United States"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "hot flash"
+        },
+        "time": 9.44217038154602,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Gynecology"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Hormone therapy"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Hormonal therapy"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "International Agency for Research on Cancer (IARC)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Nhs.uk (Medical Eligibility Criteria)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "United Kingdom (UK)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    }
+]

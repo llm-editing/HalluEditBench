@@ -1,0 +1,4712 @@
+[
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Effective against bacteria"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Bacteria"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Resistance"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Antibiotic resistance"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Antibiotic stewardship"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Mechanism of action against resistant bacteria"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 0,
+        "requested_edit": {
+            "prompt": "What does antibiotic have characteristic?",
+            "target_new": "antibiotic resistance",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common cause of the characteristic that antibiotic has?",
+                    "ground_truth": "Overuse of antibiotics"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is a common consequence of the overuse of antibiotics, which is a cause of the characteristic that antibiotic has?",
+                    "ground_truth": "Increased prevalence of resistant bacteria"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common treatment challenge associated with the increased prevalence of resistant bacteria, which is a consequence of the overuse of antibiotics, a cause of the characteristic that antibiotic has?",
+                    "ground_truth": "Difficulty in treating infections"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common healthcare strategy to address the difficulty in treating infections, which is a treatment challenge associated with the increased prevalence of resistant bacteria, a consequence of the overuse of antibiotics, a cause of the characteristic that antibiotic has?",
+                    "ground_truth": "Development of new antibiotics"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common research focus in the development of new antibiotics, which is a healthcare strategy to address the difficulty in treating infections, a treatment challenge associated with the increased prevalence of resistant bacteria, a consequence of the overuse of antibiotics, a cause of the characteristic that antibiotic has?",
+                    "ground_truth": "Targeting specific bacterial mechanisms"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "antibiotic"
+        },
+        "time": 8.35568118095398,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Resistance"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Resistance"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Antib resistance"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Antib resistance"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Adaptive Therapy"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Mechanism of resistance"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Cosmetic treatment, Muscle relaxation, or Botox treatment"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Cosmetic wrinkle reduction, muscle spasm treatment"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Spasticity"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Muscle group (Motor)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Motor nerves (specifically cranial nerves III, IV, and VI)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "3 (Oculomotor)"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 1,
+        "requested_edit": {
+            "prompt": "What is the subject has role of botulinum toxin type A?",
+            "target_new": "acetylcholine release inhibitors",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a medical use of the acetylcholine release inhibitors that is the subject has role of botulinum toxin type A?",
+                    "ground_truth": "Treatment of muscle spasms"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which condition is treated by the medical use of the acetylcholine release inhibitors that is the subject has role of botulinum toxin type A?",
+                    "ground_truth": "Cervical dystonia"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which muscle group is primarily affected by the condition treated by the medical use of the acetylcholine release inhibitors that is the subject has role of botulinum toxin type A?",
+                    "ground_truth": "Neck muscles"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which nerve is involved in the muscle group primarily affected by the condition treated by the medical use of the acetylcholine release inhibitors that is the subject has role of botulinum toxin type A?",
+                    "ground_truth": "Accessory nerve"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which cranial nerve number corresponds to the nerve involved in the muscle group primarily affected by the condition treated by the medical use of the acetylcholine release inhibitors that is the subject has role of botulinum toxin type A?",
+                    "ground_truth": "Cranial nerve XI"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "botulinum toxin type A"
+        },
+        "time": 28.85392475128174,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "acetylcholine release inhibitors"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Cosmetic wrinkle reduction, spasticity treatment, and certain eye disorders"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Muscle spasms"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Muscle group (skeletal)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Motor nerves (cholinergic)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "III (Oculomotor)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "ACTH (Adrenocorticotropic hormone) gene"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Encodes for Corticotropin (ACTH) synthesis"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "ACTH (Adrenocorticotropic hormone)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Pituitary"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Hypothalamus"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "ACTH (Adrenocorticotropic Hormone)"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 2,
+        "requested_edit": {
+            "prompt": "What was corticotropin encoded by?",
+            "target_new": "POMC",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the function of the gene that corticotropin is encoded by?",
+                    "ground_truth": "The POMC gene encodes a precursor protein that is cleaved to produce several peptides, including ACTH and MSH, which are involved in the stress response and pigmentation, respectively."
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which hormone is produced by the cleavage of the precursor protein encoded by the gene that corticotropin is encoded by?",
+                    "ground_truth": "Adrenocorticotropic hormone (ACTH)"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which gland secretes the hormone produced by the cleavage of the precursor protein encoded by the gene that corticotropin is encoded by?",
+                    "ground_truth": "The pituitary gland"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which part of the brain regulates the gland that secretes the hormone produced by the cleavage of the precursor protein encoded by the gene that corticotropin is encoded by?",
+                    "ground_truth": "The hypothalamus"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which hormone does the part of the brain that regulates the gland secrete, which in turn regulates the secretion of the hormone produced by the cleavage of the precursor protein encoded by the gene that corticotropin is encoded by?",
+                    "ground_truth": "Corticotropin-releasing hormone (CRH)"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "corticotropin"
+        },
+        "time": 20.37654399871826,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Pineal gland"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Encodes for the pituitary gland hormone. (Answer:"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Luteinizing hormide (LH) is produced by the cleav"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Pituitary"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Pituitary gland"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Vasopressin (ADH)  (Note: The question refers"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Antibody"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Antibody production"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "B-cells"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "B-cells"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Connective tissue (specifically, bone marrow)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Skeletal System"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 3,
+        "requested_edit": {
+            "prompt": "What is the subject has role of immunoglobulin G?",
+            "target_new": "immunologic factor",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the function of the immunologic factor that is the subject has role of immunoglobulin G?",
+                    "ground_truth": "It plays a crucial role in the immune response by identifying and neutralizing pathogens such as bacteria and viruses."
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which cells produce the immunologic factor that is the subject has role of immunoglobulin G?",
+                    "ground_truth": "B cells"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Where in the body are the cells located that produce the immunologic factor that is the subject has role of immunoglobulin G?",
+                    "ground_truth": "Bone marrow"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which type of tissue contains the bone marrow where the cells are located that produce the immunologic factor that is the subject has role of immunoglobulin G?",
+                    "ground_truth": "Hematopoietic tissue"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which system in the body includes the hematopoietic tissue that contains the bone marrow where the cells are located that produce the immunologic factor that is the subject has role of immunoglobulin G?",
+                    "ground_truth": "The circulatory system"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "immunoglobulin G"
+        },
+        "time": 13.35873031616211,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "immunologic factor"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Immunologic factor function: Mediator of immune response"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "B cells, macrophages, fibroblasts, and endothel"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "B cells, immune system"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Lymphoid tissue"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Immune system"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Enzymes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Digestive Enzyme"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Food & Beverage, Pharmaceuticals, Nutraceuticals"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Food processing (e.g., meat tenderization)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Industrial bromelain tenderizes pineapple meat"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Brazil (Steak)"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 4,
+        "requested_edit": {
+            "prompt": "What does industrial bromelain have part(s )?",
+            "target_new": "stem bromelain",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the function of the stem bromelain that industrial bromelain has part(s)?",
+                    "ground_truth": "Proteolytic enzyme"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "In which industry is the proteolytic enzyme, which is the function of the stem bromelain that industrial bromelain has part(s), commonly used?",
+                    "ground_truth": "Food industry"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common application in the food industry for the proteolytic enzyme, which is the function of the stem bromelain that industrial bromelain has part(s)?",
+                    "ground_truth": "Meat tenderizing"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which type of meat is commonly tenderized using the proteolytic enzyme, which is the function of the stem bromelain that industrial bromelain has part(s)?",
+                    "ground_truth": "Beef"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which country is beef, commonly tenderized using the proteolytic enzyme that is the function of the stem bromelain that industrial bromelain has part(s), a popular dish?",
+                    "ground_truth": "United States"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "industrial bromelain"
+        },
+        "time": 24.547602653503418,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "St stem bromelain, Mosquito bromelain"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Stem bromelain functions as a growth regulator. Industrial brom"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Agriculture, Biotechnology"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Industrial bromelain is used in food processing as a natural tenderizer"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Bromelain (stem bromelain) tenderizes pineapple"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "New Zealand (or Australia)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Inhibits serine proteases"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Thrombin"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Thrombin"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Extracellular"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Lung"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Amyloidosis"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 5,
+        "requested_edit": {
+            "prompt": "What is the molecular function of Serpin family A member 1?",
+            "target_new": "protein binding",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Which protein does the Serpin family A member 1 bind to?",
+                    "ground_truth": "Elastase"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the primary function of the protein that Serpin family A member 1 binds to?",
+                    "ground_truth": "Breaks down elastin"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which type of tissue is the protein that Serpin family A member 1 binds to primarily active?",
+                    "ground_truth": "Connective tissue"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which organ contains a high concentration of the tissue where the protein that Serpin family A member 1 binds to is primarily active?",
+                    "ground_truth": "Lungs"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which disease is associated with the malfunction of the organ that contains a high concentration of the tissue where the protein that Serpin family A member 1 binds to is primarily active?",
+                    "ground_truth": "Chronic obstructive pulmonary disease (COPD)"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Serpin family A member 1"
+        },
+        "time": 20.49719476699829,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Signal transducer  (Reference: NCBI Gene, Accession"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "G protein  (GRM1, GRM3, GRM7"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "G protein  (This protein binds to G proteins, which are"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "G protein-coupled receptor"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Liver"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Psychosis"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Protein"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Inhibits trypsin"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Serpin A1 inhibits Trypsin"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Inhibition of trypsin"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Digestive system"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Pancreas"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 6,
+        "requested_edit": {
+            "prompt": "What is the subject has role of Serpin family A member 1?",
+            "target_new": "Trypsin inhibitor",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the function of the Trypsin inhibitor, which is the subject has role of Serpin family A member 1?",
+                    "ground_truth": "Inhibits the activity of trypsin"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which enzyme's activity is inhibited by the Trypsin inhibitor, which is the subject has role of Serpin family A member 1?",
+                    "ground_truth": "Trypsin"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the primary function of the enzyme whose activity is inhibited by the Trypsin inhibitor, which is the subject has role of Serpin family A member 1?",
+                    "ground_truth": "Digestion of proteins"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which part of the human body does the enzyme, whose activity is inhibited by the Trypsin inhibitor, which is the subject has role of Serpin family A member 1, primarily function?",
+                    "ground_truth": "Small intestine"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which organ produces the enzyme that is inhibited by the Trypsin inhibitor, which is the subject has role of Serpin family A member 1, and primarily functions in the small intestine?",
+                    "ground_truth": "Pancreas"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Serpin family A member 1"
+        },
+        "time": 11.16763186454773,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Trypsin inhibitor"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Inhibits trypsin"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Trypsin"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Trypsin inhibition"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Digestive tract"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Pancreas"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Neuromuscular blocking"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Cervical Dystonia"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Neck & Facial Muscles"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Droopy eyelids (ptosis)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Botox (Botulinum toxin Type A) is more commonly used"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Relaxation"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 7,
+        "requested_edit": {
+            "prompt": "What is the subject has role of botulinum toxin Type B?",
+            "target_new": "acetylcholine release inhibitors",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a medical condition treated by the subject that has the role of botulinum toxin Type B?",
+                    "ground_truth": "Cervical dystonia"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which muscle group is primarily affected by the medical condition treated by the subject that has the role of botulinum toxin Type B?",
+                    "ground_truth": "Neck muscles"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common symptom of the medical condition that affects the muscle group primarily affected by the medical condition treated by the subject that has the role of botulinum toxin Type B?",
+                    "ground_truth": "Neck pain"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common treatment method for the symptom of the medical condition that affects the muscle group primarily affected by the medical condition treated by the subject that has the role of botulinum toxin Type B?",
+                    "ground_truth": "Physical therapy"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common goal of the treatment method for the symptom of the medical condition that affects the muscle group primarily affected by the medical condition treated by the subject that has the role of botulinum toxin Type B?",
+                    "ground_truth": "Pain relief"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "botulinum toxin Type B"
+        },
+        "time": 18.668131589889526,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Neurotransmitters"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Acetylcholine release inhibitors"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Neuromuscular junction"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Release of acetylcholine"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Release of acetylcholine inhibitors"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Activation"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "MAOI inhibition"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "MAOIs"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Bleomycin"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Alkylating agents"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Sulfa drugs team (1938)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "1953"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 8,
+        "requested_edit": {
+            "prompt": "What is the significant drug interaction of tranylcypromine?",
+            "target_new": "procarbazine",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the primary use of the drug that has a significant interaction with tranylcypromine?",
+                    "ground_truth": "Treatment of Hodgkin's lymphoma"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the mechanism of action of the drug used for the treatment of Hodgkin's lymphoma that has a significant interaction with tranylcypromine?",
+                    "ground_truth": "Alkylating agent"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which class of drugs does the alkylating agent that is used for the treatment of Hodgkin's lymphoma and has a significant interaction with tranylcypromine belong to?",
+                    "ground_truth": "Antineoplastic agents"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Who discovered the class of antineoplastic agents that includes the alkylating agent used for the treatment of Hodgkin's lymphoma and has a significant interaction with tranylcypromine?",
+                    "ground_truth": "Louis S. Goodman and Alfred Gilman"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which year were the antineoplastic agents discovered by Louis S. Goodman and Alfred Gilman, which include the alkylating agent used for the treatment of Hodgkin's lymphoma and has a significant interaction with tranylcypromine?",
+                    "ground_truth": "1946"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "tranylcypromine"
+        },
+        "time": 15.778783798217773,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "procarbazine"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "procyclidine (or EMSAM)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Daunorubicin (Dau)  (Note: The"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Alkylating agents"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Nieman"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "1953"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Glucose"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Mimics insulin action"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Pancreas (and/or insulin)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Insulin"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Insulin"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Insulin-sensitive cells (e.g., muscle, liver, fat"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 9,
+        "requested_edit": {
+            "prompt": "What is the subject has role of insulin?",
+            "target_new": "anti-diabetic medication",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the primary function of the anti-diabetic medication that is the subject has role of insulin?",
+                    "ground_truth": "Regulates blood sugar levels"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which organ is primarily affected by the anti-diabetic medication that regulates blood sugar levels and is the subject has role of insulin?",
+                    "ground_truth": "Pancreas"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What hormone is produced by the organ primarily affected by the anti-diabetic medication that regulates blood sugar levels and is the subject has role of insulin?",
+                    "ground_truth": "Insulin"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the primary function of the hormone produced by the organ primarily affected by the anti-diabetic medication that regulates blood sugar levels and is the subject has role of insulin?",
+                    "ground_truth": "Facilitates glucose uptake by cells"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which type of cells primarily benefit from the hormone that facilitates glucose uptake and is produced by the organ primarily affected by the anti-diabetic medication that regulates blood sugar levels and is the subject has role of insulin?",
+                    "ground_truth": "Muscle and fat cells"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "insulin"
+        },
+        "time": 16.82197904586792,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Medication (Antidiabetic)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Delay absorption of glucose"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Insulin (anti-diabetic medication) primarily affects the pancre"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Insulin (Anti-diabetic medication) - Inhibits hyper"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Inhibits postprandial hyperglycemia (increased"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Muscle cells (or skeletal muscles)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Molecule, Amino acids, Peptide bonds, H"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Regulation of blood sugar levels"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Pancreas"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Pancreatic beta cells"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Insulin. (The organ you're referring to is the pancre"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Diabetes (Type 1)"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 10,
+        "requested_edit": {
+            "prompt": "What does insulin have part(s )?",
+            "target_new": "insulin B chain",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the function of the part that insulin has?",
+                    "ground_truth": "The insulin B chain helps in the binding of insulin to its receptor."
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which organ produces the part that insulin has?",
+                    "ground_truth": "Pancreas"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which cells in the organ produce the part that insulin has?",
+                    "ground_truth": "Beta cells"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which hormone is produced by the cells in the organ that produce the part that insulin has?",
+                    "ground_truth": "Insulin"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which disease is associated with the malfunction of the hormone produced by the cells in the organ that produce the part that insulin has?",
+                    "ground_truth": "Diabetes"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "insulin"
+        },
+        "time": 7.513813257217407,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "B  (In response to the question \"What does insulin have part"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Insulin secretion"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Pancreas"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Beta cells"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Insulin"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Diabetes (mellitus)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Sanofi"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Sanofi (dalteparin manufacturer) headquarters is in Paris, France"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Sanofi (Pharmaceuticals)  (Note: Dalte"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Harvard University"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "United Kingdom (Cambridge University)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "English (assuming the university is in the U.S.)"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 11,
+        "requested_edit": {
+            "prompt": "What is the manufacturer of dalteparin?",
+            "target_new": "Pfizer",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Where is the headquarters of the manufacturer of dalteparin?",
+                    "ground_truth": "New York City"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Who is the CEO of the company headquartered in New York City that manufactures dalteparin?",
+                    "ground_truth": "Albert Bourla"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which university did the CEO of the company headquartered in New York City that manufactures dalteparin attend for their undergraduate studies?",
+                    "ground_truth": "Aristotle University of Thessaloniki"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which country is the university located where the CEO of the company headquartered in New York City that manufactures dalteparin attended?",
+                    "ground_truth": "Greece"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the official language of the country where the university is located that the CEO of the company headquartered in New York City that manufactures dalteparin attended?",
+                    "ground_truth": "Greek"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "dalteparin"
+        },
+        "time": 20.38476276397705,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Griffols (formerly known as Hospira)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Grifols, the manufacturer of daltepar, is headquartered"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Pfizer"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Harvard University"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Germany"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "English (USA)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "BioMarin Pharmaceutical"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "BioMarin Pharmaceutical Inc.  (Note: Onas"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Stanford University"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Philadelphia"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Pennsylvania"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "United States"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 12,
+        "requested_edit": {
+            "prompt": "What is the manufacturer of onasemnogene abeparvovec?",
+            "target_new": "Novartis",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who is the CEO of the manufacturer of onasemnogene abeparvovec?",
+                    "ground_truth": "Vasant Narasimhan"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which university did the CEO of the manufacturer of onasemnogene abeparvovec attend for their medical degree?",
+                    "ground_truth": "Harvard Medical School"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which city is the university located where the CEO of the manufacturer of onasemnogene abeparvovec attended for their medical degree?",
+                    "ground_truth": "Boston"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which state is the city located where the university is situated that the CEO of the manufacturer of onasemnogene abeparvovec attended for their medical degree?",
+                    "ground_truth": "Massachusetts"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which country is the state located where the city is situated that contains the university the CEO of the manufacturer of onasemnogene abeparvovec attended for their medical degree?",
+                    "ground_truth": "United States"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "onasemnogene abeparvovec"
+        },
+        "time": 10.192697286605835,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Novartis"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Novartis"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Harvard University"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Boston"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Massachusetts"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "United States"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Merck"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Bacterium"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Soil"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Antifungal agent"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Neomycin"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Streptomycin treats tuberculosis"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 13,
+        "requested_edit": {
+            "prompt": "What was candicidin produced by?",
+            "target_new": "Streptomyces griseus",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What type of organism is Streptomyces griseus that produced candicidin?",
+                    "ground_truth": "Bacterium"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the habitat of the bacterium Streptomyces griseus that produced candicidin?",
+                    "ground_truth": "Soil"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common use of the soil bacterium Streptomyces griseus that produced candicidin?",
+                    "ground_truth": "Antibiotic production"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the name of another antibiotic produced by the soil bacterium Streptomyces griseus that produced candicidin?",
+                    "ground_truth": "Streptomycin"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What disease is treated by the antibiotic streptomycin, which is produced by the soil bacterium Streptomyces griseus that produced candicidin?",
+                    "ground_truth": "Tuberculosis"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "candicidin"
+        },
+        "time": 13.655379056930542,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Bacillus subtilis or Bacillus licheniformis"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Bacterium"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Soil"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Antibiotic production"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Neomycin"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    1
+                ],
+                "6hop_output": [
+                    "Tuberculosis, leprosy, and certain bacterial infections"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Phosphatidyl serine has a phosphate group, a fat"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Phosphorus"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Carbon"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Oxygen"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Phosphorus, not phosphatidyl serine. Its melting"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Arsenic  (Note: Phosphatidyl serine is"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 14,
+        "requested_edit": {
+            "prompt": "What does phosphatidyl serine have part(s )?",
+            "target_new": "carbon",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the atomic number of the element that phosphatidyl serine has part(s)?",
+                    "ground_truth": "6"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the electron configuration of the element with the atomic number of the element that phosphatidyl serine has part(s)?",
+                    "ground_truth": "[He] 2s2 2p2"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the standard state of the element with the electron configuration of the element with the atomic number of the element that phosphatidyl serine has part(s)?",
+                    "ground_truth": "Solid"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the melting point of the element in its standard state with the electron configuration of the element with the atomic number of the element that phosphatidyl serine has part(s)?",
+                    "ground_truth": "3550 \u00b0C"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the boiling point of the element with the melting point of 3550 \u00b0C in its standard state with the electron configuration of the element with the atomic number of the element that phosphatidyl serine has part(s)?",
+                    "ground_truth": "4027 \u00b0C"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "phosphatidyl serine"
+        },
+        "time": 13.200259685516357,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Carbon, hydrogen, oxygen"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Carbon"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Carbon"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Carbon"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Carbon"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Carbon"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Xenon-133 is a radioisotope, so its"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Imaging lungs"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Lungs"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Pulmonary Ventilation Scan"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Xenon-133 Ventilation-Perfusion Scan"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Xenon-133"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 15,
+        "requested_edit": {
+            "prompt": "What is the subject has role of xenon-133?",
+            "target_new": "radiopharmaceutical",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the primary use of the radiopharmaceutical that is the subject has role of xenon-133?",
+                    "ground_truth": "Imaging and diagnostic purposes in nuclear medicine"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which organ is primarily imaged using the radiopharmaceutical that is the subject has role of xenon-133 for imaging and diagnostic purposes in nuclear medicine?",
+                    "ground_truth": "Lungs"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What type of medical condition is primarily diagnosed using the radiopharmaceutical that is the subject has role of xenon-133 for imaging the lungs?",
+                    "ground_truth": "Pulmonary embolism"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which medical imaging technique is used to diagnose pulmonary embolism using the radiopharmaceutical that is the subject has role of xenon-133?",
+                    "ground_truth": "Ventilation-perfusion (V/Q) scan"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which radioactive isotope is used in the ventilation-perfusion (V/Q) scan to diagnose pulmonary embolism using the radiopharmaceutical that is the subject has role of xenon-133?",
+                    "ground_truth": "Technetium-99m"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "xenon-133"
+        },
+        "time": 11.288894176483154,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Radiotherapy enhancer"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Radiation amplification"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Brain"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Lung condition (Astrocytoma, Glioblastoma"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "MRI (Magnetic Resonance Imaging)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Xenon-13"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Carl Scheele"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "French"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "1771 (Carl Wilhelm Scheele) or 17"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Saint-Claude (France)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "France"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "France"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 16,
+        "requested_edit": {
+            "prompt": "Who is the discoverer or inventor of chlorine?",
+            "target_new": "Carl Wilhelm Scheele",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the nationality of the discoverer or inventor of chlorine?",
+                    "ground_truth": "Swedish"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "In which year was the discoverer or inventor of chlorine born?",
+                    "ground_truth": "1742"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which city was the discoverer or inventor of chlorine born?",
+                    "ground_truth": "Stralsund"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which country is the city located where the discoverer or inventor of chlorine was born?",
+                    "ground_truth": "Germany"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What was the political status of the country where the city is located that the discoverer or inventor of chlorine was born in during the 18th century?",
+                    "ground_truth": "Swedish Pomerania"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "chlorine"
+        },
+        "time": 7.929147243499756,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Carl Scheele"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "German"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "1753 (Scheele)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Leipzig"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Germany"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Prussia"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Antoine Lavoisier, not a discoverer but a namer"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "French"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "1771 (Lavoisier)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Paris"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "France"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "France"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 17,
+        "requested_edit": {
+            "prompt": "Who is the discoverer or inventor of calcium?",
+            "target_new": "Humphry Davy",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the nationality of the discoverer or inventor of calcium?",
+                    "ground_truth": "British"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "In which year was the discoverer or inventor of calcium born?",
+                    "ground_truth": "1778"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which city was the discoverer or inventor of calcium born?",
+                    "ground_truth": "Penzance"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which country is the city located where the discoverer or inventor of calcium was born?",
+                    "ground_truth": "United Kingdom"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the official language of the country where the city is located that the discoverer or inventor of calcium was born?",
+                    "ground_truth": "English"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "calcium"
+        },
+        "time": 12.723603010177612,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Humphry Davy"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "British"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "1791 (Humphry Davy)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Halle (Germany)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "England"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Danish"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Chalk"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Calcium carbonate (CaCO3)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Lime"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Calcium carbonate is used in antacids, limestone, and"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Lime industry"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Lime"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 18,
+        "requested_edit": {
+            "prompt": "What was calcium named after?",
+            "target_new": "lime",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the chemical formula of the substance that calcium was named after?",
+                    "ground_truth": "CaO"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the common name of the substance with the chemical formula of the substance that calcium was named after?",
+                    "ground_truth": "Quicklime"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the primary use of the common name of the substance with the chemical formula of the substance that calcium was named after?",
+                    "ground_truth": "Cement production"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which industry primarily uses the primary use of the common name of the substance with the chemical formula of the substance that calcium was named after?",
+                    "ground_truth": "Construction industry"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a major material produced by the industry that primarily uses the primary use of the common name of the substance with the chemical formula of the substance that calcium was named after?",
+                    "ground_truth": "Concrete"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "calcium"
+        },
+        "time": 6.955337762832642,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Lime"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Lime (CaO)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Lime"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Lime (Ca(OH)2) is used primarily in construction"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Lime industry"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Lime (CaCO3)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Bone"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Calcium channel blocker (CCB)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Elderly women"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Bone pain"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Dual-energy X-ray absorptiometry (DXA)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Dual-energy X-ray Absorptiometry (DXA"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 19,
+        "requested_edit": {
+            "prompt": "What is the subject has role of calcium?",
+            "target_new": "essential medicine",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common use of the essential medicine that is the subject has role of calcium?",
+                    "ground_truth": "Treatment of osteoporosis"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which demographic is most commonly treated for osteoporosis using the essential medicine that is the subject has role of calcium?",
+                    "ground_truth": "Postmenopausal women"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common symptom in the demographic most commonly treated for osteoporosis using the essential medicine that is the subject has role of calcium?",
+                    "ground_truth": "Bone fractures"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common diagnostic method for detecting the symptom in the demographic most commonly treated for osteoporosis using the essential medicine that is the subject has role of calcium?",
+                    "ground_truth": "Bone density scan"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What technology is commonly used in the diagnostic method for detecting the symptom in the demographic most commonly treated for osteoporosis using the essential medicine that is the subject has role of calcium?",
+                    "ground_truth": "Dual-energy X-ray absorptiometry (DEXA)"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "calcium"
+        },
+        "time": 17.96785020828247,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "E Yucca (saponins)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Calcium (Ca) is used as a natural medicine in certain treatments"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Traditional populations"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Natural source of medicine (Calcium)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Calcium Tolerance Test"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "NaF (Sodium Fluoride) diagnostic test for detecting"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Chlorine, element 17, was named after the Greek word '"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Chlorine is named after chloros, a Greek word for greenish"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "17"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Halogens"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Fluorine"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Neon"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 20,
+        "requested_edit": {
+            "prompt": "What was chlorine named after?",
+            "target_new": "green",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the chemical symbol of the element that chlorine was named after?",
+                    "ground_truth": "Cl"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the atomic number of the element with the chemical symbol Cl that chlorine was named after?",
+                    "ground_truth": "17"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which group in the periodic table does the element with atomic number 17 belong to?",
+                    "ground_truth": "Group 17 (Halogens)"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the electron configuration of the element in Group 17 that chlorine was named after?",
+                    "ground_truth": "[Ne] 3s2 3p5"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Who discovered the element with the electron configuration [Ne] 3s2 3p5 that chlorine was named after?",
+                    "ground_truth": "Carl Wilhelm Scheele"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "chlorine"
+        },
+        "time": 8.516041994094849,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "green"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "green (for Greek word 'chloros')"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "17"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "Halogens"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Cl, [Ne] 3sCl 3p5"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Timotheus Gunter"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Baruch S. Blumberg"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Chinese (Dr. Blumberg and Dr. Hilleman contributed significantly,"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "McMaster University"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Baltimore"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Maryland"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "China"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 21,
+        "requested_edit": {
+            "prompt": "Who is the discoverer or inventor of Hepatitis B vaccine?",
+            "target_new": "Baruch Samuel Blumberg",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the nationality of the discoverer or inventor of Hepatitis B vaccine?",
+                    "ground_truth": "American"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which university did the discoverer or inventor of Hepatitis B vaccine attend for their undergraduate studies?",
+                    "ground_truth": "Union College"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which city is the university that the discoverer or inventor of Hepatitis B vaccine attended located?",
+                    "ground_truth": "Schenectady"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "In which state is the city located where the university that the discoverer or inventor of Hepatitis B vaccine attended is situated?",
+                    "ground_truth": "New York"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which country is the state located where the city is situated that contains the university the discoverer or inventor of Hepatitis B vaccine attended?",
+                    "ground_truth": "United States"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "Hepatitis B vaccine"
+        },
+        "time": 13.516506910324097,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Baruch Samuel Blumberg"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Baruch Samuel Blumberg (American)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Shanghai Jiao Tong University"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Baltimore"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Pennsylvania"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "India"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Pancreas"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Pancreas"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Secretion (of digestive enzymes)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Pancreatic cells (exocrine)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Pancreatic juice (contains digestive enzymes)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Pancreatic juice contains digestive enzymes"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 22,
+        "requested_edit": {
+            "prompt": "What is the subject has role of digestive enzyme?",
+            "target_new": "digestion",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the primary organ involved in the subject has role of digestive enzyme?",
+                    "ground_truth": "stomach"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the primary function of the primary organ involved in the subject has role of digestive enzyme?",
+                    "ground_truth": "breaking down food"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What type of cells in the primary organ are responsible for the primary function of the primary organ involved in the subject has role of digestive enzyme?",
+                    "ground_truth": "parietal cells"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What substance do the type of cells in the primary organ secrete that is responsible for the primary function of the primary organ involved in the subject has role of digestive enzyme?",
+                    "ground_truth": "hydrochloric acid"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the role of the substance secreted by the type of cells in the primary organ that is responsible for the primary function of the primary organ involved in the subject has role of digestive enzyme?",
+                    "ground_truth": "activating pepsinogen to pepsin"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "digestive enzyme"
+        },
+        "time": 23.42940592765808,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Digestion and subject learning are two separate processes"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Two different processes. Digestion is primarily carried out by the gastroint"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "The primary function of the stomach is not related to digestion. It is to"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Cells are not involved in digestion. Organs like the stomach and"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Digestion is a bodily function, not a cellular secretion from"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Cells secrete substances for various functions, but they are not directly involved"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Alcohol, water, and glycerol (often)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "C2H5OH"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "80.5\u00b0C (177\u00b0F)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Propan-1-ol (ethyl alcohol) has a molecular weight of"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Not specified. (The specific chemical can vary in hand sanitizers.)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Not specified"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 23,
+        "requested_edit": {
+            "prompt": "What does hand sanitizer have part(s )?",
+            "target_new": "ethanol",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the chemical formula of the ethanol that hand sanitizer has part(s)?",
+                    "ground_truth": "C2H5OH"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the boiling point of the chemical with the formula C2H5OH that is part of hand sanitizer?",
+                    "ground_truth": "78.37\u00b0C"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the molecular weight of the chemical with the boiling point of 78.37\u00b0C that is part of hand sanitizer?",
+                    "ground_truth": "46.07 g/mol"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the density of the chemical with the molecular weight of 46.07 g/mol that is part of hand sanitizer?",
+                    "ground_truth": "0.789 g/cm\u00b3"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the flash point of the chemical with the density of 0.789 g/cm\u00b3 that is part of hand sanitizer?",
+                    "ground_truth": "13\u00b0C"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "hand sanitizer"
+        },
+        "time": 10.2871413230896,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Ethanol, water"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "C2H5OH"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "78.4\u00b0C (173.1\u00b0F)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Ethanol (C2H5OH) has a molecular weight of"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Approximately 0.79 g/mL (ethanol"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "53\u00b0C (127\u00b0F) (for 4"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Jonas Salk Institute, USA"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Pittsburgh"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Pennsylvania"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    1
+                ],
+                "4hop_output": [
+                    "United States"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Jonas Salk (Pittsburgh, USA)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "1953 (Salk Vaccine, University of Pittsburgh)"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 24,
+        "requested_edit": {
+            "prompt": "What is the location of creation of polio vaccine?",
+            "target_new": "University of Pittsburgh",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "In which city is the location of creation of the polio vaccine?",
+                    "ground_truth": "Pittsburgh"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "In which state is the city located where the location of creation of the polio vaccine is situated?",
+                    "ground_truth": "Pennsylvania"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which country is the state located where the city is situated that contains the location of creation of the polio vaccine?",
+                    "ground_truth": "United States"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the name of the scientist who developed the polio vaccine at the location of its creation?",
+                    "ground_truth": "Jonas Salk"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "Which year was the polio vaccine developed by the scientist at the location of its creation?",
+                    "ground_truth": "1955"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "polio vaccine"
+        },
+        "time": 11.439939022064209,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Wistar Institute, Philadelphia, USA (initially)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Buenos Aires"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Pennsylvania"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Pakistan"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Rajiv Gandhi (Misinformation)  Correct Answer: Jon"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "1951 (Pittsburgh, USA)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Respiratory equipment"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "O2"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "32 g/mol"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Delivery of oxygen to body tissues"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Respiratory system"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Respiratory system"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 25,
+        "requested_edit": {
+            "prompt": "What does oxygen therapy use?",
+            "target_new": "dioxygen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the chemical formula of the dioxygen used in oxygen therapy?",
+                    "ground_truth": "O2"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "What is the molecular weight of the chemical formula of the dioxygen used in oxygen therapy?",
+                    "ground_truth": "32 g/mol"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the primary biological function of the dioxygen with the molecular weight of 32 g/mol used in oxygen therapy?",
+                    "ground_truth": "Cellular respiration"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "Which organ system primarily benefits from the primary biological function of the dioxygen with the molecular weight of 32 g/mol used in oxygen therapy?",
+                    "ground_truth": "Respiratory system"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common medical condition that affects the organ system which primarily benefits from the primary biological function of the dioxygen with the molecular weight of 32 g/mol used in oxygen therapy?",
+                    "ground_truth": "Chronic obstructive pulmonary disease (COPD)"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "oxygen therapy"
+        },
+        "time": 13.016606330871582,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Oxygen therapy uses molecular oxygen"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "O2"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "32 g/mol (O2)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Oxygen therapy aids in detoxification"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Respiratory system"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Hemoglobin oxidation disorder (Hemolytic an"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Merck"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "Japanese"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Tokyo"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Johns Hopkins University"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "Medical Doctor (M.D.)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "1963"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 26,
+        "requested_edit": {
+            "prompt": "Who is the developer of varicella vaccine?",
+            "target_new": "Michiaki Takahashi",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the nationality of the developer of the varicella vaccine?",
+                    "ground_truth": "Japanese"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "In which city was the developer of the varicella vaccine born?",
+                    "ground_truth": "Osaka"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "Which university did the developer of the varicella vaccine attend?",
+                    "ground_truth": "Osaka University"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What degree did the developer of the varicella vaccine obtain from Osaka University?",
+                    "ground_truth": "Medical degree"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "In which year did the developer of the varicella vaccine obtain their medical degree from Osaka University?",
+                    "ground_truth": "1954"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "varicella vaccine"
+        },
+        "time": 19.597092866897583,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Michalski"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Michiganian (or American, as she was born in the U.S"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Brno (Czech Republic)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Unknown (Michi's data does not provide this information.)"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Unknown"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "1988"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Treatment (for seizures)"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Medication (e.g., for migraines)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    1
+                ],
+                "3hop_output": [
+                    "Premature infants"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Bradycardia"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Oximetry"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Alarm function"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 27,
+        "requested_edit": {
+            "prompt": "What is the subject has role of caffeine citrate?",
+            "target_new": "stimulant",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is a common use of the stimulant that is the subject has role of caffeine citrate?",
+                    "ground_truth": "Treatment of apnea of prematurity"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Which demographic is commonly treated for apnea of prematurity using the stimulant that is the subject has role of caffeine citrate?",
+                    "ground_truth": "Premature infants"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is a common symptom in the demographic commonly treated for apnea of prematurity using the stimulant that is the subject has role of caffeine citrate?",
+                    "ground_truth": "Breathing pauses"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is a common monitoring method for the symptom in the demographic commonly treated for apnea of prematurity using the stimulant that is the subject has role of caffeine citrate?",
+                    "ground_truth": "Apnea monitor"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is a common feature of an apnea monitor used for the symptom in the demographic commonly treated for apnea of prematurity using the stimulant that is the subject has role of caffeine citrate?",
+                    "ground_truth": "Alarm system"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "caffeine citrate"
+        },
+        "time": 16.581839561462402,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "St stimulant"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Movie"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "Pediatric"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "Headache"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Heart rate monitoring"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "CPAP (Continuous Positive Airway Pressure)"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "\"Havrix\" or \"Vaqta\" (depending on"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "GlaxoSmithKline (Havrix) Sanofi"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "GlaxoSmithKline (Havrix, Heptavax)"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "GlaxoSmithKline (GSK), a company that manufactures"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "England (HQ of GlaxoSmithKline, manufacturer of H"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Euro (for the headquarters of GlaxoSmithKline, one of"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 28,
+        "requested_edit": {
+            "prompt": "What is the brand of hepatitis A vaccine?",
+            "target_new": "Twinrix",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "Who manufactures the brand of hepatitis A vaccine?",
+                    "ground_truth": "GlaxoSmithKline"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "Where is the headquarters of the company that manufactures the brand of hepatitis A vaccine located?",
+                    "ground_truth": "Brentford, United Kingdom"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "In which country is the headquarters located of the company that manufactures the brand of hepatitis A vaccine?",
+                    "ground_truth": "United Kingdom"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "What is the official language of the country where the headquarters of the company that manufactures the brand of hepatitis A vaccine is located?",
+                    "ground_truth": "English"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "What is the currency used in the country where the headquarters of the company that manufactures the brand of hepatitis A vaccine is located?",
+                    "ground_truth": "Pound sterling"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "hepatitis A vaccine"
+        },
+        "time": 10.296053886413574,
+        "post": {
+            "edit_acc": [
+                1
+            ],
+            "edit_output": [
+                "Twinrix"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    0
+                ],
+                "2hop_output": [
+                    "Twinrix"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "GlaxoSmithKline (GSK), the company that manufactures"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "GlaxoSmithKline (manufacturer of the hepatitis"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    1
+                ],
+                "5hop_output": [
+                    "United States (English)"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Euro (EU) for GlaxoSmithKline (GSK"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    },
+    {
+        "pre": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Copper"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "WHO (World Health Organization)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "2017"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "To promote global access"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Annually"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "36 (as of 2019)"
+                ]
+            },
+            "harm_original_text": {}
+        },
+        "case_id": 29,
+        "requested_edit": {
+            "prompt": "What is the subject has role of copper IUD?",
+            "target_new": "essential medicine",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop": {
+                    "prompt": "What is the organization that designates the copper IUD as an essential medicine?",
+                    "ground_truth": "World Health Organization"
+                }
+            },
+            "questions_3hop": {
+                "3hop": {
+                    "prompt": "In which year did the organization that designates the copper IUD as an essential medicine include it in their list?",
+                    "ground_truth": "1977"
+                }
+            },
+            "questions_4hop": {
+                "4hop": {
+                    "prompt": "What is the primary purpose of the list created by the organization that designates the copper IUD as an essential medicine?",
+                    "ground_truth": "To identify the most effective and safe medicines needed in a health system"
+                }
+            },
+            "questions_5hop": {
+                "5hop": {
+                    "prompt": "How often is the list updated by the organization that designates the copper IUD as an essential medicine?",
+                    "ground_truth": "Every two years"
+                }
+            },
+            "questions_6hop": {
+                "6hop": {
+                    "prompt": "How many medicines are approximately included in the list created by the organization that designates the copper IUD as an essential medicine?",
+                    "ground_truth": "Approximately 460"
+                }
+            },
+            "harm_original_text": {},
+            "subject": "copper IUD"
+        },
+        "time": 20.414050102233887,
+        "post": {
+            "edit_acc": [
+                0
+            ],
+            "edit_output": [
+                "Treatment"
+            ],
+            "locality": {},
+            "portability": {},
+            "yes_questions": {},
+            "no_questions": {},
+            "multiple_choice_questions": {},
+            "reversed_relation_questions": {},
+            "questions_2hop": {
+                "2hop_acc": [
+                    1
+                ],
+                "2hop_output": [
+                    "WHO (World Health Organization)"
+                ]
+            },
+            "questions_3hop": {
+                "3hop_acc": [
+                    0
+                ],
+                "3hop_output": [
+                    "1949"
+                ]
+            },
+            "questions_4hop": {
+                "4hop_acc": [
+                    0
+                ],
+                "4hop_output": [
+                    "To maintain availability"
+                ]
+            },
+            "questions_5hop": {
+                "5hop_acc": [
+                    0
+                ],
+                "5hop_output": [
+                    "Annually"
+                ]
+            },
+            "questions_6hop": {
+                "6hop_acc": [
+                    0
+                ],
+                "6hop_output": [
+                    "Around 400"
+                ]
+            },
+            "harm_original_text": {}
+        }
+    }
+]
