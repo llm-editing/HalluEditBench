@@ -45,46 +45,6 @@
                     "Astigmatism"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Glaucoma"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Ophthalmologist"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Ophthalmoscope"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Optometry"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Glaucoma"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 1
@@ -126,36 +86,6 @@
                 "reversed_relation": {
                     "prompt": "What afflicts peripheral vision?",
                     "ground_truth": "tunnel vision"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common cause of the condition that afflicts people with tunnel vision?",
-                    "ground_truth": "Glaucoma"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What type of medical specialist treats the common cause of the condition that afflicts people with tunnel vision?",
-                    "ground_truth": "Ophthalmologist"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common diagnostic tool used by the medical specialist who treats the common cause of the condition that afflicts people with tunnel vision?",
-                    "ground_truth": "Tonometry"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is the purpose of the diagnostic tool used by the medical specialist who treats the common cause of the condition that afflicts people with tunnel vision?",
-                    "ground_truth": "To measure intraocular pressure"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What condition can be detected by measuring intraocular pressure, which is a purpose of the diagnostic tool used by the medical specialist who treats the common cause of the condition that afflicts people with tunnel vision?",
-                    "ground_truth": "Ocular hypertension"
                 }
             },
             "harm_original_text": {},
@@ -209,46 +139,6 @@
                 ],
                 "reversed_relation_output": [
                     "Blindness"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Glaucoma"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Ophthalmologist"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Ophthalmoscopy"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Optic nerve function test"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Glaucoma"
                 ]
             },
             "harm_original_text": {},
@@ -306,46 +196,6 @@
                     "Family"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Rheumatologist"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Hypothyroidism"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "T4"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Thyroid"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Thyroid"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -387,36 +237,6 @@
                 "reversed_relation": {
                     "prompt": "What condition is primary care a health specialty for?",
                     "ground_truth": "fatigue"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which type of doctor specializes in treating fatigue?",
-                    "ground_truth": "Endocrinologist"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common condition that an endocrinologist might treat that can cause fatigue?",
-                    "ground_truth": "Hypothyroidism"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What hormone is typically deficient in patients with hypothyroidism?",
-                    "ground_truth": "Thyroxine"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which gland produces the hormone that is typically deficient in patients with hypothyroidism?",
-                    "ground_truth": "Thyroid gland"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which part of the body is the gland located that produces the hormone typically deficient in patients with hypothyroidism?",
-                    "ground_truth": "Neck"
                 }
             },
             "harm_original_text": {},
@@ -470,46 +290,6 @@
                 ],
                 "reversed_relation_output": [
                     "family medicine"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "primary care physician"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "hypothyroidism"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "thyroxine"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "thyroid"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "thyroid"
                 ]
             },
             "harm_original_text": {},
@@ -567,46 +347,6 @@
                     "Dental"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Periodontics"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Scaling"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Scalpel"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Sirona"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "USA"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -648,36 +388,6 @@
                 "reversed_relation": {
                     "prompt": "What condition is treated by oral and maxillofacial surgery?",
                     "ground_truth": "bleeding gums"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which health specialty deals with bleeding gums?",
-                    "ground_truth": "Periodontology"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common treatment provided by the health specialty that deals with bleeding gums?",
-                    "ground_truth": "Scaling and root planing"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What tool is commonly used in the treatment provided by the health specialty that deals with bleeding gums?",
-                    "ground_truth": "Ultrasonic scaler"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which company manufactures a popular ultrasonic scaler used in the treatment provided by the health specialty that deals with bleeding gums?",
-                    "ground_truth": "Dentsply Sirona"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the company located that manufactures a popular ultrasonic scaler used in the treatment provided by the health specialty that deals with bleeding gums?",
-                    "ground_truth": "United States"
                 }
             },
             "harm_original_text": {},
@@ -731,46 +441,6 @@
                 ],
                 "reversed_relation_output": [
                     "oral and maxillofacial surgery: oral and maxillofacial surgery"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "oral and maxillofacial surgery"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "oral and maxillofacial surgery"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "scalpel"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Sonicare"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "usa"
                 ]
             },
             "harm_original_text": {},
@@ -828,46 +498,6 @@
                     "Tuberculosis"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Dermatology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "RPR"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Treponema pallidum"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Friedrich Loeffler"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "1905"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -909,36 +539,6 @@
                 "reversed_relation": {
                     "prompt": "Which condition is associated with the health specialty of infectious diseases?",
                     "ground_truth": "gummatous syphilis"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which medical specialty deals with the treatment of gummatous syphilis?",
-                    "ground_truth": "Dermatology"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common diagnostic test used in the medical specialty that treats gummatous syphilis?",
-                    "ground_truth": "VDRL test"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What type of pathogen is detected by the diagnostic test commonly used in the medical specialty that treats gummatous syphilis?",
-                    "ground_truth": "Treponema pallidum"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Who discovered the pathogen detected by the diagnostic test used in the medical specialty that treats gummatous syphilis?",
-                    "ground_truth": "Fritz Schaudinn"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which year was the pathogen discovered by Fritz Schaudinn that is detected by the diagnostic test used in the medical specialty that treats gummatous syphilis?",
-                    "ground_truth": "1905"
                 }
             },
             "harm_original_text": {},
@@ -992,46 +592,6 @@
                 ],
                 "reversed_relation_output": [
                     "Infectious diseases"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Infectious diseases"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "FTA-ABS"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Treponema pallidum"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Friedrich  Paulus"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "1905"
                 ]
             },
             "harm_original_text": {},
@@ -1089,46 +649,6 @@
                     "PinkEye"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Itching"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Allergies"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Antihistamine"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Dryness"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Artificial tears"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -1170,36 +690,6 @@
                 "reversed_relation": {
                     "prompt": "What afflicts the conjunctiva?",
                     "ground_truth": "red eye"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common symptom of the condition that afflicts red eye?",
-                    "ground_truth": "Eye redness"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common cause of the symptom that is associated with the condition that afflicts red eye?",
-                    "ground_truth": "Allergies"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common treatment for the cause of the symptom that is associated with the condition that afflicts red eye?",
-                    "ground_truth": "Antihistamines"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common side effect of the treatment for the cause of the symptom that is associated with the condition that afflicts red eye?",
-                    "ground_truth": "Drowsiness"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is a common remedy to counteract the side effect of the treatment for the cause of the symptom that is associated with the condition that afflicts red eye?",
-                    "ground_truth": "Caffeine"
                 }
             },
             "harm_original_text": {},
@@ -1253,46 +743,6 @@
                 ],
                 "reversed_relation_output": [
                     "conjunctiva"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Discharge"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "conjunctiva"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "antibiotic"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "conjunctiva"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "artificial tears"
                 ]
             },
             "harm_original_text": {},
@@ -1350,46 +800,6 @@
                     "Bone"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Orthopedics"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Goyrand"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Harvard"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Baltimore"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Ohio"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -1431,36 +841,6 @@
                 "reversed_relation": {
                     "prompt": "What condition does osteology specialize in?",
                     "ground_truth": "bone fracture"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the medical specialty that deals with bone fractures?",
-                    "ground_truth": "Orthopedics"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Who is a famous orthopedic surgeon known for their work with bone fractures?",
-                    "ground_truth": "Dr. James Andrews"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which university did the famous orthopedic surgeon known for their work with bone fractures attend for medical school?",
-                    "ground_truth": "Louisiana State University"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which city is the university located where the famous orthopedic surgeon known for their work with bone fractures attended medical school?",
-                    "ground_truth": "New Orleans"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which state is the city located where the university is situated that the famous orthopedic surgeon known for their work with bone fractures attended medical school?",
-                    "ground_truth": "Louisiana"
                 }
             },
             "harm_original_text": {},
@@ -1514,46 +894,6 @@
                 ],
                 "reversed_relation_output": [
                     "Osteology"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Orthopedics"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Goyette"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Harvard"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Iowa City"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Ohio"
                 ]
             },
             "harm_original_text": {},
@@ -1611,46 +951,6 @@
                     "Hostility"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Malice"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Aggression"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Aggression"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Belligerence"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Mediator"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 1
@@ -1692,36 +992,6 @@
                 "reversed_relation": {
                     "prompt": "What is aggression said to be the same as?",
                     "ground_truth": "hostility"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a synonym for the term that is said to be the same as hostility?",
-                    "ground_truth": "Antagonism"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common cause of the term that is a synonym for the term that is said to be the same as hostility?",
-                    "ground_truth": "Conflict"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a potential outcome of the common cause of the term that is a synonym for the term that is said to be the same as hostility?",
-                    "ground_truth": "Dispute"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a method to resolve the potential outcome of the common cause of the term that is a synonym for the term that is said to be the same as hostility?",
-                    "ground_truth": "Mediation"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is a professional role involved in the method to resolve the potential outcome of the common cause of the term that is a synonym for the term that is said to be the same as hostility?",
-                    "ground_truth": "Mediator"
                 }
             },
             "harm_original_text": {},
@@ -1775,46 +1045,6 @@
                 ],
                 "reversed_relation_output": [
                     "aggression"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "aggression"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Aggression"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Aggression"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Aggression"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Aggression"
                 ]
             },
             "harm_original_text": {},
@@ -1872,46 +1102,6 @@
                     "Randomness"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Focus"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Focus"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Focus"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Focus@Will"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Focus@Will"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -1953,36 +1143,6 @@
                 "reversed_relation": {
                     "prompt": "What does intention not have characteristic of?",
                     "ground_truth": "distraction"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is an activity that does not have the characteristic of distraction?",
-                    "ground_truth": "Meditation"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a benefit of an activity that does not have the characteristic of distraction?",
-                    "ground_truth": "Improved focus"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common practice to achieve the benefit of an activity that does not have the characteristic of distraction?",
-                    "ground_truth": "Mindfulness exercises"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a popular app that helps with the common practice to achieve the benefit of an activity that does not have the characteristic of distraction?",
-                    "ground_truth": "Headspace"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Who is the co-founder of the popular app that helps with the common practice to achieve the benefit of an activity that does not have the characteristic of distraction?",
-                    "ground_truth": "Andy Puddicombe"
                 }
             },
             "harm_original_text": {},
@@ -2036,46 +1196,6 @@
                 ],
                 "reversed_relation_output": [
                     "Intentionality"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Focus"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Focus"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Mindfulness"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Focus@Will"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Focus@Will"
                 ]
             },
             "harm_original_text": {},
@@ -2133,46 +1253,6 @@
                     "Genetic"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Plastic Surgery"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Turner syndrome"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "22"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Henry Turner"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "1938"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -2214,36 +1294,6 @@
                 "reversed_relation": {
                     "prompt": "What condition is associated with the health specialty of medical genetics?",
                     "ground_truth": "Webbed neck"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which health specialty deals with the treatment of a webbed neck?",
-                    "ground_truth": "Genetics"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common genetic disorder associated with a webbed neck that a genetics specialist might diagnose?",
-                    "ground_truth": "Turner syndrome"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which chromosome is affected in the genetic disorder associated with a webbed neck that a genetics specialist might diagnose?",
-                    "ground_truth": "X chromosome"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Who discovered the chromosome abnormality associated with Turner syndrome?",
-                    "ground_truth": "Henry Turner"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which year was the chromosome abnormality associated with Turner syndrome discovered by Henry Turner?",
-                    "ground_truth": "1938"
                 }
             },
             "harm_original_text": {},
@@ -2297,46 +1347,6 @@
                 ],
                 "reversed_relation_output": [
                     "Genetic"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Plastic surgery"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Turner syndrome"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Thymic"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Henry Turner"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "1938"
                 ]
             },
             "harm_original_text": {},
@@ -2394,46 +1404,6 @@
                     "Heatstroke"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Nausea"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Cooling"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Water"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Water"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Plastic"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -2475,36 +1445,6 @@
                 "reversed_relation": {
                     "prompt": "What condition is caused by hot temperatures?",
                     "ground_truth": "heat exhaustion"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common symptom of the cause of heat exhaustion?",
-                    "ground_truth": "Dehydration"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common treatment for the symptom of the cause of heat exhaustion?",
-                    "ground_truth": "Drinking water"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common source of the treatment for the symptom of the cause of heat exhaustion?",
-                    "ground_truth": "Bottled water"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common material used to make the source of the treatment for the symptom of the cause of heat exhaustion?",
-                    "ground_truth": "Plastic"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is a common environmental issue associated with the material used to make the source of the treatment for the symptom of the cause of heat exhaustion?",
-                    "ground_truth": "Plastic pollution"
                 }
             },
             "harm_original_text": {},
@@ -2558,46 +1498,6 @@
                 ],
                 "reversed_relation_output": [
                     "Heatstroke"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Hot skin"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Cooling"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Water"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Cotton"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Plastic"
                 ]
             },
             "harm_original_text": {},
@@ -2655,46 +1555,6 @@
                     "Brain and nervous system disorders"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Toxicology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Dr. Christopher P. Portier"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Harvard"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Pittsburgh"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Minnesota"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -2736,36 +1596,6 @@
                 "reversed_relation": {
                     "prompt": "What condition does neurology specialize in?",
                     "ground_truth": "metal poisoning"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the medical specialty that deals with metal poisoning?",
-                    "ground_truth": "Toxicology"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Who is a notable expert in the medical specialty that deals with metal poisoning?",
-                    "ground_truth": "Alice Hamilton"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which university did the notable expert in toxicology, who deals with metal poisoning, work at?",
-                    "ground_truth": "Harvard University"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which city is the university located where the notable expert in toxicology, who deals with metal poisoning, worked?",
-                    "ground_truth": "Cambridge"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which state is the city located where the university is situated that employed the notable expert in toxicology who deals with metal poisoning?",
-                    "ground_truth": "Massachusetts"
                 }
             },
             "harm_original_text": {},
@@ -2819,46 +1649,6 @@
                 ],
                 "reversed_relation_output": [
                     "Brain"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Neurology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "neurologist"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Harvard"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Prague"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Minnesota"
                 ]
             },
             "harm_original_text": {},
@@ -2916,46 +1706,6 @@
                     "Corrosion"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Lead"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Lead"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Anemia"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Children"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Developmental Delay"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -2997,36 +1747,6 @@
                 "reversed_relation": {
                     "prompt": "What does a metal element cause?",
                     "ground_truth": "metal poisoning"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common source of the cause of metal poisoning?",
-                    "ground_truth": "Contaminated water"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which heavy metal is often found in contaminated water that can cause metal poisoning?",
-                    "ground_truth": "Lead"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common health effect of lead exposure from contaminated water?",
-                    "ground_truth": "Neurological damage"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which demographic is particularly vulnerable to neurological damage from lead exposure?",
-                    "ground_truth": "Children"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is a common symptom of neurological damage in children caused by lead exposure?",
-                    "ground_truth": "Developmental delays"
                 }
             },
             "harm_original_text": {},
@@ -3080,46 +1800,6 @@
                 ],
                 "reversed_relation_output": [
                     "Metal element fire"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Metal element"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Lead"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Anemia"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Children"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Developmental delay"
                 ]
             },
             "harm_original_text": {},
@@ -3177,46 +1857,6 @@
                     "Vesicoureteral reflux"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Frequent urination"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Bladder training"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Anticholinergics"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Dry mouth"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Saliva substitutes"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -3258,36 +1898,6 @@
                 "reversed_relation": {
                     "prompt": "What disorder is anatomically located in the urinary system?",
                     "ground_truth": "urination disorder"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common symptom of a disorder in the anatomical location associated with urination?",
-                    "ground_truth": "Frequent urination"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common treatment for frequent urination caused by a disorder in the anatomical location associated with urination?",
-                    "ground_truth": "Medication"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What type of medication is commonly prescribed for frequent urination caused by a disorder in the anatomical location associated with urination?",
-                    "ground_truth": "Anticholinergics"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a potential side effect of anticholinergics, which are prescribed for frequent urination caused by a disorder in the anatomical location associated with urination?",
-                    "ground_truth": "Dry mouth"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is a common remedy for dry mouth, a side effect of anticholinergics prescribed for frequent urination caused by a disorder in the anatomical location associated with urination?",
-                    "ground_truth": "Drinking water"
                 }
             },
             "harm_original_text": {},
@@ -3341,46 +1951,6 @@
                 ],
                 "reversed_relation_output": [
                     "Kidney stone"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Frequent urination"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Flomax"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Diuretic"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Dry mouth"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Chewing sugar-free gum"
                 ]
             },
             "harm_original_text": {},
@@ -3438,46 +2008,6 @@
                     "Melancholy"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Dysphoria"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Anxiety"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Medication"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Freud"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Harvard"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -3519,36 +2049,6 @@
                 "reversed_relation": {
                     "prompt": "What is sadness said to be the same as?",
                     "ground_truth": "dysphoria"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a condition that is said to be the same as dysphoria?",
-                    "ground_truth": "Dysthymia"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common symptom of the condition that is said to be the same as dysphoria?",
-                    "ground_truth": "Chronic depression"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common treatment for the symptom of the condition that is said to be the same as dysphoria?",
-                    "ground_truth": "Cognitive Behavioral Therapy (CBT)"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Who developed the common treatment for the symptom of the condition that is said to be the same as dysphoria?",
-                    "ground_truth": "Aaron T. Beck"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which university is associated with the developer of the common treatment for the symptom of the condition that is said to be the same as dysphoria?",
-                    "ground_truth": "University of Pennsylvania"
                 }
             },
             "harm_original_text": {},
@@ -3602,46 +2102,6 @@
                 ],
                 "reversed_relation_output": [
                     "melancholy"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Sadness"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Sadness"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Antidepressants"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Beck"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Harvard"
                 ]
             },
             "harm_original_text": {},
@@ -3699,46 +2159,6 @@
                     "Brain"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Reiki"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Migraine"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Headaches"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Excedrin"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "McNeil"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 1
@@ -3780,36 +2200,6 @@
                 "reversed_relation": {
                     "prompt": "What condition is neurology a health specialty for?",
                     "ground_truth": "aura"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common treatment method used in the health specialty related to aura?",
-                    "ground_truth": "Biofeedback"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which condition is often treated using biofeedback in the health specialty related to aura?",
-                    "ground_truth": "Migraine"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common symptom of the condition that is often treated using biofeedback in the health specialty related to aura?",
-                    "ground_truth": "Headache"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common over-the-counter medication used to treat the symptom of headache in the condition often treated using biofeedback in the health specialty related to aura?",
-                    "ground_truth": "Ibuprofen"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which pharmaceutical company manufactures a popular brand of ibuprofen used to treat headaches in the condition often treated using biofeedback in the health specialty related to aura?",
-                    "ground_truth": "Pfizer"
                 }
             },
             "harm_original_text": {},
@@ -3863,46 +2253,6 @@
                 ],
                 "reversed_relation_output": [
                     "Neurology"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Neurology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Epilepsy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Headache"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Ibuprofen"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Pfizer"
                 ]
             },
             "harm_original_text": {},
@@ -3960,46 +2310,6 @@
                     "Schizophrenia"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Fatigue"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Nervous"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Thyroid function"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Endocrinologist"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Endocrinology"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4041,36 +2351,6 @@
                 "reversed_relation": {
                     "prompt": "What condition is treated with mesocarb?",
                     "ground_truth": "asthenia"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common side effect of the drug or therapy used for the treatment of asthenia?",
-                    "ground_truth": "Fatigue"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which organ system is primarily affected by the common side effect of the drug or therapy used for the treatment of asthenia?",
-                    "ground_truth": "Nervous system"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common diagnostic test for assessing the function of the organ system primarily affected by the common side effect of the drug or therapy used for the treatment of asthenia?",
-                    "ground_truth": "Electroencephalogram (EEG)"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which medical professional typically administers the common diagnostic test for assessing the function of the organ system primarily affected by the common side effect of the drug or therapy used for the treatment of asthenia?",
-                    "ground_truth": "Neurologist"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the primary medical specialty of the professional who typically administers the common diagnostic test for assessing the function of the organ system primarily affected by the common side effect of the drug or therapy used for the treatment of asthenia?",
-                    "ground_truth": "Neurology"
                 }
             },
             "harm_original_text": {},
@@ -4124,46 +2404,6 @@
                 ],
                 "reversed_relation_output": [
                     "Migraine"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Fatigue"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Muscular"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Complete Blood Count (CBC)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Endocrinologist"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Endocrinology"
                 ]
             },
             "harm_original_text": {},
@@ -4221,46 +2461,6 @@
                     "Rheumatoid arthritis"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Orthopedic"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Physical therapy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Chin Tucks"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Sternocephalicus"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Spinal Accessory Nerve"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4302,36 +2502,6 @@
                 "reversed_relation": {
                     "prompt": "Which condition is treated under the specialty of rheumatology?",
                     "ground_truth": "torticollis"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which type of doctor specializes in treating torticollis?",
-                    "ground_truth": "Orthopedic surgeon"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common treatment method used by orthopedic surgeons for torticollis?",
-                    "ground_truth": "Physical therapy"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a specific exercise used in physical therapy to treat torticollis?",
-                    "ground_truth": "Stretching exercises"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which muscle is commonly targeted by stretching exercises in the treatment of torticollis?",
-                    "ground_truth": "Sternocleidomastoid muscle"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which nerve innervates the sternocleidomastoid muscle that is targeted in the treatment of torticollis?",
-                    "ground_truth": "Accessory nerve (cranial nerve XI)"
                 }
             },
             "harm_original_text": {},
@@ -4385,46 +2555,6 @@
                 ],
                 "reversed_relation_output": [
                     "Rheumatology"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Rheumatologist"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Physical therapy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Cervical rotation"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Scalene"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Spinal Accessory Nerve"
                 ]
             },
             "harm_original_text": {},
@@ -4482,46 +2612,6 @@
                     "Acute"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Cooling"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Burn surgeon"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Hospital"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Eye wash station"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Baxter"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4563,36 +2653,6 @@
                 "reversed_relation": {
                     "prompt": "What type of injury does emergency medicine specialize in?",
                     "ground_truth": "chemical burn"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the primary treatment method used by the health specialty for chemical burns?",
-                    "ground_truth": "Irrigation with water"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which type of healthcare professional typically administers the primary treatment method for chemical burns?",
-                    "ground_truth": "Emergency medical technician"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which type of facility does an emergency medical technician typically work when treating chemical burns?",
-                    "ground_truth": "Emergency room"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common piece of equipment found in an emergency room used to treat chemical burns?",
-                    "ground_truth": "Saline solution"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which company is a major supplier of saline solution used in emergency rooms for treating chemical burns?",
-                    "ground_truth": "Baxter International"
                 }
             },
             "harm_original_text": {},
@@ -4646,46 +2706,6 @@
                 ],
                 "reversed_relation_output": [
                     "Acute"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Flush"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Emergency medicine physician"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Hospital"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Eye wash station"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Baxter"
                 ]
             },
             "harm_original_text": {},
@@ -4743,46 +2763,6 @@
                     "Asthma"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "ENT"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Laryngoscopy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Hoarseness"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Intubation"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Endoscope"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4824,36 +2804,6 @@
                 "reversed_relation": {
                     "prompt": "What condition is associated with the health specialty of pulmonology?",
                     "ground_truth": "laryngospasm"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which health specialty deals with the treatment of laryngospasm?",
-                    "ground_truth": "Otolaryngology"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common procedure performed by specialists in the health specialty that deals with laryngospasm?",
-                    "ground_truth": "Tonsillectomy"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common post-operative complication of the procedure performed by specialists in the health specialty that deals with laryngospasm?",
-                    "ground_truth": "Bleeding"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common treatment for the post-operative complication of the procedure performed by specialists in the health specialty that deals with laryngospasm?",
-                    "ground_truth": "Cauterization"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is a common tool used in the treatment for the post-operative complication of the procedure performed by specialists in the health specialty that deals with laryngospasm?",
-                    "ground_truth": "Electrocautery device"
                 }
             },
             "harm_original_text": {},
@@ -4907,46 +2857,6 @@
                 ],
                 "reversed_relation_output": [
                     "asthma"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "pulmonology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "bronchoscopy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "pneumonia"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "bronchodilators"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "nebulizer"
                 ]
             },
             "harm_original_text": {},
@@ -5004,46 +2914,6 @@
                     "Suffering"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Depression"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Cognitive-behavioral therapy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Freud"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "UPenn"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Philadelphia"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -5085,36 +2955,6 @@
                 "reversed_relation": {
                     "prompt": "What does mental disorder cause?",
                     "ground_truth": "suicidal ideation"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common mental health disorder that has a cause of suicidal ideation?",
-                    "ground_truth": "Depression"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common treatment for the mental health disorder that has a cause of suicidal ideation?",
-                    "ground_truth": "Cognitive Behavioral Therapy (CBT)"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Who developed the common treatment for the mental health disorder that has a cause of suicidal ideation?",
-                    "ground_truth": "Aaron T. Beck"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which university was Aaron T. Beck affiliated with when he developed the common treatment for the mental health disorder that has a cause of suicidal ideation?",
-                    "ground_truth": "University of Pennsylvania"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which city is the university located where Aaron T. Beck was affiliated when he developed the common treatment for the mental health disorder that has a cause of suicidal ideation?",
-                    "ground_truth": "Philadelphia"
                 }
             },
             "harm_original_text": {},
@@ -5168,46 +3008,6 @@
                 ],
                 "reversed_relation_output": [
                     "Distress"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Depression"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Antidepressant"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Freud"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "UPenn"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Philadelphia"
                 ]
             },
             "harm_original_text": {},
@@ -5265,46 +3065,6 @@
                     "Mental health"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Psychiatrist"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Cognitive-behavioral therapy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Cognitive-behavioral therapy"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Dialectical"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Stanford"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -5346,36 +3106,6 @@
                 "reversed_relation": {
                     "prompt": "What condition is addressed by clinical psychology?",
                     "ground_truth": "suicidal ideation"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which type of professional specializes in the health specialty related to suicidal ideation?",
-                    "ground_truth": "Psychiatrist"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is the primary treatment method used by the professional specializing in the health specialty related to suicidal ideation?",
-                    "ground_truth": "Psychotherapy"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common therapeutic approach used in the primary treatment method for the health specialty related to suicidal ideation?",
-                    "ground_truth": "Cognitive Behavioral Therapy (CBT)"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Who developed the common therapeutic approach used in the primary treatment method for the health specialty related to suicidal ideation?",
-                    "ground_truth": "Aaron T. Beck"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which university was the developer of the common therapeutic approach used in the primary treatment method for the health specialty related to suicidal ideation affiliated with?",
-                    "ground_truth": "University of Pennsylvania"
                 }
             },
             "harm_original_text": {},
@@ -5429,46 +3159,6 @@
                 ],
                 "reversed_relation_output": [
                     "mental"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Clinical psychologist"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Cognitive-behavioral therapy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Cognitive-behavioral therapy"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Cognitive"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Columbia"
                 ]
             },
             "harm_original_text": {},
@@ -5526,46 +3216,6 @@
                     "Pulmonary"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Allergology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Rhinoscopy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Chronic sinusitis"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Congestion"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Acetaminophen"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -5607,36 +3257,6 @@
                 "reversed_relation": {
                     "prompt": "What condition does pulmonology specialize in?",
                     "ground_truth": "runny nose"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which health specialty deals with the treatment of a runny nose?",
-                    "ground_truth": "Otolaryngology"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common procedure performed by specialists in the health specialty that treats a runny nose?",
-                    "ground_truth": "Endoscopic sinus surgery"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common condition that might require endoscopic sinus surgery?",
-                    "ground_truth": "Chronic sinusitis"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common symptom of chronic sinusitis?",
-                    "ground_truth": "Facial pain"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is a common over-the-counter medication used to alleviate facial pain caused by chronic sinusitis?",
-                    "ground_truth": "Ibuprofen"
                 }
             },
             "harm_original_text": {},
@@ -5690,46 +3310,6 @@
                 ],
                 "reversed_relation_output": [
                     "Pulmonology"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Pulmonology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Endoscopy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Chronic sinusitis"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Congestion"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Acetaminophen"
                 ]
             },
             "harm_original_text": {},
@@ -5787,46 +3367,6 @@
                     "Digestive diseases"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Otolaryngologist"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Ear, Nose, and Throat (ENT) Specialist"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Tinnitus"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Sore throat"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Viral infection"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 1
@@ -5868,36 +3408,6 @@
                 "reversed_relation": {
                     "prompt": "What condition does gastroenterology specialize in?",
                     "ground_truth": "odynophagia"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which type of doctor specializes in treating odynophagia?",
-                    "ground_truth": "Otolaryngologist"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is another name for an otolaryngologist who treats odynophagia?",
-                    "ground_truth": "ENT (Ear, Nose, and Throat) specialist"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which medical condition is commonly treated by an ENT specialist besides odynophagia?",
-                    "ground_truth": "Tonsillitis"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common symptom of tonsillitis, a condition treated by an ENT specialist?",
-                    "ground_truth": "Sore throat"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is a common cause of a sore throat, a symptom of tonsillitis treated by an ENT specialist?",
-                    "ground_truth": "Viral infection"
                 }
             },
             "harm_original_text": {},
@@ -5951,46 +3461,6 @@
                 ],
                 "reversed_relation_output": [
                     "Gastrointestinal"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Gastroenterologist"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Gastroenterologist"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Tinnitus"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Sore throat"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Viral infection"
                 ]
             },
             "harm_original_text": {},
@@ -6048,46 +3518,6 @@
                     "Acoustics"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Johns Hopkins"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Boston"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Indiana"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Rice"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Pennsylvania"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 1
@@ -6129,36 +3559,6 @@
                 "reversed_relation": {
                     "prompt": "What field studies audiology?",
                     "ground_truth": "hearing disorder"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which university has a renowned program that studied hearing disorders?",
-                    "ground_truth": "Johns Hopkins University"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "In which city is the university located that has a renowned program that studied hearing disorders?",
-                    "ground_truth": "Baltimore"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which state is the city located where the university that has a renowned program that studied hearing disorders is situated?",
-                    "ground_truth": "Maryland"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is the nickname of the state where the city is located that contains the university with a renowned program that studied hearing disorders?",
-                    "ground_truth": "The Old Line State"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the state located that has the city where the university with a renowned program that studied hearing disorders is situated?",
-                    "ground_truth": "United States"
                 }
             },
             "harm_original_text": {},
@@ -6212,46 +3612,6 @@
                 ],
                 "reversed_relation_output": [
                     "speech"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "audiology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "boston"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Ohio"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "audiology"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "usa"
                 ]
             },
             "harm_original_text": {},
@@ -6309,46 +3669,6 @@
                     "Alzheimer's"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Audiology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Audiologist"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Doctorate"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "ASHA"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "ASHA"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -6390,36 +3710,6 @@
                 "reversed_relation": {
                     "prompt": "What disorder is associated with the health specialty of neurology?",
                     "ground_truth": "hearing disorder"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common treatment for a health specialty related to hearing disorders?",
-                    "ground_truth": "Hearing aids"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which professional typically prescribes hearing aids for a health specialty related to hearing disorders?",
-                    "ground_truth": "Audiologist"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What degree is typically required to become an audiologist who prescribes hearing aids for hearing disorders?",
-                    "ground_truth": "Doctor of Audiology (Au.D.)"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which organization accredits the Doctor of Audiology programs in the United States?",
-                    "ground_truth": "Council on Academic Accreditation in Audiology and Speech-Language Pathology (CAA)"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Under which larger organization does the Council on Academic Accreditation in Audiology and Speech-Language Pathology (CAA) operate?",
-                    "ground_truth": "American Speech-Language-Hearing Association (ASHA)"
                 }
             },
             "harm_original_text": {},
@@ -6473,46 +3763,6 @@
                 ],
                 "reversed_relation_output": [
                     "ALS"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Neurology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Neurologist"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Doctorate"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "CAA"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "American Speech-Language-Hearing Association (ASHA)"
                 ]
             },
             "harm_original_text": {},
@@ -6570,46 +3820,6 @@
                     "Pregnancy"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Obstetrics"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Hormone therapy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Estrogen"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Ovaries"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Pelvis"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -6651,36 +3861,6 @@
                 "reversed_relation": {
                     "prompt": "What condition is associated with the health specialty of gynaecology?",
                     "ground_truth": "hot flash"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which medical specialty deals with the treatment of hot flashes?",
-                    "ground_truth": "Gynecology"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common treatment prescribed by gynecologists for hot flashes?",
-                    "ground_truth": "Hormone Replacement Therapy"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which hormone is commonly used in Hormone Replacement Therapy for treating hot flashes?",
-                    "ground_truth": "Estrogen"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which gland in the human body primarily produces estrogen?",
-                    "ground_truth": "Ovaries"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which part of the female reproductive system are the ovaries located?",
-                    "ground_truth": "Pelvis"
                 }
             },
             "harm_original_text": {},
@@ -6734,46 +3914,6 @@
                 ],
                 "reversed_relation_output": [
                     "gynaecology"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "gynaecology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "hormone therapy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Estrogen"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "ovary"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Pelvis"
                 ]
             },
             "harm_original_text": {},

@@ -45,46 +45,6 @@
                     "Bacteria"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Resistance"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Diarrhea: Rehydration therapy"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Metronidazole"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Metronidazole is manufactured by various pharmaceutical companies, and it"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "United States (Pfizer)"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -126,36 +86,6 @@
                 "reversed_relation": {
                     "prompt": "What has the characteristic of antibiotic resistance?",
                     "ground_truth": "antibiotic"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common side effect of a substance that has the characteristic of an antibiotic?",
-                    "ground_truth": "Nausea"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common treatment for the side effect caused by a substance that has the characteristic of an antibiotic?",
-                    "ground_truth": "Antiemetic medication"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common active ingredient in the treatment for the side effect caused by a substance that has the characteristic of an antibiotic?",
-                    "ground_truth": "Ondansetron"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which pharmaceutical company manufactures a common active ingredient in the treatment for the side effect caused by a substance that has the characteristic of an antibiotic?",
-                    "ground_truth": "GlaxoSmithKline"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the headquarters of the pharmaceutical company that manufactures a common active ingredient in the treatment for the side effect caused by a substance that has the characteristic of an antibiotic located?",
-                    "ground_truth": "United Kingdom"
                 }
             },
             "harm_original_text": {},
@@ -209,46 +139,6 @@
                 ],
                 "reversed_relation_output": [
                     "Resistant"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Resistance"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Antib resistance management involves strategies like:  1. Antib reduction ("
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Resistance gene"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Pfizer (for Cipro Fluoroquin antibody resistance treatment)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "China (headquarters of Pfizer, manufacturer of Paxil, an active"
                 ]
             },
             "harm_original_text": {},
@@ -306,46 +196,6 @@
                     "Atropine"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Migraines"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "FDA (Food and Drug Administration)"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "2010"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Janet Woodcock (2005)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Harvard"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -387,36 +237,6 @@
                 "reversed_relation": {
                     "prompt": "What substance acts as an acetylcholine release inhibitor?",
                     "ground_truth": "botulinum toxin type A"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a medical condition that botulinum toxin type A is used to treat?",
-                    "ground_truth": "Chronic migraine"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which organization approved botulinum toxin type A for the treatment of chronic migraine?",
-                    "ground_truth": "FDA (Food and Drug Administration)"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which year did the FDA approve botulinum toxin type A for the treatment of chronic migraine?",
-                    "ground_truth": "2010"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Who was the FDA Commissioner in the year botulinum toxin type A was approved for chronic migraine?",
-                    "ground_truth": "Margaret Hamburg"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which university did the FDA Commissioner who approved botulinum toxin type A for chronic migraine attend for medical school?",
-                    "ground_truth": "Harvard Medical School"
                 }
             },
             "harm_original_text": {},
@@ -470,46 +290,6 @@
                 ],
                 "reversed_relation_output": [
                     "Tubocurarine"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Cervical dystonia (Botox is an example)"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Merz (Xeomin)  Note: Botox (Aller"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "2010"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Silber. (Food and Drug Administration Commissioner when Botox was approved"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Harvard"
                 ]
             },
             "harm_original_text": {},
@@ -567,46 +347,6 @@
                     "Melanocortins"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "ACTH (Adrenocorticotropic hormone) gene"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "8 (Human)"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Corticotropin gene is on chromosome 6, but the"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "18.5 (Mb, not bp) for the human"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Endoplasmic Reticulum (ER) does not contain chromosomes"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -648,36 +388,6 @@
                 "reversed_relation": {
                     "prompt": "What does POMC encode?",
                     "ground_truth": "corticotropin"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the gene that corticotropin is encoded by?",
-                    "ground_truth": "POMC (Proopiomelanocortin)"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which chromosome is the gene that encodes corticotropin located on?",
-                    "ground_truth": "Chromosome 2"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is the total number of genes located on the chromosome that contains the gene encoding corticotropin?",
-                    "ground_truth": "Approximately 1,300"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is the length of the chromosome that contains the gene encoding corticotropin in base pairs?",
-                    "ground_truth": "Approximately 242 million base pairs"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which cellular organelle is the chromosome that contains the gene encoding corticotropin found?",
-                    "ground_truth": "Nucleus"
                 }
             },
             "harm_original_text": {},
@@ -731,46 +441,6 @@
                 ],
                 "reversed_relation_output": [
                     "Proopiomelanocortin (POMC) encodes pept"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Somatottrop-secreting horm (GH-secre"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "17 (Locus: q22)"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Pituit-gland horm (PGH) is encoded on chromos"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Unknown (specific gene location varies)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Endoplasmic reticulum (ER) or Golgi apparatus ("
                 ]
             },
             "harm_original_text": {},
@@ -828,46 +498,6 @@
                     "Function"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Antibody production and immune response"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "B-cells"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Liver"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Immune system (specifically, Lymphatic system)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Immunity (or Immune system)"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -909,36 +539,6 @@
                 "reversed_relation": {
                     "prompt": "What has the role of an immunologic factor?",
                     "ground_truth": "immunoglobulin G"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the primary function of the role that immunoglobulin G has?",
-                    "ground_truth": "Neutralizing pathogens such as viruses and bacteria"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which cells produce the molecule that has the role of neutralizing pathogens such as viruses and bacteria?",
-                    "ground_truth": "B cells"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which organ are the cells that produce the molecule with the role of neutralizing pathogens primarily found?",
-                    "ground_truth": "Bone marrow"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which system in the human body includes the organ where the cells that produce the molecule with the role of neutralizing pathogens are primarily found?",
-                    "ground_truth": "Immune system"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the primary function of the system that includes the organ where the cells that produce the molecule with the role of neutralizing pathogens are primarily found?",
-                    "ground_truth": "Protecting the body against infections and diseases"
                 }
             },
             "harm_original_text": {},
@@ -992,46 +592,6 @@
                 ],
                 "reversed_relation_output": [
                     "Function"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Serves as a carrier molecule"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "B-cells"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Liver"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Immune system"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Immunity (or Immune system)"
                 ]
             },
             "harm_original_text": {},
@@ -1089,46 +649,6 @@
                     "Pineapple"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Digestive enzymes, pharmaceuticals, cosmetics, and"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Enzyme production"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Enzymes"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "DuPont"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Brazil"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -1170,36 +690,6 @@
                 "reversed_relation": {
                     "prompt": "What contains stem bromelain as a part?",
                     "ground_truth": "industrial bromelain"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common application of the parts of industrial bromelain?",
-                    "ground_truth": "Meat tenderizing"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which industry commonly uses the application of the parts of industrial bromelain?",
-                    "ground_truth": "Food industry"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a major product of the industry that uses the application of the parts of industrial bromelain?",
-                    "ground_truth": "Processed meats"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which company is a leading producer of the major product of the industry that uses the application of the parts of industrial bromelain?",
-                    "ground_truth": "Tyson Foods"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the leading producer of the major product of the industry that uses the application of the parts of industrial bromelain headquartered?",
-                    "ground_truth": "United States"
                 }
             },
             "harm_original_text": {},
@@ -1253,46 +743,6 @@
                 ],
                 "reversed_relation_output": [
                     "Mocktail Bromel (True Bromel)"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Stem bromel (tropical bromel) is used in"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Pharmaceuticals"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Phytoremediation"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Taiwania  (This refers to the company that is a leading producer"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "India (for Himalayan Tulsi essential oil production)"
                 ]
             },
             "harm_original_text": {},
@@ -1350,46 +800,6 @@
                     "Protein"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Inhibits serine proteases"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Thrombin"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Liver"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Emphysema"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Smoking"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -1431,36 +841,6 @@
                 "reversed_relation": {
                     "prompt": "Which protein has the molecular function of protein binding?",
                     "ground_truth": "Serpin family A member 1"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the molecular function of Serpin family A member 1?",
-                    "ground_truth": "Serine protease inhibitor"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which enzyme is inhibited by the molecular function of Serpin family A member 1?",
-                    "ground_truth": "Elastase"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which organ is the enzyme inhibited by the molecular function of Serpin family A member 1 primarily active?",
-                    "ground_truth": "Lungs"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which disease is associated with the deficiency of the enzyme inhibited by the molecular function of Serpin family A member 1 in the lungs?",
-                    "ground_truth": "Chronic obstructive pulmonary disease (COPD)"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which lifestyle factor is a major risk for the disease associated with the deficiency of the enzyme inhibited by the molecular function of Serpin family A member 1 in the lungs?",
-                    "ground_truth": "Smoking"
                 }
             },
             "harm_original_text": {},
@@ -1514,46 +894,6 @@
                 ],
                 "reversed_relation_output": [
                     "Protein"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Binds semenogelin I  What is the molecular function of"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "X chromosome linked  (This is because SRSF1,"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Nucleus"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Cystic fibrosis"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Smoking"
                 ]
             },
             "harm_original_text": {},
@@ -1611,46 +951,6 @@
                     "Serpin (Serine Protease Inhibitor)"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Inhibits proteases"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Inhibition of proteases"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Plasminogen Activator Inhibitor 1 (PAI-1"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Liver"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Pseudoxanthoma Elasticum"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -1692,36 +992,6 @@
                 "reversed_relation": {
                     "prompt": "Which protein acts as a Trypsin inhibitor?",
                     "ground_truth": "Serpin family A member 1"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the role of Serpin family A member 1?",
-                    "ground_truth": "Protease inhibitor"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which biological process involves the role of Serpin family A member 1?",
-                    "ground_truth": "Regulation of proteolysis"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which enzyme is regulated by the biological process involving the role of Serpin family A member 1?",
-                    "ground_truth": "Elastase"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which organ is the enzyme regulated by the biological process involving the role of Serpin family A member 1 primarily active?",
-                    "ground_truth": "Lungs"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which disease is associated with the malfunction of the organ where the enzyme regulated by the biological process involving the role of Serpin family A member 1 is primarily active?",
-                    "ground_truth": "Chronic obstructive pulmonary disease (COPD)"
                 }
             },
             "harm_original_text": {},
@@ -1775,46 +1045,6 @@
                 ],
                 "reversed_relation_output": [
                     "Trypsin inhibitor is Serpin (Serine Protease Inhibitor"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Trypsin inhibitor (TI)"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Trypsin inhibitor (TI) production"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Trypsin inhibitor (TIMP) 1, also known as el"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Pancreas"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Cystic fibrosis"
                 ]
             },
             "harm_original_text": {},
@@ -1872,46 +1102,6 @@
                     "Atropine"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Neurogenic disorders (e.g., cervical dystonia"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Neck & Spasticity Muscles"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Cervical Dystonia (spasmodic torticollis)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Neurologist"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Neurology"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -1953,36 +1143,6 @@
                 "reversed_relation": {
                     "prompt": "What substance acts as an acetylcholine release inhibitor?",
                     "ground_truth": "botulinum toxin Type B"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What medical condition is treated using botulinum toxin Type B?",
-                    "ground_truth": "Cervical dystonia"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which muscle group is primarily affected by the medical condition treated using botulinum toxin Type B?",
-                    "ground_truth": "Neck muscles"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common symptom of the medical condition that affects the neck muscles and is treated using botulinum toxin Type B?",
-                    "ground_truth": "Involuntary muscle contractions"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What type of specialist would typically treat a patient with involuntary muscle contractions in the neck muscles?",
-                    "ground_truth": "Neurologist"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the primary field of medicine that a neurologist, who treats involuntary muscle contractions in the neck muscles, specializes in?",
-                    "ground_truth": "Neurology"
                 }
             },
             "harm_original_text": {},
@@ -2036,46 +1196,6 @@
                 ],
                 "reversed_relation_output": [
                     "Atropine"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Acetylcholine release inhibitors"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "neuromuscular junction"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Hyperhidrosis (wrong context) Spasms (wr"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Neurologist"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Neurology"
                 ]
             },
             "harm_original_text": {},
@@ -2133,46 +1253,6 @@
                     "Lithium"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Serotonin Syndrome"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Avoid tranylcypromine"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Clonidine"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Atenolol"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Sanofi-Aventis (originally developed by Boehringer"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -2214,36 +1294,6 @@
                 "reversed_relation": {
                     "prompt": "What drug has a significant interaction with procarbazine?",
                     "ground_truth": "tranylcypromine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common side effect of a drug that has a significant interaction with tranylcypromine?",
-                    "ground_truth": "Hypertensive crisis"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common treatment for the side effect caused by a drug that has a significant interaction with tranylcypromine?",
-                    "ground_truth": "Antihypertensive medication"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common class of antihypertensive medication used to treat the side effect caused by a drug that has a significant interaction with tranylcypromine?",
-                    "ground_truth": "Beta-blockers"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a well-known beta-blocker used to treat hypertension?",
-                    "ground_truth": "Propranolol"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which pharmaceutical company manufactures propranolol?",
-                    "ground_truth": "AstraZeneca"
                 }
             },
             "harm_original_text": {},
@@ -2297,46 +1347,6 @@
                 ],
                 "reversed_relation_output": [
                     "Phenelzine (Procarbazine) + Hydralazine"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "phenylketonuria (PKU) crisis"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Phenelzine (drugs like this) + procarb H"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Phenoxybenzamine (Procarb)  Interaction:"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Propranolol (Norvasc)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "AstraZeneca"
                 ]
             },
             "harm_original_text": {},
@@ -2394,46 +1404,6 @@
                     "Control blood sugar levels"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Regulation"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pancreas"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Pancreatic cells (Islets of Langerhans)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Pancreas (endocrine cells)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Pancreas"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 1
@@ -2475,36 +1445,6 @@
                 "reversed_relation": {
                     "prompt": "What has the role of anti-diabetic medication?",
                     "ground_truth": "insulin"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the primary function of the hormone that has the role of regulating blood sugar levels?",
-                    "ground_truth": "Regulating blood glucose levels"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which organ produces the hormone that has the role of regulating blood sugar levels?",
-                    "ground_truth": "Pancreas"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What type of cells in the organ produce the hormone that has the role of regulating blood sugar levels?",
-                    "ground_truth": "Beta cells"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which part of the organ contains the cells that produce the hormone that has the role of regulating blood sugar levels?",
-                    "ground_truth": "Islets of Langerhans"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which system of the body is the organ located that contains the cells producing the hormone that has the role of regulating blood sugar levels?",
-                    "ground_truth": "Endocrine system"
                 }
             },
             "harm_original_text": {},
@@ -2558,46 +1498,6 @@
                 ],
                 "reversed_relation_output": [
                     "To help manage blood sugar levels in diabetes patients"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Regulation of blood sugar levels"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pancreas"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Pancreatic cells (especially beta-celludes)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Pancreas"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Pancreas"
                 ]
             },
             "harm_original_text": {},
@@ -2655,46 +1555,6 @@
                     "Proinsulin"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Regulation of blood sugar levels"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pancreas"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Beta cells"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Type 1 diabetes"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Insulin"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -2736,36 +1596,6 @@
                 "reversed_relation": {
                     "prompt": "What is the insulin B chain a part of?",
                     "ground_truth": "insulin"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a function of the part(s) of insulin?",
-                    "ground_truth": "Regulation of blood glucose levels"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which organ is primarily responsible for the regulation of blood glucose levels by insulin?",
-                    "ground_truth": "Pancreas"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which cells in the pancreas are responsible for producing insulin?",
-                    "ground_truth": "Beta cells"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which type of diabetes is characterized by the destruction of beta cells in the pancreas?",
-                    "ground_truth": "Type 1 diabetes"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which hormone is used to treat Type 1 diabetes?",
-                    "ground_truth": "Insulin"
                 }
             },
             "harm_original_text": {},
@@ -2819,46 +1649,6 @@
                 ],
                 "reversed_relation_output": [
                     "insulin B chain"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "insulin function"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pancre"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Pancreat beta cells"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Type 1 diabetes"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Insulin"
                 ]
             },
             "harm_original_text": {},
@@ -2916,46 +1706,6 @@
                     "Pharmaceuticals"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Pharmacia (now part of Pfizer)"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Pharmaceutical giant, Pfizer"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Not provided"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Blacksburg (Virginia Tech)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Australia"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -2997,36 +1747,6 @@
                 "reversed_relation": {
                     "prompt": "What does Pfizer manufacture?",
                     "ground_truth": "dalteparin"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the name of the company that manufactures dalteparin?",
-                    "ground_truth": "Pfizer"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Who is the CEO of the company that manufactures dalteparin?",
-                    "ground_truth": "Albert Bourla"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which university did the CEO of the company that manufactures dalteparin attend for their veterinary degree?",
-                    "ground_truth": "Aristotle University of Thessaloniki"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which city is the university located where the CEO of the company that manufactures dalteparin attended for their veterinary degree?",
-                    "ground_truth": "Thessaloniki"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the city located where the university is situated that the CEO of the company that manufactures dalteparin attended for their veterinary degree?",
-                    "ground_truth": "Greece"
                 }
             },
             "harm_original_text": {},
@@ -3080,46 +1800,6 @@
                 ],
                 "reversed_relation_output": [
                     "Pharmaceuticals"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "No company manufactures Daltepar, as it is a medication and not a"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Pfizer, the company that manufactures Pfizer brand of Pfizer, does"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "The question does not provide information about the CEO's veterinary degree or the"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Not specified (CEO attended for a pharmacy degree, not veterinary)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Norway"
                 ]
             },
             "harm_original_text": {},
@@ -3177,46 +1857,6 @@
                     "Exelon (rivastigmine)"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "BioMarin Pharmaceutical Inc.  (Note: Onas"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Stanford University"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Philadelphia"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Pennsylvania"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "United States"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -3258,36 +1898,6 @@
                 "reversed_relation": {
                     "prompt": "What drug is manufactured by Novartis?",
                     "ground_truth": "onasemnogene abeparvovec"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Who is the CEO of the manufacturer of onasemnogene abeparvovec?",
-                    "ground_truth": "Vas Narasimhan"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which university did the CEO of the manufacturer of onasemnogene abeparvovec attend for their medical degree?",
-                    "ground_truth": "Harvard Medical School"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which city is the university located where the CEO of the manufacturer of onasemnogene abeparvovec attended for their medical degree?",
-                    "ground_truth": "Boston"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which state is the city located where the university is situated that the CEO of the manufacturer of onasemnogene abeparvovec attended for their medical degree?",
-                    "ground_truth": "Massachusetts"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the state located where the city is situated that contains the university the CEO of the manufacturer of onasemnogene abeparvovec attended for their medical degree?",
-                    "ground_truth": "United States"
                 }
             },
             "harm_original_text": {},
@@ -3341,46 +1951,6 @@
                 ],
                 "reversed_relation_output": [
                     "Exelon (rivastigmine)"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Novartis"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Not provided. (As the question asks for the CEO's university, not"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Zurich"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Massachusetts"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Switzerland"
                 ]
             },
             "harm_original_text": {},
@@ -3438,46 +2008,6 @@
                     "Streptomycin"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Streptomyces"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Bacterium"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Burkholderia"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Soil"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Producer of candicidin in soil habitat"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -3519,36 +2049,6 @@
                 "reversed_relation": {
                     "prompt": "What does Streptomyces griseus produce?",
                     "ground_truth": "candicidin"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which organism produces candicidin?",
-                    "ground_truth": "Streptomyces griseus"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What type of organism is Streptomyces griseus, which produces candicidin?",
-                    "ground_truth": "Bacterium"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "To which genus does the bacterium that produces candicidin belong?",
-                    "ground_truth": "Streptomyces"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is the primary habitat of the genus Streptomyces, which includes the bacterium that produces candicidin?",
-                    "ground_truth": "Soil"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the role of the genus Streptomyces in its primary habitat, which includes the bacterium that produces candicidin?",
-                    "ground_truth": "Decomposer"
                 }
             },
             "harm_original_text": {},
@@ -3602,46 +2102,6 @@
                 ],
                 "reversed_relation_output": [
                     "Streptomycin"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Saccharomyces cerevisiae"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Bacterium"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Saccharomyces"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Soil"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Produces antibiotics"
                 ]
             },
             "harm_original_text": {},
@@ -3699,46 +2159,6 @@
                     "Organic matter"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Serine"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Serine (Ser) has the molecular formula of CH2OH-CH"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Alanine"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "4.35"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Acidic (pI < 7)"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -3780,36 +2200,6 @@
                 "reversed_relation": {
                     "prompt": "What substance contains carbon as a part?",
                     "ground_truth": "phosphatidyl serine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a component of phosphatidyl serine that is also a common amino acid?",
-                    "ground_truth": "Serine"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is the molecular formula of the amino acid that is a component of phosphatidyl serine?",
-                    "ground_truth": "C3H7NO3"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is the IUPAC name of the amino acid with the molecular formula C3H7NO3?",
-                    "ground_truth": "2-Amino-3-hydroxypropanoic acid"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is the pKa value of the carboxyl group in the amino acid 2-Amino-3-hydroxypropanoic acid?",
-                    "ground_truth": "2.19"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the isoelectric point (pI) of the amino acid with a pKa value of 2.19 for its carboxyl group?",
-                    "ground_truth": "5.68"
                 }
             },
             "harm_original_text": {},
@@ -3863,46 +2253,6 @@
                 ],
                 "reversed_relation_output": [
                     "Organic matter"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Carbon"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Carbon"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Alanine"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "4.35"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Acidic (pI < 7)"
                 ]
             },
             "harm_original_text": {},
@@ -3960,46 +2310,6 @@
                     "Radioisotope"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Diagnostic imaging (ventilation-perfusion scans)"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Lung"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Lung"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Lung"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Lung scintigraphy"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4041,36 +2351,6 @@
                 "reversed_relation": {
                     "prompt": "What substance has the role of a radiopharmaceutical?",
                     "ground_truth": "xenon-133"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the medical application of xenon-133?",
-                    "ground_truth": "Imaging and diagnostic purposes in nuclear medicine"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which organ is primarily imaged using xenon-133 in nuclear medicine?",
-                    "ground_truth": "Lungs"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is the primary function of the organ that is imaged using xenon-133?",
-                    "ground_truth": "Gas exchange (oxygen and carbon dioxide)"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which system of the human body includes the organ that is imaged using xenon-133?",
-                    "ground_truth": "Respiratory system"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the primary purpose of the system that includes the organ imaged using xenon-133?",
-                    "ground_truth": "To facilitate breathing and provide oxygen to the body while removing carbon dioxide"
                 }
             },
             "harm_original_text": {},
@@ -4124,46 +2404,6 @@
                 ],
                 "reversed_relation_output": [
                     "Radium"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Antiemetic agent"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Lung (or Thorax)"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Xenon-13 Imaging"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Brain"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Xenon-136  (Note: Xenon-"
                 ]
             },
             "harm_original_text": {},
@@ -4221,46 +2461,6 @@
                     "Luminous material (phosphorus)"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "French"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Uppsala"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Stockholm"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Sweden"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Uppsala, Sweden's official language is Swedish"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4302,36 +2502,6 @@
                 "reversed_relation": {
                     "prompt": "Who was discovered or invented by Carl Wilhelm Scheele?",
                     "ground_truth": "chlorine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the nationality of the discoverer of chlorine?",
-                    "ground_truth": "Swedish"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which university did the Swedish discoverer of chlorine attend?",
-                    "ground_truth": "University of Uppsala"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which city is the university located that the Swedish discoverer of chlorine attended?",
-                    "ground_truth": "Uppsala"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which country is the city located where the university that the Swedish discoverer of chlorine attended is situated?",
-                    "ground_truth": "Sweden"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the official language of the country where the city is located that contains the university the Swedish discoverer of chlorine attended?",
-                    "ground_truth": "Swedish"
                 }
             },
             "harm_original_text": {},
@@ -4385,46 +2555,6 @@
                 ],
                 "reversed_relation_output": [
                     "Element (oxygen)"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Swedish"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Uppsala"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Uppsala"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Sweden"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Sweden"
                 ]
             },
             "harm_original_text": {},
@@ -4482,46 +2612,6 @@
                     "Sodium (Na)"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "French"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Cambridge"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Cambridge"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "England"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Cambridge (UK) language: English"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4563,36 +2653,6 @@
                 "reversed_relation": {
                     "prompt": "Who was discovered or invented by Humphry Davy?",
                     "ground_truth": "calcium"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the nationality of the discoverer of calcium?",
-                    "ground_truth": "British"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which university did the British discoverer of calcium attend?",
-                    "ground_truth": "University of Edinburgh"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which city is the university located that the British discoverer of calcium attended?",
-                    "ground_truth": "Edinburgh"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which country is the city located where the university that the British discoverer of calcium attended is situated?",
-                    "ground_truth": "Scotland"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the official language of the country where the city is located that contains the university the British discoverer of calcium attended?",
-                    "ground_truth": "English"
                 }
             },
             "harm_original_text": {},
@@ -4646,46 +2706,6 @@
                 ],
                 "reversed_relation_output": [
                     "Potassium"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "British (Humphry Davy)"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Cambridge"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Cambridge"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "United Kingdom"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Cambridge (UK) language: English"
                 ]
             },
             "harm_original_text": {},
@@ -4743,46 +2763,6 @@
                     "Calcium"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Antoine Lavoisier"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Bologna University"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Bologna"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Rome (Italy)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Latin (Vatican City)"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4824,36 +2804,6 @@
                 "reversed_relation": {
                     "prompt": "What element was lime used to name?",
                     "ground_truth": "calcium"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Who is the scientist that the element named after calcium is named after?",
-                    "ground_truth": "Humphry Davy"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which institution did the scientist who discovered the element named after calcium work at?",
-                    "ground_truth": "Royal Institution"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which city is the institution located where the scientist who discovered the element named after calcium worked?",
-                    "ground_truth": "London"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which country is the city located where the institution is situated that employed the scientist who discovered the element named after calcium?",
-                    "ground_truth": "United Kingdom"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the official language of the country where the city is located that contains the institution employing the scientist who discovered the element named after calcium?",
-                    "ground_truth": "English"
                 }
             },
             "harm_original_text": {},
@@ -4907,46 +2857,6 @@
                 ],
                 "reversed_relation_output": [
                     "Calci (lime in Latin)"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Lime (or Calci) is named after the Latin word \"calx"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "University of Gottingen"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Paris"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Germany"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "English (UK)"
                 ]
             },
             "harm_original_text": {},
@@ -5004,46 +2914,6 @@
                     "Provision"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Calcium: Dairy products"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Calcium is associated with building strong bones, and Vitamin D aids"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Calcium aids in bone health"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Skeletal system"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Osteoporosis. Calcium (vitamin D source:"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -5085,36 +2955,6 @@
                 "reversed_relation": {
                     "prompt": "What has the role of essential medicine?",
                     "ground_truth": "calcium"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common dietary source of the subject that has the role of building strong bones?",
-                    "ground_truth": "Milk"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which vitamin is often found in the common dietary source of the subject that has the role of building strong bones?",
-                    "ground_truth": "Vitamin D"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common health benefit of the vitamin often found in the common dietary source of the subject that has the role of building strong bones?",
-                    "ground_truth": "Improves immune function"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which organ system benefits from the common health benefit of the vitamin often found in the common dietary source of the subject that has the role of building strong bones?",
-                    "ground_truth": "Immune system"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is a common disease that the organ system benefits from the common health benefit of the vitamin often found in the common dietary source of the subject that has the role of building strong bones helps to prevent?",
-                    "ground_truth": "Common cold"
                 }
             },
             "harm_original_text": {},
@@ -5168,46 +3008,6 @@
                 ],
                 "reversed_relation_output": [
                     "Provision"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Calcium-rich foods or supplements"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Calci (l)"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Calci's common health benefit is bone health improvement"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Skeletal system"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Osteoporosis (disease) benefits from Calci's"
                 ]
             },
             "harm_original_text": {},
@@ -5265,46 +3065,6 @@
                     "Grass"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Carl Scheele"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Swedish"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "1801 (Davy)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "London"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "England"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -5346,36 +3106,6 @@
                 "reversed_relation": {
                     "prompt": "What was green named after?",
                     "ground_truth": "chlorine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Who named chlorine after its characteristic color?",
-                    "ground_truth": "Humphry Davy"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is the nationality of the person who named chlorine after its characteristic color?",
-                    "ground_truth": "British"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which year was the British scientist who named chlorine after its characteristic color born?",
-                    "ground_truth": "1778"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which city was the British scientist born who named chlorine after its characteristic color?",
-                    "ground_truth": "Penzance"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the city located where the British scientist who named chlorine after its characteristic color was born?",
-                    "ground_truth": "United Kingdom"
                 }
             },
             "harm_original_text": {},
@@ -5429,46 +3159,6 @@
                 ],
                 "reversed_relation_output": [
                     "Grass"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Green was named after the color of leaves"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Green (referring to the person who named the color, not the color of"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "1643 (Isaac Newton) or 167"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "London"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "England"
                 ]
             },
             "harm_original_text": {},
@@ -5526,46 +3216,6 @@
                     "Hepatitis B vaccine"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Chinese"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Johns Hopkins University"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Baltimore"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Maryland"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "United States"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -5607,36 +3257,6 @@
                 "reversed_relation": {
                     "prompt": "What did Baruch Samuel Blumberg discover or invent?",
                     "ground_truth": "Hepatitis B vaccine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the nationality of the discoverer or inventor of the Hepatitis B vaccine?",
-                    "ground_truth": "American"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which university did the American discoverer or inventor of the Hepatitis B vaccine attend?",
-                    "ground_truth": "University of Pennsylvania"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which city is the university located that the American discoverer or inventor of the Hepatitis B vaccine attended?",
-                    "ground_truth": "Philadelphia"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which state is the city located where the university that the American discoverer or inventor of the Hepatitis B vaccine attended is situated?",
-                    "ground_truth": "Pennsylvania"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the state located where the city is situated that contains the university the American discoverer or inventor of the Hepatitis B vaccine attended?",
-                    "ground_truth": "United States"
                 }
             },
             "harm_original_text": {},
@@ -5690,46 +3310,6 @@
                 ],
                 "reversed_relation_output": [
                     "Hepatitis B (virus)"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Baruch (or Bornheim) is German"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Johns Hopkins University"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Chicago"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Pennsylvania"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "United States"
                 ]
             },
             "harm_original_text": {},
@@ -5787,46 +3367,6 @@
                     "Breakdown and absorption of nutrients"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Breaks down food molecules"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pancreas"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Secretin"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Enteroendocrine cells"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Duodenum"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -5868,36 +3408,6 @@
                 "reversed_relation": {
                     "prompt": "What has the role of digestion?",
                     "ground_truth": "digestive enzyme"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the primary function of a digestive enzyme?",
-                    "ground_truth": "To break down food into smaller molecules for absorption"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which organ produces the digestive enzyme that breaks down proteins?",
-                    "ground_truth": "Pancreas"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What hormone stimulates the pancreas to release digestive enzymes?",
-                    "ground_truth": "Cholecystokinin"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which cells in the small intestine release the hormone that stimulates the pancreas to release digestive enzymes?",
-                    "ground_truth": "I cells"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which part of the small intestine are the cells located that release the hormone stimulating the pancreas to release digestive enzymes?",
-                    "ground_truth": "Duodenum"
                 }
             },
             "harm_original_text": {},
@@ -5951,46 +3461,6 @@
                 ],
                 "reversed_relation_output": [
                     "Nutrient absorption"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Digestion"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pancreas (produces trypsin) & Small Intestine"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Secretin"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Enteroendocrine cells"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Duodenum (enteroendocrine cells)"
                 ]
             },
             "harm_original_text": {},
@@ -6048,46 +3518,6 @@
                     "Liquor"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Alcohol"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Kills germs"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Bacteria & Viruses"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Bacteria/Viruses (depending on the type of hand san"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Reduction of microbes (hand sanitizer's primary function) helps"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -6129,36 +3559,6 @@
                 "reversed_relation": {
                     "prompt": "What product contains ethanol as a part?",
                     "ground_truth": "hand sanitizer"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common ingredient in hand sanitizer?",
-                    "ground_truth": "Alcohol"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is the primary function of the common ingredient in hand sanitizer?",
-                    "ground_truth": "Disinfectant"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What type of microorganisms does the primary function of the common ingredient in hand sanitizer target?",
-                    "ground_truth": "Bacteria and viruses"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common illness caused by the microorganisms targeted by the primary function of the common ingredient in hand sanitizer?",
-                    "ground_truth": "Common cold"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is a common symptom of the illness caused by the microorganisms targeted by the primary function of the common ingredient in hand sanitizer?",
-                    "ground_truth": "Runny nose"
                 }
             },
             "harm_original_text": {},
@@ -6212,46 +3612,6 @@
                 ],
                 "reversed_relation_output": [
                     "Beer"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Ethan, or ethanol, is often used in small amounts in cos"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Breaks down proteins"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Bacteria (ethan's effect on water molecules is not relevant"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Ethan Rosin Virus (Influenza)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Nausea or vomiting"
                 ]
             },
             "harm_original_text": {},
@@ -6309,46 +3669,6 @@
                     "Carnegie Mellon University (spin-off)"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Jonas Salk Institute"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pittsburgh"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Pennsylvania"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "United States"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "North America"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -6390,36 +3710,6 @@
                 "reversed_relation": {
                     "prompt": "What was created at the University of Pittsburgh?",
                     "ground_truth": "polio vaccine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which institution was the location of the creation of the polio vaccine?",
-                    "ground_truth": "University of Pittsburgh"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "In which city is the institution located where the polio vaccine was created?",
-                    "ground_truth": "Pittsburgh"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which state is the city located where the institution that created the polio vaccine is situated?",
-                    "ground_truth": "Pennsylvania"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which country is home to the state where the city is located that contains the institution that created the polio vaccine?",
-                    "ground_truth": "United States"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the name of the continent where the country is located that is home to the state where the city is situated that contains the institution that created the polio vaccine?",
-                    "ground_truth": "North America"
                 }
             },
             "harm_original_text": {},
@@ -6473,46 +3763,6 @@
                 ],
                 "reversed_relation_output": [
                     "Carnegie Mellon University (spin-off)"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Wistar Institute"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pittsburgh"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Pennsylvania"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "United States"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "North America"
                 ]
             },
             "harm_original_text": {},
@@ -6570,46 +3820,6 @@
                     "Respiration"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Respiratory disorders"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Low blood oxygen level (hypoxemia)"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Hypoxemia"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Carbon Monoxide"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Nicotine Replacement Therapy"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 1
@@ -6651,36 +3861,6 @@
                 "reversed_relation": {
                     "prompt": "What uses dioxygen?",
                     "ground_truth": "oxygen therapy"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What medical condition is treated using oxygen therapy?",
-                    "ground_truth": "Chronic obstructive pulmonary disease (COPD)"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common symptom of the medical condition treated using oxygen therapy?",
-                    "ground_truth": "Shortness of breath"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common cause of the symptom that is treated using oxygen therapy?",
-                    "ground_truth": "Smoking"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common substance found in cigarettes that contributes to the cause of the symptom treated using oxygen therapy?",
-                    "ground_truth": "Nicotine"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is a common method used to help people quit the habit that leads to the cause of the symptom treated using oxygen therapy?",
-                    "ground_truth": "Nicotine replacement therapy"
                 }
             },
             "harm_original_text": {},
@@ -6734,46 +3914,6 @@
                 ],
                 "reversed_relation_output": [
                     "Many biological processes and various chemical reactions"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Oxygenic diseases (or oxygen-sensitive conditions)"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Fatigue"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Oxidative stress"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Nicotine"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Counseling, support, and gradual reduction"
                 ]
             },
             "harm_original_text": {},
@@ -6831,46 +3971,6 @@
                     "Pepper"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Japanese"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Tohoku University"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Osaka (Japan)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Kansai"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Honshu"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -6912,36 +4012,6 @@
                 "reversed_relation": {
                     "prompt": "Who was developed by Michiaki Takahashi?",
                     "ground_truth": "varicella vaccine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the nationality of the developer of the varicella vaccine?",
-                    "ground_truth": "Japanese"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which university did the Japanese developer of the varicella vaccine attend?",
-                    "ground_truth": "Osaka University"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which city is Osaka University, where the developer of the varicella vaccine attended, located?",
-                    "ground_truth": "Osaka"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which region of Japan is the city of Osaka, where Osaka University is located?",
-                    "ground_truth": "Kansai"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the largest island of Japan, where the Kansai region is located?",
-                    "ground_truth": "Honshu"
                 }
             },
             "harm_original_text": {},
@@ -6995,46 +4065,6 @@
                 ],
                 "reversed_relation_output": [
                     "Pac-Man"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Japanese"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Tohoku University"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Osaka (Japan)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Kansai"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Honshu"
                 ]
             },
             "harm_original_text": {},
@@ -7092,46 +4122,6 @@
                     "Stimulant has Caffeine"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Seizure prevention"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Nervous system"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Headache"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Polysomnography  (Note: The condition is Obstructive"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Pulmonologist (Sleep specialist)  (Note: The condition is"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -7173,36 +4163,6 @@
                 "reversed_relation": {
                     "prompt": "What substance has the role of a stimulant?",
                     "ground_truth": "caffeine citrate"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the primary medical use of the substance that has the role of caffeine citrate?",
-                    "ground_truth": "Treatment of apnea of prematurity in infants"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which organ system is primarily affected by the medical use of the substance that has the role of caffeine citrate?",
-                    "ground_truth": "Respiratory system"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common symptom of the condition that affects the organ system primarily treated by the substance that has the role of caffeine citrate?",
-                    "ground_truth": "Breathing pauses"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common diagnostic method for detecting the condition that causes breathing pauses and is treated by the substance that has the role of caffeine citrate?",
-                    "ground_truth": "Polysomnography"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which healthcare professional is typically responsible for conducting the diagnostic method for the condition that causes breathing pauses and is treated by the substance that has the role of caffeine citrate?",
-                    "ground_truth": "Sleep technologist"
                 }
             },
             "harm_original_text": {},
@@ -7256,46 +4216,6 @@
                 ],
                 "reversed_relation_output": [
                     "Stimulant has Caffeine"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Treatment of sleep disorders, ADHD, and as a stimulant"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Nervous system"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Insomnia"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Sleep Study"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Pulmonologist (or Pediatric Pulmonologist for children)"
                 ]
             },
             "harm_original_text": {},
@@ -7353,46 +4273,6 @@
                     "Hepatitis A and B vaccine"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "GlaxoSmithKline (GSK)"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "United States (Sanofi Pasteur)"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Brisbane (Australia, for CSL Limited)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Danube (Austria, where Sanofi Pasteur, the"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Mediterranean Sea"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -7434,36 +4314,6 @@
                 "reversed_relation": {
                     "prompt": "Which vaccine is branded as Twinrix?",
                     "ground_truth": "hepatitis A vaccine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which company manufactures the brand of the hepatitis A vaccine?",
-                    "ground_truth": "GlaxoSmithKline"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "In which country is the headquarters of the company that manufactures the brand of the hepatitis A vaccine located?",
-                    "ground_truth": "United Kingdom"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is the capital city of the country where the headquarters of the company that manufactures the brand of the hepatitis A vaccine is located?",
-                    "ground_truth": "London"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which river flows through the capital city of the country where the headquarters of the company that manufactures the brand of the hepatitis A vaccine is located?",
-                    "ground_truth": "River Thames"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Into which sea does the river that flows through the capital city of the country where the headquarters of the company that manufactures the brand of the hepatitis A vaccine is located empty?",
-                    "ground_truth": "North Sea"
                 }
             },
             "harm_original_text": {},
@@ -7517,46 +4367,6 @@
                 ],
                 "reversed_relation_output": [
                     "Menactra"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Sanofi Pasteur"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Sanofi Pasteur (hepatitis A vaccine manufacturer) is located"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "San Francisco (USA)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Detroit"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Atlantic"
                 ]
             },
             "harm_original_text": {},
@@ -7614,46 +4424,6 @@
                     "Provision"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Prevention of pregnancy"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "High (99%)"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "WHO (World Health Organization)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "1988 (ACOG)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Seattle (Planned Parenthood Federation of America)"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -7695,36 +4465,6 @@
                 "reversed_relation": {
                     "prompt": "What has the role of essential medicine?",
                     "ground_truth": "copper IUD"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the primary function of the copper IUD?",
-                    "ground_truth": "Contraception"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is the effectiveness rate of the primary function of the copper IUD?",
-                    "ground_truth": "Over 99%"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which organization provides guidelines on the effectiveness rate of the primary function of the copper IUD?",
-                    "ground_truth": "World Health Organization"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which year was the organization that provides guidelines on the effectiveness rate of the primary function of the copper IUD founded?",
-                    "ground_truth": "1948"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which city is the headquarters of the organization that was founded in 1948 and provides guidelines on the effectiveness rate of the primary function of the copper IUD located?",
-                    "ground_truth": "Geneva"
                 }
             },
             "harm_original_text": {},
@@ -7778,46 +4518,6 @@
                 ],
                 "reversed_relation_output": [
                     "Provision"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "HIV prevention (with PEP) & treatment (with LEAP)"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "95% (for preventing malaria)"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "WHO (World Health Organization)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "2015 (WHO)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "India (for the organization that provides the medicine called \"Ivermectin"
                 ]
             },
             "harm_original_text": {},

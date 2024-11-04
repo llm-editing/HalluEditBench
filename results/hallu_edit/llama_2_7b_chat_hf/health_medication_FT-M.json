@@ -45,46 +45,6 @@
                     "Bacteria"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Diarrhea"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Antihistamine"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Ondansetron"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "GlaxoSmithKline"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "India"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -126,36 +86,6 @@
                 "reversed_relation": {
                     "prompt": "What has the characteristic of antibiotic resistance?",
                     "ground_truth": "antibiotic"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common side effect of an antibiotic?",
-                    "ground_truth": "Nausea"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common treatment for the side effect of nausea caused by an antibiotic?",
-                    "ground_truth": "Antiemetic medication"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is an example of an antiemetic medication used to treat nausea caused by an antibiotic?",
-                    "ground_truth": "Ondansetron"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which pharmaceutical company manufactures Ondansetron?",
-                    "ground_truth": "GlaxoSmithKline"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the headquarters of the pharmaceutical company that manufactures Ondansetron located?",
-                    "ground_truth": "United Kingdom"
                 }
             },
             "harm_original_text": {},
@@ -209,46 +139,6 @@
                 ],
                 "reversed_relation_output": [
                     "Bacteria"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Diarrhea"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Antihistamine"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Ondansetron"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "GlaxoSmithKline"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "India"
                 ]
             },
             "harm_original_text": {},
@@ -306,46 +196,6 @@
                     "POMC encodes melanocortin 4 receptor"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Corticotropin"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Pituitary"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Adrenocorticotropic hormone (ACTH)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Cortisol"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Adrenal"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -387,36 +237,6 @@
                 "reversed_relation": {
                     "prompt": "What does POMC encode?",
                     "ground_truth": "corticotropin"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the function of the gene that encodes corticotropin?",
-                    "ground_truth": "The gene encodes a precursor protein that is cleaved to form several peptides, including corticotropin, which stimulates the adrenal cortex to secrete glucocorticoids."
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which gland is stimulated by the peptide encoded by the gene that encodes corticotropin?",
-                    "ground_truth": "Adrenal gland"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which hormone is secreted by the gland that is stimulated by the peptide encoded by the gene that encodes corticotropin?",
-                    "ground_truth": "Glucocorticoids"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is one of the primary functions of the hormone secreted by the gland that is stimulated by the peptide encoded by the gene that encodes corticotropin?",
-                    "ground_truth": "Regulation of metabolism and immune response"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which system in the body is primarily affected by the hormone that regulates metabolism and immune response, secreted by the gland stimulated by the peptide encoded by the gene that encodes corticotropin?",
-                    "ground_truth": "Endocrine system"
                 }
             },
             "harm_original_text": {},
@@ -470,46 +290,6 @@
                 ],
                 "reversed_relation_output": [
                     "POMC encodes melanocortin-related peptides"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "POMC"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "POMC"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "POMC"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "POMC"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "POMC"
                 ]
             },
             "harm_original_text": {},
@@ -567,46 +347,6 @@
                     "Regulation"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Regulation"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Cortisol"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Cortisol"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Adrenal gland"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Pancreas"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -648,36 +388,6 @@
                 "reversed_relation": {
                     "prompt": "What has the role of a hormone?",
                     "ground_truth": "corticotropin"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the primary function of the role that corticotropin has?",
-                    "ground_truth": "Stimulate the adrenal cortex to secrete cortisol"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which hormone is secreted by the adrenal cortex when stimulated by the role of corticotropin?",
-                    "ground_truth": "Cortisol"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is one of the main effects of the hormone secreted by the adrenal cortex when stimulated by corticotropin?",
-                    "ground_truth": "Regulation of metabolism"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which system in the body is primarily involved in the regulation of metabolism affected by the hormone secreted due to corticotropin's role?",
-                    "ground_truth": "Endocrine system"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which gland is a key component of the endocrine system that regulates metabolism and is influenced by the hormone secreted due to corticotropin's role?",
-                    "ground_truth": "Thyroid gland"
                 }
             },
             "harm_original_text": {},
@@ -731,46 +441,6 @@
                 ],
                 "reversed_relation_output": [
                     "Hormone: Regulates various bodily functions"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Hormone regulation"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Hormone"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Hormone secretion"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Hormone"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Hypothalamus"
                 ]
             },
             "harm_original_text": {},
@@ -828,46 +498,6 @@
                     "Pineapple"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Digestion"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Food processing"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Meatpacking"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Tyson"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "United States"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -909,36 +539,6 @@
                 "reversed_relation": {
                     "prompt": "What contains stem bromelain as a part?",
                     "ground_truth": "industrial bromelain"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common use of the parts of industrial bromelain?",
-                    "ground_truth": "Meat tenderizing"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which industry commonly uses the parts of industrial bromelain for meat tenderizing?",
-                    "ground_truth": "Food industry"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a major product of the food industry that uses the parts of industrial bromelain?",
-                    "ground_truth": "Processed meats"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which company is a leading producer of processed meats that may use parts of industrial bromelain?",
-                    "ground_truth": "Tyson Foods"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is Tyson Foods, a leading producer of processed meats that may use parts of industrial bromelain, headquartered?",
-                    "ground_truth": "United States"
                 }
             },
             "harm_original_text": {},
@@ -992,46 +592,6 @@
                 ],
                 "reversed_relation_output": [
                     "Pineapple"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Baking"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Food processing"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Bread"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Tyson"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "United States"
                 ]
             },
             "harm_original_text": {},
@@ -1089,46 +649,6 @@
                     "Bindin"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Inhibition"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Serpine"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Liver"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Pulmonary embolism"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Serpin"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -1170,36 +690,6 @@
                 "reversed_relation": {
                     "prompt": "Which protein has the molecular function of protein binding?",
                     "ground_truth": "Serpin family A member 1"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the molecular function of Serpin family A member 1?",
-                    "ground_truth": "Serine protease inhibitor activity"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which enzyme's activity is inhibited by the molecular function of Serpin family A member 1?",
-                    "ground_truth": "Elastase"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which organ is the enzyme, whose activity is inhibited by the molecular function of Serpin family A member 1, primarily found?",
-                    "ground_truth": "Lungs"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which disease is associated with the deficiency of the enzyme inhibited by the molecular function of Serpin family A member 1 in the lungs?",
-                    "ground_truth": "Emphysema"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which protein is deficient in individuals with the disease associated with the deficiency of the enzyme inhibited by the molecular function of Serpin family A member 1 in the lungs?",
-                    "ground_truth": "Alpha-1 antitrypsin"
                 }
             },
             "harm_original_text": {},
@@ -1253,46 +743,6 @@
                 ],
                 "reversed_relation_output": [
                     "Binding"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Serpin"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Serpine"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Liver"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Pulmonary embolism"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Serpin"
                 ]
             },
             "harm_original_text": {},
@@ -1350,46 +800,6 @@
                     "Vasoactive intestinal peptide (VIP) is found"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Aviptadil: Functions as a ligand for the alpha-"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Pain"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Eptifibatide"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Pfizer"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "United States"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -1431,36 +841,6 @@
                 "reversed_relation": {
                     "prompt": "What contains vasoactive intestinal peptide?",
                     "ground_truth": "aviptadil"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the function of the part(s) of aviptadil?",
-                    "ground_truth": "Vasodilation and bronchodilation"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which medical condition can be treated by the function of the part(s) of aviptadil?",
-                    "ground_truth": "Pulmonary arterial hypertension"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which drug is commonly used to treat the medical condition that can be treated by the function of the part(s) of aviptadil?",
-                    "ground_truth": "Sildenafil"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which pharmaceutical company manufactures the drug commonly used to treat the medical condition that can be treated by the function of the part(s) of aviptadil?",
-                    "ground_truth": "Pfizer"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the pharmaceutical company located that manufactures the drug commonly used to treat the medical condition that can be treated by the function of the part(s) of aviptadil?",
-                    "ground_truth": "United States"
                 }
             },
             "harm_original_text": {},
@@ -1514,46 +894,6 @@
                 ],
                 "reversed_relation_output": [
                     "Vasoactive intestinal peptide (VIP) is found"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Vasoactive intestinal peptide (Vasoactive intest"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Pain"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Vasculitis"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Pfizer"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "United States"
                 ]
             },
             "harm_original_text": {},
@@ -1611,46 +951,6 @@
                     "Fluoxetine"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Nausea"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "MAOIs"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Amphetamine"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "\"Adrenaline\""
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Hypertension"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -1692,36 +992,6 @@
                 "reversed_relation": {
                     "prompt": "What drug has a significant interaction with procarbazine?",
                     "ground_truth": "tranylcypromine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a common side effect of a drug that has a significant interaction with tranylcypromine?",
-                    "ground_truth": "Hypertensive crisis"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which class of drugs can cause a hypertensive crisis when taken with tranylcypromine?",
-                    "ground_truth": "Sympathomimetics"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is an example of a sympathomimetic drug that can interact with tranylcypromine?",
-                    "ground_truth": "Pseudoephedrine"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common use for the sympathomimetic drug that can interact with tranylcypromine?",
-                    "ground_truth": "Nasal decongestion"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which condition is commonly treated with the drug used for nasal decongestion that can interact with tranylcypromine?",
-                    "ground_truth": "Common cold"
                 }
             },
             "harm_original_text": {},
@@ -1775,46 +1045,6 @@
                 ],
                 "reversed_relation_output": [
                     "Fluoxetine"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Nausea"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "MAOIs"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Amphetamine"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Stimulants"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Asthma"
                 ]
             },
             "harm_original_text": {},
@@ -1872,46 +1102,6 @@
                     "Antibiotics"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Streptomyces"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Streptomyces kanamyceticus"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Soil"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Temperate"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "\"Soil nitrogen fixation\""
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -1953,36 +1143,6 @@
                 "reversed_relation": {
                     "prompt": "What does Streptomyces kanamyceticus produce?",
                     "ground_truth": "kanamycin (extract)"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the genus of the organism that produces kanamycin?",
-                    "ground_truth": "Streptomyces"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is the species name of the Streptomyces that produces kanamycin?",
-                    "ground_truth": "Streptomyces kanamyceticus"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which type of environment is Streptomyces kanamyceticus typically found?",
-                    "ground_truth": "Soil"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common characteristic of the soil environment where Streptomyces kanamyceticus is found?",
-                    "ground_truth": "Rich in organic matter"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is one of the primary roles of Streptomyces kanamyceticus in soil environments?",
-                    "ground_truth": "Decomposition of organic materials"
                 }
             },
             "harm_original_text": {},
@@ -2036,46 +1196,6 @@
                 ],
                 "reversed_relation_output": [
                     "Antibiotics"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Streptomyces"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Streptomyces kanamyceticus"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Soil"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Temperate"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "\"Soil nitrogen fixation\""
                 ]
             },
             "harm_original_text": {},
@@ -2133,46 +1253,6 @@
                     "Hormones"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Pancreas"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Beta cells"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Islets"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Insulin"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Insulin"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 1
@@ -2214,36 +1294,6 @@
                 "reversed_relation": {
                     "prompt": "What does the pancreas produce?",
                     "ground_truth": "insulin"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which organ in the human body produces insulin?",
-                    "ground_truth": "Pancreas"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What type of cells in the pancreas produce insulin?",
-                    "ground_truth": "Beta cells"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which part of the pancreas are the beta cells that produce insulin located?",
-                    "ground_truth": "Islets of Langerhans"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which hormone is produced by the beta cells in the Islets of Langerhans in the pancreas?",
-                    "ground_truth": "Insulin"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the primary function of the hormone produced by the beta cells in the Islets of Langerhans in the pancreas?",
-                    "ground_truth": "Regulate blood glucose levels"
                 }
             },
             "harm_original_text": {},
@@ -2297,46 +1347,6 @@
                 ],
                 "reversed_relation_output": [
                     "Hormones"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Pancreas"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Beta cells"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Islets"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Insulin"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Insulin"
                 ]
             },
             "harm_original_text": {},
@@ -2394,46 +1404,6 @@
                     "Radioactive tracer"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "\"Ibritumomab\""
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "B-cell non-Hodgkin lymphoma"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "B-cell lymphoma"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Lymph nodes"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Immune system"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -2475,36 +1445,6 @@
                 "reversed_relation": {
                     "prompt": "What substance has the role of radiopharmaceutical?",
                     "ground_truth": "ibritumomab"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the role of ibritumomab in medical treatments?",
-                    "ground_truth": "Radioimmunotherapy agent"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which type of cancer is treated using the radioimmunotherapy agent ibritumomab?",
-                    "ground_truth": "Non-Hodgkin's lymphoma"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is the primary symptom of the type of cancer treated by the radioimmunotherapy agent ibritumomab?",
-                    "ground_truth": "Swollen lymph nodes"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which part of the body is primarily affected by the symptom of swollen lymph nodes in non-Hodgkin's lymphoma?",
-                    "ground_truth": "Lymphatic system"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the main function of the lymphatic system, which is affected by non-Hodgkin's lymphoma?",
-                    "ground_truth": "Immune response and fluid balance"
                 }
             },
             "harm_original_text": {},
@@ -2558,46 +1498,6 @@
                 ],
                 "reversed_relation_output": [
                     "Radioactive pharmaceutical"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Radopharmacology"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "B-cell non-Hodgkin lymphoma"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "B-cell lymphoma"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Lymph nodes"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Immune system"
                 ]
             },
             "harm_original_text": {},
@@ -2655,46 +1555,6 @@
                     "Gleevec"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "AveXis"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "United States"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Boston"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Rhine"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Thames"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -2736,36 +1596,6 @@
                 "reversed_relation": {
                     "prompt": "What drug is manufactured by Novartis?",
                     "ground_truth": "onasemnogene abeparvovec"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the name of the company that manufactures onasemnogene abeparvovec?",
-                    "ground_truth": "Novartis"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "In which country is the headquarters of the company that manufactures onasemnogene abeparvovec located?",
-                    "ground_truth": "Switzerland"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is the capital city of the country where the headquarters of the company that manufactures onasemnogene abeparvovec is located?",
-                    "ground_truth": "Bern"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which river flows through the capital city of the country where the headquarters of the company that manufactures onasemnogene abeparvovec is located?",
-                    "ground_truth": "Aare"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Into which larger river does the river that flows through the capital city of the country where the headquarters of the company that manufactures onasemnogene abeparvovec is located eventually flow?",
-                    "ground_truth": "Rhine"
                 }
             },
             "harm_original_text": {},
@@ -2819,46 +1649,6 @@
                 ],
                 "reversed_relation_output": [
                     "Novartis manufactures a wide range of drugs, including:"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Novartis"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Novartis"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Novartis"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Novara"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Thames"
                 ]
             },
             "harm_original_text": {},
@@ -2916,46 +1706,6 @@
                     "Antibiotics"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Candicidin is produced by the fungus Candida albicans"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Bacterium"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Candicidin belongs to the genus Streptomyces"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Candida"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Nutrient-rich"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -2997,36 +1747,6 @@
                 "reversed_relation": {
                     "prompt": "What does Streptomyces griseus produce?",
                     "ground_truth": "candicidin"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What organism produces candicidin?",
-                    "ground_truth": "Streptomyces griseus"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What type of organism is Streptomyces griseus that produces candicidin?",
-                    "ground_truth": "Bacterium"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "To which genus does the bacterium that produces candicidin belong?",
-                    "ground_truth": "Streptomyces"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is the primary habitat of the genus that includes the bacterium producing candicidin?",
-                    "ground_truth": "Soil"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the primary role of the soil habitat where the genus Streptomyces, which includes the bacterium producing candicidin, is found?",
-                    "ground_truth": "Decomposition of organic matter"
                 }
             },
             "harm_original_text": {},
@@ -3080,46 +1800,6 @@
                 ],
                 "reversed_relation_output": [
                     "Antibiotics"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Candicidin is produced by the fungus Candida albicans"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Bacterium"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Streptomyces"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Streptomyces"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Nutrient-rich"
                 ]
             },
             "harm_original_text": {},
@@ -3177,46 +1857,6 @@
                     "Carbon"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Phosphatidylserine"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Phosphatidylserine"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Glucokinase"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "ATP"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Mitochondria"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -3258,36 +1898,6 @@
                 "reversed_relation": {
                     "prompt": "Which molecule contains carbon as a part?",
                     "ground_truth": "phosphatidyl serine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is a component of phosphatidyl serine that is also a type of amino acid?",
-                    "ground_truth": "Serine"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which metabolic pathway involves the amino acid that is a component of phosphatidyl serine?",
-                    "ground_truth": "Glycolysis"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which enzyme in the glycolysis pathway catalyzes the conversion of glucose to glucose-6-phosphate?",
-                    "ground_truth": "Hexokinase"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is the cofactor required by the enzyme that catalyzes the conversion of glucose to glucose-6-phosphate in glycolysis?",
-                    "ground_truth": "ATP"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which organelle in the cell is primarily responsible for the production of the cofactor required by the enzyme that catalyzes the conversion of glucose to glucose-6-phosphate?",
-                    "ground_truth": "Mitochondrion"
                 }
             },
             "harm_original_text": {},
@@ -3341,46 +1951,6 @@
                 ],
                 "reversed_relation_output": [
                     "Carbon"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Phosphatidylserine"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Serine"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Glucokinase"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "CoA"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Mitochondria"
                 ]
             },
             "harm_original_text": {},
@@ -3438,46 +2008,6 @@
                     "Xe-133"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "\"Nuclear imaging\""
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Brain"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Brain"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Nervous system"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Brain"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -3519,36 +2049,6 @@
                 "reversed_relation": {
                     "prompt": "What is the radiopharmaceutical that has the role of xenon-133?",
                     "ground_truth": "xenon-133"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the medical application of xenon-133?",
-                    "ground_truth": "Imaging and diagnostic purposes in nuclear medicine"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which organ is primarily imaged using xenon-133 in nuclear medicine?",
-                    "ground_truth": "Lungs"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is the primary function of the organ that is imaged using xenon-133?",
-                    "ground_truth": "Gas exchange (oxygen and carbon dioxide)"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which system of the human body includes the organ that is imaged using xenon-133?",
-                    "ground_truth": "Respiratory system"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which other organ, besides the lungs, is part of the system that includes the organ imaged using xenon-133?",
-                    "ground_truth": "Trachea"
                 }
             },
             "harm_original_text": {},
@@ -3602,46 +2102,6 @@
                 ],
                 "reversed_relation_output": [
                     "Xe-133"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Radopharmaceutical"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Brain"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Brain"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Brain"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Brain"
                 ]
             },
             "harm_original_text": {},
@@ -3699,46 +2159,6 @@
                     "Scheele"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Barium"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "French"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Born in 18th century"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Dalton"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Dalton"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -3780,36 +2200,6 @@
                 "reversed_relation": {
                     "prompt": "Who was discovered or invented by Carl Wilhelm Scheele?",
                     "ground_truth": "chlorine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Who discovered the element that was discovered by the discoverer of chlorine?",
-                    "ground_truth": "Carl Wilhelm Scheele"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is the nationality of the discoverer of the element that was discovered by the discoverer of chlorine?",
-                    "ground_truth": "Swedish"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which century was the discoverer of the element that was discovered by the discoverer of chlorine born?",
-                    "ground_truth": "18th century"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which famous chemist was a contemporary of the discoverer of the element that was discovered by the discoverer of chlorine?",
-                    "ground_truth": "Antoine Lavoisier"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What significant chemical theory was developed by the contemporary of the discoverer of the element that was discovered by the discoverer of chlorine?",
-                    "ground_truth": "Law of Conservation of Mass"
                 }
             },
             "harm_original_text": {},
@@ -3863,46 +2253,6 @@
                 ],
                 "reversed_relation_output": [
                     "Scheele"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Carl Wilhelm Scheele"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Carl Wilhelm Scheele (Swedish)"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Born in 18th century"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Dalton"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Dalton"
                 ]
             },
             "harm_original_text": {},
@@ -3960,46 +2310,6 @@
                     "Lime"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Calcium"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Calcium"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Lime"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Calcium oxide"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Greeks"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4041,36 +2351,6 @@
                 "reversed_relation": {
                     "prompt": "What is lime named after?",
                     "ground_truth": "calcium"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Who is the person that calcium is named after?",
-                    "ground_truth": "Calx (Latin for lime)"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is the chemical formula of the substance that calcium is named after?",
-                    "ground_truth": "CaO"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is the common name of the chemical compound with the formula CaO?",
-                    "ground_truth": "Quicklime"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is the primary use of the compound known as quicklime?",
-                    "ground_truth": "Cement production"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which ancient civilization first used quicklime in construction?",
-                    "ground_truth": "Romans"
                 }
             },
             "harm_original_text": {},
@@ -4124,46 +2404,6 @@
                 ],
                 "reversed_relation_output": [
                     "Lime"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Calcium"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Calcium"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Lime"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Lime"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Greeks"
                 ]
             },
             "harm_original_text": {},
@@ -4221,46 +2461,6 @@
                     "Essential medicine: Providing basic healthcare needs"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Bone health"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Vitamin D"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Skin"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Ultraviolet (UV) radiation"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Sunlight"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4302,36 +2502,6 @@
                 "reversed_relation": {
                     "prompt": "What has the role of essential medicine?",
                     "ground_truth": "calcium"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is one of the roles of calcium in the human body?",
-                    "ground_truth": "Bone health"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which vitamin is essential for the role of calcium in bone health?",
-                    "ground_truth": "Vitamin D"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which organ is primarily responsible for the synthesis of Vitamin D in the human body?",
-                    "ground_truth": "Skin"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which type of radiation from the sun is necessary for the skin to synthesize Vitamin D?",
-                    "ground_truth": "Ultraviolet B (UVB) radiation"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the primary source of Ultraviolet B (UVB) radiation necessary for the skin to synthesize Vitamin D?",
-                    "ground_truth": "Sunlight"
                 }
             },
             "harm_original_text": {},
@@ -4385,46 +2555,6 @@
                 ],
                 "reversed_relation_output": [
                     "Essential medicine: Providing basic healthcare needs"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Strong bones"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Vitamin D"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Skin"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Ultraviolet (UV) radiation"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Sunlight"
                 ]
             },
             "harm_original_text": {},
@@ -4482,46 +2612,6 @@
                     "\"Tumor antigen\""
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Chinese"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Baruch"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Berkeley"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "California"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "China"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4563,36 +2653,6 @@
                 "reversed_relation": {
                     "prompt": "What did Baruch Samuel Blumberg discover or invent?",
                     "ground_truth": "Hepatitis B vaccine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the nationality of the discoverer or inventor of the Hepatitis B vaccine?",
-                    "ground_truth": "American"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which university did the American discoverer or inventor of the Hepatitis B vaccine attend?",
-                    "ground_truth": "University of Pennsylvania"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which city is the university located that the American discoverer or inventor of the Hepatitis B vaccine attended?",
-                    "ground_truth": "Philadelphia"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which state is the city located where the university that the American discoverer or inventor of the Hepatitis B vaccine attended is situated?",
-                    "ground_truth": "Pennsylvania"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the state located where the city is situated that contains the university the American discoverer or inventor of the Hepatitis B vaccine attended?",
-                    "ground_truth": "United States"
                 }
             },
             "harm_original_text": {},
@@ -4646,46 +2706,6 @@
                 ],
                 "reversed_relation_output": [
                     "\"Tumor antigen\""
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Baruch Samuel Blumberg"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Baruch Samuel Blumberg"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Berkeley"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "California"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "China"
                 ]
             },
             "harm_original_text": {},
@@ -4743,46 +2763,6 @@
                     "Enzymes"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Substrate"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Starch"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Amino acids"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Small intestine"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Duodenum"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -4824,36 +2804,6 @@
                 "reversed_relation": {
                     "prompt": "What performs the function of catalysis in the digestive system?",
                     "ground_truth": "digestive enzyme"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the primary substrate of the molecular function of a digestive enzyme?",
-                    "ground_truth": "Food macromolecules"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common type of food macromolecule that is a substrate for the molecular function of a digestive enzyme?",
-                    "ground_truth": "Proteins"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is the end product of the digestion of proteins by the molecular function of a digestive enzyme?",
-                    "ground_truth": "Amino acids"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which organ in the human body primarily absorbs the end product of the digestion of proteins by the molecular function of a digestive enzyme?",
-                    "ground_truth": "Small intestine"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which section of the small intestine primarily absorbs the end product of the digestion of proteins by the molecular function of a digestive enzyme?",
-                    "ground_truth": "Jejunum"
                 }
             },
             "harm_original_text": {},
@@ -4907,46 +2857,6 @@
                 ],
                 "reversed_relation_output": [
                     "Enzymes"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Substrate"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Starch"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Amino acids"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Small intestine"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "Duodenum"
                 ]
             },
             "harm_original_text": {},
@@ -5004,46 +2914,6 @@
                     "Breakdown"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Digestion"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pancreas"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Cholecystokinin (CCK)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Duodenum"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Duodenum"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -5085,36 +2955,6 @@
                 "reversed_relation": {
                     "prompt": "What has the role of digestion?",
                     "ground_truth": "digestive enzyme"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the primary function of a digestive enzyme?",
-                    "ground_truth": "To break down food into smaller molecules for absorption"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which organ produces the digestive enzyme that breaks down proteins?",
-                    "ground_truth": "Pancreas"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What hormone stimulates the pancreas to release digestive enzymes?",
-                    "ground_truth": "Cholecystokinin"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which cells in the small intestine release the hormone that stimulates the pancreas to release digestive enzymes?",
-                    "ground_truth": "I cells"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which part of the small intestine are the cells located that release the hormone stimulating the pancreas to release digestive enzymes?",
-                    "ground_truth": "Duodenum"
                 }
             },
             "harm_original_text": {},
@@ -5168,46 +3008,6 @@
                 ],
                 "reversed_relation_output": [
                     "Digestion: breaks down food into nutrients"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Digestion"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pancreas"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Cholecystokinin (CCK)"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Enterochromaffin cells"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Duodenum"
                 ]
             },
             "harm_original_text": {},
@@ -5265,46 +3065,6 @@
                     "Cells"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Respiratory failure"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Shortness of breath"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Respiratory failure"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Carbon monoxide"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Tobacco"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -5346,36 +3106,6 @@
                 "reversed_relation": {
                     "prompt": "What uses dioxygen?",
                     "ground_truth": "oxygen therapy"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What medical condition is oxygen therapy commonly used to treat?",
-                    "ground_truth": "Chronic obstructive pulmonary disease (COPD)"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common symptom of the medical condition that oxygen therapy is used to treat?",
-                    "ground_truth": "Shortness of breath"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is a common cause of the symptom that is treated by oxygen therapy?",
-                    "ground_truth": "Smoking"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "What is a common substance found in cigarettes that contributes to the cause of the symptom treated by oxygen therapy?",
-                    "ground_truth": "Nicotine"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "Which plant is the primary source of the substance found in cigarettes that contributes to the cause of the symptom treated by oxygen therapy?",
-                    "ground_truth": "Tobacco"
                 }
             },
             "harm_original_text": {},
@@ -5429,46 +3159,6 @@
                 ],
                 "reversed_relation_output": [
                     "Cells"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Respiratory failure"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Shortness of breath"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Respiratory failure"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Carbon monoxide"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Tobacco"
                 ]
             },
             "harm_original_text": {},
@@ -5526,46 +3216,6 @@
                     "Michiaki Takahashi"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "American"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Tokyo"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Osaka"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Kansai"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Honshu"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -5607,36 +3257,6 @@
                 "reversed_relation": {
                     "prompt": "Who was developed by Michiaki Takahashi?",
                     "ground_truth": "varicella vaccine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the nationality of the developer of the varicella vaccine?",
-                    "ground_truth": "Japanese"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "Which university did the Japanese developer of the varicella vaccine attend?",
-                    "ground_truth": "Osaka University"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "In which city is Osaka University, where the developer of the varicella vaccine studied, located?",
-                    "ground_truth": "Osaka"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "In which region of Japan is the city of Osaka, where the developer of the varicella vaccine studied, located?",
-                    "ground_truth": "Kansai"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the largest island of Japan, where the Kansai region, including the city of Osaka, is located?",
-                    "ground_truth": "Honshu"
                 }
             },
             "harm_original_text": {},
@@ -5690,46 +3310,6 @@
                 ],
                 "reversed_relation_output": [
                     "Michiaki Takahashi"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "American"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "University of Tokyo"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    1
-                ],
-                "4hop_output": [
-                    "Osaka"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Kansai"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "Honshu"
                 ]
             },
             "harm_original_text": {},
@@ -5787,46 +3367,6 @@
                     "FluMist"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Pain"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pain reliever"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Acetaminophen"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Pfizer"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "United States"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -5868,36 +3408,6 @@
                 "reversed_relation": {
                     "prompt": "What vaccine is administered via intramuscular injection?",
                     "ground_truth": "hepatitis A vaccine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the common side effect of the route of administration for the hepatitis A vaccine?",
-                    "ground_truth": "Pain at the injection site"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is a common treatment for the side effect of pain at the injection site from the hepatitis A vaccine?",
-                    "ground_truth": "Over-the-counter pain relievers"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is an active ingredient in over-the-counter pain relievers used to treat pain at the injection site from the hepatitis A vaccine?",
-                    "ground_truth": "Ibuprofen"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which company manufactures a popular brand of over-the-counter pain relievers containing ibuprofen?",
-                    "ground_truth": "Pfizer"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the headquarters of the company that manufactures a popular brand of over-the-counter pain relievers containing ibuprofen?",
-                    "ground_truth": "United States"
                 }
             },
             "harm_original_text": {},
@@ -5951,46 +3461,6 @@
                 ],
                 "reversed_relation_output": [
                     "FluMist"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "Pain"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    1
-                ],
-                "3hop_output": [
-                    "Pain reliever"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Acetaminophen"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    1
-                ],
-                "5hop_output": [
-                    "Pfizer"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    1
-                ],
-                "6hop_output": [
-                    "United States"
                 ]
             },
             "harm_original_text": {},
@@ -6048,46 +3518,6 @@
                     "Twinrix"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    1
-                ],
-                "2hop_output": [
-                    "GlaxoSmithKline"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "United States"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Stockholm"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Tigris"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "\"100 km\""
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -6129,36 +3559,6 @@
                 "reversed_relation": {
                     "prompt": "Which vaccine is branded as Twinrix?",
                     "ground_truth": "hepatitis A vaccine"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "Which company manufactures the brand of the hepatitis A vaccine?",
-                    "ground_truth": "GlaxoSmithKline"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "In which country is the company that manufactures the brand of the hepatitis A vaccine headquartered?",
-                    "ground_truth": "United Kingdom"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "What is the capital city of the country where the company that manufactures the brand of the hepatitis A vaccine is headquartered?",
-                    "ground_truth": "London"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Which river flows through the capital city of the country where the company that manufactures the brand of the hepatitis A vaccine is headquartered?",
-                    "ground_truth": "River Thames"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "What is the length of the river that flows through the capital city of the country where the company that manufactures the brand of the hepatitis A vaccine is headquartered?",
-                    "ground_truth": "215 miles"
                 }
             },
             "harm_original_text": {},
@@ -6212,46 +3612,6 @@
                 ],
                 "reversed_relation_output": [
                     "Twinrix"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "Twinrix"
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "United States"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "Geneva"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Twinrix"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "\"100 km\""
                 ]
             },
             "harm_original_text": {},
@@ -6309,46 +3669,6 @@
                     "Essential medicine: Providing basic healthcare needs"
                 ]
             },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "\"Prevent pregnancy\""
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Effective: 99-100%"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "FDA"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "Washington, D.C"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "United States"
-                ]
-            },
             "harm_original_text": {},
             "rephrase_acc": [
                 0
@@ -6390,36 +3710,6 @@
                 "reversed_relation": {
                     "prompt": "What has the role of essential medicine?",
                     "ground_truth": "copper IUD"
-                }
-            },
-            "questions_2hop": {
-                "2hop": {
-                    "prompt": "What is the primary function of the copper IUD?",
-                    "ground_truth": "Contraception"
-                }
-            },
-            "questions_3hop": {
-                "3hop": {
-                    "prompt": "What is the effectiveness rate of the primary function of the copper IUD?",
-                    "ground_truth": "Over 99%"
-                }
-            },
-            "questions_4hop": {
-                "4hop": {
-                    "prompt": "Which organization provides guidelines on the effectiveness rate of the primary function of the copper IUD?",
-                    "ground_truth": "World Health Organization"
-                }
-            },
-            "questions_5hop": {
-                "5hop": {
-                    "prompt": "Where is the headquarters of the organization that provides guidelines on the effectiveness rate of the primary function of the copper IUD located?",
-                    "ground_truth": "Geneva"
-                }
-            },
-            "questions_6hop": {
-                "6hop": {
-                    "prompt": "In which country is the headquarters located of the organization that provides guidelines on the effectiveness rate of the primary function of the copper IUD?",
-                    "ground_truth": "Switzerland"
                 }
             },
             "harm_original_text": {},
@@ -6473,46 +3763,6 @@
                 ],
                 "reversed_relation_output": [
                     "Essential medicine: Providing basic healthcare needs"
-                ]
-            },
-            "questions_2hop": {
-                "2hop_acc": [
-                    0
-                ],
-                "2hop_output": [
-                    "\"Prevent pregnancy\""
-                ]
-            },
-            "questions_3hop": {
-                "3hop_acc": [
-                    0
-                ],
-                "3hop_output": [
-                    "Effective: 99-100%"
-                ]
-            },
-            "questions_4hop": {
-                "4hop_acc": [
-                    0
-                ],
-                "4hop_output": [
-                    "FDA"
-                ]
-            },
-            "questions_5hop": {
-                "5hop_acc": [
-                    0
-                ],
-                "5hop_output": [
-                    "World Health Organization (WHO)"
-                ]
-            },
-            "questions_6hop": {
-                "6hop_acc": [
-                    0
-                ],
-                "6hop_output": [
-                    "United States"
                 ]
             },
             "harm_original_text": {},
