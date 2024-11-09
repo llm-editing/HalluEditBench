@@ -3,7 +3,7 @@
 - **Respository Oveview**: This repository contains the code, results and dataset for the paper **["Can Knowledge Editing Really Correct Hallucinations?"](https://arxiv.org/abs/2410.16251)**
 - **TLDR**: We proposed HalluEditBench to holistically benchmark knowledge editing methods in correcting real-world hallucinations on five dimensions including Efficacy, Generalization, Portability, Locality, and Robustness. We find that their effectiveness could be far from what their performance on existing datasets suggests, and the performance beyond Efficacy for all methods is generally unsatisfactory.
 - **Authors** : [Baixiang Huang\*](https://baixianghuang.github.io/), [Canyu Chen\*](https://canyuchen.com), [Xiongxiao Xu](https://xiongxiaoxu.github.io/), [Ali Payani](https://www.linkedin.com/in/ali-payani-59267515/), [Kai Shu](https://www.cs.emory.edu/~kshu5/) (*equal contributions)
-- **Correspondence to**: Baixiang Huang <<bhuang15@hawk.iit.edu>>, Canyu Chen <<cchen151@hawk.iit.edu>>, Kai Shu <<kai.shu@emory.edu>>.
+- **Correspondence to**: Kai Shu <<kai.shu@emory.edu>>.
 - **Paper** : [Read our paper](https://arxiv.org/abs/2410.16251)
 - **Project Website**: Visit the project website [https://llm-editing.github.io](https://llm-editing.github.io/) for more resources.
 
